@@ -1,4 +1,3 @@
-test
 #!/usr/bin/env python3
 # mirror_data.py
 
