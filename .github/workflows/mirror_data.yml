@@ -1,11 +1,9 @@
-# .github/workflows/mirror_data.yml
 name: Mirror Data Directory
 
 on:
   schedule:
-    # Run every 30 minutes (adjust as needed)
     - cron: '*/30 * * * *'
-  workflow_dispatch:  # Allow manual triggering
+  workflow_dispatch:
 
 jobs:
   mirror-data:
