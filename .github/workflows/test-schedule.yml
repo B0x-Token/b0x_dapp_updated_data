@@ -2,14 +2,16 @@ name: Test Schedule
 
 on:
   schedule:
-    - cron: "*/2 * * * *"  # Every 2 minutes for testing
+    - cron: "*/5 * * * *"  # Every 5 minutes (more reliable than 2 min)
   workflow_dispatch:
 
 jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - name: Test scheduled run
+      - name: Debug info
         run: |
-          echo "Scheduled workflow is working!"
-          echo "Current time: $(date)"
+          echo "Event: ${{ github.event_name }}"
+          echo "Ref: ${{ github.ref }}"
+          echo "Time: $(date)"
+          echo "This is a test of scheduled workflows"
