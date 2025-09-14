@@ -5,16 +5,21 @@
     "decimals": 18
   },
   "totalHolders": 7,
-  "totalMiners": 1,
-  "lastUpdated": "2025-09-14T12:47:05.594978",
-  "scanCompletedBlock": 31051863,
-  "totalTransfers": 1232,
-  "totalMints": 1155,
+  "totalMiners": 2,
+  "lastUpdated": "2025-09-14T12:54:08.281346",
+  "scanCompletedBlock": 31052074,
+  "totalTransfers": 1239,
+  "totalMints": 1157,
   "minersList": [
     {
       "address": "0xF2E00a6DbA02eD1115e5BEf3CcD7B5dD47141dDC",
       "totalMinted": "82265000000000000000000",
       "totalMintedFormatted": "82265.0"
+    },
+    {
+      "address": "0x66c1A1c40FE3BA43fA8b8390Be21E9b39E5B7D53",
+      "totalMinted": "743750000000000000000",
+      "totalMintedFormatted": "743.75"
     }
   ]
 }
