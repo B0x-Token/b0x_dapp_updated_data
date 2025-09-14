@@ -2,10 +2,12 @@
 name: Deploy to GitHub Pages
 
 on:
-  push:
-    branches: [ main ]
-    paths: [ 'data/**' ]
+  workflow_run:
+    workflows: ["Mirror Data Directory"]
+    types: [completed]
+    branches: [main]
   workflow_dispatch:
+
 
 permissions:
   contents: read
