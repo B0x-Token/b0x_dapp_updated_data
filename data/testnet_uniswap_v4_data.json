@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "last_updated": "2025-09-14T14:31:12.803960",
-    "current_block": 31054991,
+    "last_updated": "2025-09-14T14:40:31.924120",
+    "current_block": 31055270,
     "start_block": 30489054,
     "target_pool_key": {
       "currency0": "0x4b20b6e9b678b111Dcc365EaD92b3277B178FB74",
@@ -10,9 +10,9 @@
       "tickSpacing": 60,
       "hooks": "0x794B1409ef4b40a90eC8AF62EaF4c8bf275e5000"
     },
-    "total_valid_positions": 14,
+    "total_valid_positions": 15,
     "total_invalid_positions": 0,
-    "total_nft_owners": 14
+    "total_nft_owners": 15
   },
   "valid_positions": [
     {
@@ -210,6 +210,20 @@
       "block_number": 31017729,
       "tx_hash": "0x2fe04773c515cb869da17bbab1b05ec18b5384afeaa7870fce09c39104dbe726",
       "timestamp": "2025-09-13T17:55:33.467905"
+    },
+    {
+      "token_id": 4503,
+      "pool_key": {
+        "currency0": "0x4b20b6e9b678b111dcc365ead92b3277b178fb74",
+        "currency1": "0xb379a851ac41bcdf0c2564b88916b10e5a08daae",
+        "fee": 8388608,
+        "tickSpacing": 60,
+        "hooks": "0x794b1409ef4b40a90ec8af62eaf4c8bf275e5000"
+      },
+      "owner": "0x66c1a1c40fe3ba43fa8b8390be21e9b39e5b7d53",
+      "block_number": 31055187,
+      "tx_hash": "0xac56d59e66bd4112f0fb5017f02fd5142ed01d2ee28776630f837cc47e40fb0c",
+      "timestamp": "2025-09-14T14:40:31.923923"
     }
   ],
   "invalid_positions": [],
@@ -227,6 +241,7 @@
     "4177": "0x7e2b7f161c0376f69c62bffd345da07843a7b733",
     "4346": "0x7e2b7f161c0376f69c62bffd345da07843a7b733",
     "4426": "0x7e2b7f161c0376f69c62bffd345da07843a7b733",
-    "4487": "0x7e2b7f161c0376f69c62bffd345da07843a7b733"
+    "4487": "0x7e2b7f161c0376f69c62bffd345da07843a7b733",
+    "4503": "0x66c1a1c40fe3ba43fa8b8390be21e9b39e5b7d53"
   }
 }
