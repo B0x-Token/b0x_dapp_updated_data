@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "last_updated": "2025-09-15T10:36:16.672812",
-    "current_block": 31091143,
+    "last_updated": "2025-09-15T20:40:05.999501",
+    "current_block": 31109258,
     "start_block": 30489054,
     "target_pool_key": {
       "currency0": "0x4b20b6e9b678b111Dcc365EaD92b3277B178FB74",
@@ -10,9 +10,9 @@
       "tickSpacing": 60,
       "hooks": "0x794B1409ef4b40a90eC8AF62EaF4c8bf275e5000"
     },
-    "total_valid_positions": 15,
+    "total_valid_positions": 17,
     "total_invalid_positions": 0,
-    "total_nft_owners": 15
+    "total_nft_owners": 17
   },
   "valid_positions": [
     {
@@ -224,6 +224,34 @@
       "block_number": 31055187,
       "tx_hash": "0xac56d59e66bd4112f0fb5017f02fd5142ed01d2ee28776630f837cc47e40fb0c",
       "timestamp": "2025-09-14T14:40:31.923923"
+    },
+    {
+      "token_id": 4526,
+      "pool_key": {
+        "currency0": "0x4b20b6e9b678b111dcc365ead92b3277b178fb74",
+        "currency1": "0xb379a851ac41bcdf0c2564b88916b10e5a08daae",
+        "fee": 8388608,
+        "tickSpacing": 60,
+        "hooks": "0x794b1409ef4b40a90ec8af62eaf4c8bf275e5000"
+      },
+      "owner": "0x66c1a1c40fe3ba43fa8b8390be21e9b39e5b7d53",
+      "block_number": 31093854,
+      "tx_hash": "0x6a7d43560140d951e2ca6f1dddd13f498d3b9dc7e82bbd8c03d09e04684ad36a",
+      "timestamp": "2025-09-15T20:07:20.246460"
+    },
+    {
+      "token_id": 4527,
+      "pool_key": {
+        "currency0": "0x4b20b6e9b678b111dcc365ead92b3277b178fb74",
+        "currency1": "0xb379a851ac41bcdf0c2564b88916b10e5a08daae",
+        "fee": 8388608,
+        "tickSpacing": 60,
+        "hooks": "0x794b1409ef4b40a90ec8af62eaf4c8bf275e5000"
+      },
+      "owner": "0x66c1a1c40fe3ba43fa8b8390be21e9b39e5b7d53",
+      "block_number": 31093911,
+      "tx_hash": "0xd72e2788b24682e87efb5d1cc0d3fe38280399db74fa25ab35dc0bb579ff6823",
+      "timestamp": "2025-09-15T20:07:21.708362"
     }
   ],
   "invalid_positions": [],
@@ -242,6 +270,8 @@
     "4346": "0x7e2b7f161c0376f69c62bffd345da07843a7b733",
     "4426": "0x7e2b7f161c0376f69c62bffd345da07843a7b733",
     "4487": "0x7e2b7f161c0376f69c62bffd345da07843a7b733",
-    "4503": "0x66c1a1c40fe3ba43fa8b8390be21e9b39e5b7d53"
+    "4503": "0x66c1a1c40fe3ba43fa8b8390be21e9b39e5b7d53",
+    "4526": "0x66c1a1c40fe3ba43fa8b8390be21e9b39e5b7d53",
+    "4527": "0x66c1a1c40fe3ba43fa8b8390be21e9b39e5b7d53"
   }
 }
