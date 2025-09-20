@@ -4,12 +4,12 @@
     "symbol": "tB0x",
     "decimals": 18
   },
-  "totalHolders": 8,
-  "totalMiners": 2,
-  "lastUpdated": "2025-09-20T00:13:24.617656",
-  "scanCompletedBlock": 31288452,
-  "totalTransfers": 1380,
-  "totalMints": 1284,
+  "totalHolders": 9,
+  "totalMiners": 3,
+  "lastUpdated": "2025-09-20T00:31:01.301794",
+  "scanCompletedBlock": 31288981,
+  "totalTransfers": 1381,
+  "totalMints": 1285,
   "minersList": [
     {
       "address": "0xF2E00a6DbA02eD1115e5BEf3CcD7B5dD47141dDC",
@@ -20,6 +20,11 @@
       "address": "0x66c1A1c40FE3BA43fA8b8390Be21E9b39E5B7D53",
       "totalMinted": "7893750000000000000000",
       "totalMintedFormatted": "7893.75"
+    },
+    {
+      "address": "0xfFF72Ee0dBa7b9f8027CFE7bfED3f773d872F2Fc",
+      "totalMinted": "375000000000000000000",
+      "totalMintedFormatted": "375.0"
     }
   ]
 }
