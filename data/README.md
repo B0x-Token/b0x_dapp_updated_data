@@ -2,7 +2,7 @@
 
 This directory contains a backup mirror of [https://data.bzerox.org/graph/](https://data.bzerox.org/graph/)
 
-**Last Updated:** 2025-09-22T23:59:07.015835Z
+**Last Updated:** 2025-09-23T01:55:20.811103Z
 
 ## ⚠️ Important Notes
 - This is a backup mirror that only updates when the source server is available
@@ -11,8 +11,8 @@ This directory contains a backup mirror of [https://data.bzerox.org/graph/](http
 
 ## Statistics (Latest Run)
 - Files Downloaded: 0
-- Files Updated: 7
-- Files Skipped (no changes): 2
+- Files Updated: 8
+- Files Skipped (no changes): 1
 - Errors: 0
 - Total Files in Backup: 11
 
@@ -29,6 +29,6 @@ This directory contains a backup mirror of [https://data.bzerox.org/graph/](http
 - [`RichList__MainnetETH_holders.json`](RichList__MainnetETH_holders.json) (1.1 KB)
 - [`githubERC20RewardsTestnet.json`](githubERC20RewardsTestnet.json) (0.2 KB)
 - [`mined_blocks_testnet.json`](mined_blocks_testnet.json) (271.6 KB)
-- [`price_data_bwork.json`](price_data_bwork.json) (6.9 KB)
+- [`price_data_bwork.json`](price_data_bwork.json) (6.6 KB)
 - [`testnet_uniswap_v4_data.json`](testnet_uniswap_v4_data.json) (11.1 KB)
 - [`uu_mined_blocks_testnet.json`](uu_mined_blocks_testnet.json) (253.9 KB)
