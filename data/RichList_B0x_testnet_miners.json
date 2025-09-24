@@ -1,30 +1,14 @@
 {
   "token": {
-    "name": "B ZERO X Test",
-    "symbol": "tB0x",
+    "name": "B Zero X",
+    "symbol": "B0x",
     "decimals": 18
   },
-  "totalHolders": 9,
-  "totalMiners": 3,
-  "lastUpdated": "2025-09-24T04:56:23.946683",
-  "scanCompletedBlock": 31469742,
-  "totalTransfers": 1969,
-  "totalMints": 1824,
-  "minersList": [
-    {
-      "address": "0xF2E00a6DbA02eD1115e5BEf3CcD7B5dD47141dDC",
-      "totalMinted": "82265000000000000000000",
-      "totalMintedFormatted": "82265.0"
-    },
-    {
-      "address": "0xfFF72Ee0dBa7b9f8027CFE7bfED3f773d872F2Fc",
-      "totalMinted": "37531250000000000000000",
-      "totalMintedFormatted": "37531.25"
-    },
-    {
-      "address": "0x66c1A1c40FE3BA43fA8b8390Be21E9b39E5B7D53",
-      "totalMinted": "7893750000000000000000",
-      "totalMintedFormatted": "7893.75"
-    }
-  ]
+  "totalHolders": 4,
+  "totalMiners": 0,
+  "lastUpdated": "2025-09-24T05:24:35.010679",
+  "scanCompletedBlock": 35960058,
+  "totalTransfers": 20,
+  "totalMints": 4,
+  "minersList": []
 }
