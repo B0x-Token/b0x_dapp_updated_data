@@ -11,7 +11,7 @@ from urllib.parse import urljoin, urlparse
 from bs4 import BeautifulSoup
 
 class DataMirror:
-    def __init__(self, base_url="https://data.bzerox.org/graph/", local_dir="data"):
+    def __init__(self, base_url="https://data.bzerox.org/mainnet/", local_dir="data"):
         self.base_url = base_url.rstrip('/') + '/'
         self.local_dir = local_dir
         self.session = requests.Session()
