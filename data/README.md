@@ -2,7 +2,7 @@
 
 This directory contains a backup mirror of [https://data.bzerox.org/mainnet/](https://data.bzerox.org/mainnet/)
 
-**Last Updated:** 2025-09-25T09:57:49.036012Z
+**Last Updated:** 2025-09-25T10:25:25.876994Z
 
 ## ⚠️ Important Notes
 - This is a backup mirror that only updates when the source server is available
