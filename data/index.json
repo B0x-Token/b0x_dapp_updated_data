@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-09-25T00:00:20.303994Z",
+  "last_updated": "2025-09-25T01:58:25.232478Z",
   "source_url": "https://data.bzerox.org/mainnet/",
   "stats": {
     "downloaded": 0,
@@ -9,76 +9,76 @@
   },
   "files": [
     {
-      "path": "RichList_RightsTo0xBTC_MainnetETH_holders.json",
-      "size": 459,
-      "modified": "2025-09-25T00:00:20.100681Z",
-      "md5": "0d5c135230b73ef2880d393153e76f54"
-    },
-    {
-      "path": "mined_blocks_testnet.json",
-      "size": 278126,
-      "modified": "2025-09-25T00:00:13.014606Z",
-      "md5": "ec38b30e891cf22ec21ad931cfd3bb82"
-    },
-    {
-      "path": "testnet_uniswap_v4_data.json",
-      "size": 2355,
-      "modified": "2025-09-25T00:00:20.265683Z",
-      "md5": "754756c333821e4bc14d00e4e8a46e62"
+      "path": "atestnet_uniswap_v4_data.json",
+      "size": 1084,
+      "modified": "2025-09-25T01:58:17.709736Z",
+      "md5": "fecdd4dea02d9e8cb3600ae50776b9e2"
     },
     {
       "path": "price_data_bwork.json",
       "size": 6807,
-      "modified": "2025-09-25T00:00:13.014606Z",
+      "modified": "2025-09-25T01:58:17.710736Z",
       "md5": "54247b396f7bd75b09d83bc169df06b4"
-    },
-    {
-      "path": "mined_blocks_testnet.js",
-      "size": 354,
-      "modified": "2025-09-25T00:00:13.013606Z",
-      "md5": "04f660f0973f48b1fa99b58e20d0b82d"
     },
     {
       "path": "RichList_B0x_testnet.json",
       "size": 927,
-      "modified": "2025-09-25T00:00:20.015680Z",
-      "md5": "3d77315dde24952b9128f3030d3be4d6"
-    },
-    {
-      "path": "RichList_B0x_testnet_miners.json",
-      "size": 269,
-      "modified": "2025-09-25T00:00:20.059680Z",
-      "md5": "307ec5430f39e6c15a0b2880da8ce498"
-    },
-    {
-      "path": "atestnet_uniswap_v4_data.json",
-      "size": 1084,
-      "modified": "2025-09-25T00:00:13.013606Z",
-      "md5": "fecdd4dea02d9e8cb3600ae50776b9e2"
-    },
-    {
-      "path": "B0x_Staking_Rich_List_logs_testnet.json",
-      "size": 318,
-      "modified": "2025-09-25T00:00:19.973680Z",
-      "md5": "9f5dc8348f57d938e57a9b3a4057fc4f"
-    },
-    {
-      "path": "RichList__MainnetETH_holders.json",
-      "size": 601,
-      "modified": "2025-09-25T00:00:20.137681Z",
-      "md5": "7d860457587d038bf6ed3ec7efac6726"
+      "modified": "2025-09-25T01:58:25.079915Z",
+      "md5": "11aca5ca3d5c46e9cb6430111a308816"
     },
     {
       "path": "githubERC20RewardsTestnet.json",
       "size": 182,
-      "modified": "2025-09-25T00:00:13.013606Z",
+      "modified": "2025-09-25T01:58:17.709736Z",
       "md5": "f4559b4fa75caf8238c951742f6506a2"
     },
     {
       "path": "uu_mined_blocks_testnet.json",
       "size": 294,
-      "modified": "2025-09-25T00:00:13.014606Z",
+      "modified": "2025-09-25T01:58:17.711736Z",
       "md5": "8d3665fe07dd9792df547ba913904a91"
+    },
+    {
+      "path": "mined_blocks_testnet.js",
+      "size": 354,
+      "modified": "2025-09-25T01:58:17.709736Z",
+      "md5": "04f660f0973f48b1fa99b58e20d0b82d"
+    },
+    {
+      "path": "RichList__MainnetETH_holders.json",
+      "size": 601,
+      "modified": "2025-09-25T01:58:25.138916Z",
+      "md5": "3c6fe1559ed2b48c8c43b15fa8445ec6"
+    },
+    {
+      "path": "mined_blocks_testnet.json",
+      "size": 278126,
+      "modified": "2025-09-25T01:58:17.710736Z",
+      "md5": "ec38b30e891cf22ec21ad931cfd3bb82"
+    },
+    {
+      "path": "RichList_RightsTo0xBTC_MainnetETH_holders.json",
+      "size": 459,
+      "modified": "2025-09-25T01:58:25.118916Z",
+      "md5": "693702e2684fe8e684d7b46e16f2468e"
+    },
+    {
+      "path": "RichList_B0x_testnet_miners.json",
+      "size": 269,
+      "modified": "2025-09-25T01:58:25.099916Z",
+      "md5": "fd768ee193a83b19d959254ca9ee975e"
+    },
+    {
+      "path": "testnet_uniswap_v4_data.json",
+      "size": 2355,
+      "modified": "2025-09-25T01:58:25.208917Z",
+      "md5": "b4e4c619cec2295f45d5892ff561524e"
+    },
+    {
+      "path": "B0x_Staking_Rich_List_logs_testnet.json",
+      "size": 318,
+      "modified": "2025-09-25T01:58:25.060915Z",
+      "md5": "780c75b557bbb4d9a87bd546b924d2d9"
     }
   ]
 }
