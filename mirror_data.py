@@ -210,8 +210,8 @@ class DataMirror:
                 # It's a subdirectory, recurse
                 self.mirror_directory(file_url, rel_path)
             else:
-                # Check if this is the special file that needs comparison
-                if filename == 'uu_mined_blocks_testnet.json':
+                # Check if this is a special file that needs comparison
+                if filename in ['uu_mined_blocks_testnet.json', 'uniswap_v4_data_testnet.json']:
                     best_data, best_url = self.compare_json_sources(filename)
                     if best_data is not None:
                         self.files_found.append(best_url)
@@ -274,7 +274,7 @@ This directory contains a backup mirror of [{self.base_url}]({self.base_url})
 
 ## ⚠️ Important Notes
 - This is a backup mirror that only updates when the source server is available
-- For `uu_mined_blocks_testnet.json`, the backup automatically selects whichever source has the highest `latest_block_number`
+- For `uu_mined_blocks_testnet.json` and `uniswap_v4_data_testnet.json`, the backup automatically selects whichever source has the highest `latest_block_number`
 - If the source server is down, no changes will be made to preserve existing data
 - Files are only updated when their content actually changes
 
