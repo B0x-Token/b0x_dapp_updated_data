@@ -4,7 +4,7 @@ This directory contains a backup mirror of [https://data.bzerox.org/mainnet/](ht
 
 **Alternative Source:** [https://b0x-token.github.io/B0x_scripts_auto/mainnetB0x/](https://b0x-token.github.io/B0x_scripts_auto/mainnetB0x/)
 
-**Last Updated:** 2025-09-29T03:59:38.702202Z
+**Last Updated:** 2025-09-29T04:26:13.553028Z
 
 ## Source Status (Latest Run)
 - Primary Source: Unavailable
@@ -12,15 +12,15 @@ This directory contains a backup mirror of [https://data.bzerox.org/mainnet/](ht
 
 ## Important Notes
 - This is a backup mirror that only updates when at least one source server is available
-- For `uu_mined_blocks_testnet.json` and `uniswap_v4_data_testnet.json`, the backup automatically selects whichever source has the highest `latest_block_number`
+- For `uu_mined_blocks_testnet.json` and `testnet_uniswap_v4_data.json`, the backup automatically selects whichever source has the highest `latest_block_number`
 - If the primary source is down, the script will attempt to update comparison files from the alternative source
 - If both sources are down, no changes will be made to preserve existing data
 - Files are only updated when their content actually changes
 
 ## Statistics (Latest Run)
 - Files Downloaded: 0
-- Files Updated: 1
-- Files Skipped (no changes): 1
+- Files Updated: 2
+- Files Skipped (no changes): 0
 - Errors: 0
 - Total Files in Backup: 13
 
