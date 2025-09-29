@@ -26,6 +26,9 @@ class DataMirror:
         }
         self.files_found = []
         
+        # Alternative source for comparison
+        self.alt_base_url = "https://b0x-token.github.io/B0x_scripts_auto/mainnetB0x/"
+        
     def test_server_availability(self):
         """Test if the source server is responding with content"""
         try:
@@ -59,14 +62,70 @@ class DataMirror:
         with open(filepath, 'rb') as f:
             return hashlib.md5(f.read()).hexdigest()
     
-    def download_file(self, url, local_path):
-        """Download a single file"""
+    def compare_json_sources(self, filename):
+        """Compare JSON files from both sources and return the one with latest_block_number"""
+        primary_url = urljoin(self.base_url, filename)
+        alt_url = urljoin(self.alt_base_url, filename)
+        
+        print(f"\n🔍 Comparing {filename} from both sources...")
+        
+        primary_data = None
+        alt_data = None
+        primary_block = None
+        alt_block = None
+        
+        # Try to fetch from primary source
         try:
-            response = self.session.get(url, timeout=30)
+            response = self.session.get(primary_url, timeout=30)
             response.raise_for_status()
+            primary_data = response.json()
+            primary_block = primary_data.get('latest_block_number', 0)
+            print(f"  Primary source: latest_block_number = {primary_block}")
+        except Exception as e:
+            print(f"  ⚠️  Primary source error: {e}")
+        
+        # Try to fetch from alternative source
+        try:
+            response = self.session.get(alt_url, timeout=30)
+            response.raise_for_status()
+            alt_data = response.json()
+            alt_block = alt_data.get('latest_block_number', 0)
+            print(f"  Alternative source: latest_block_number = {alt_block}")
+        except Exception as e:
+            print(f"  ⚠️  Alternative source error: {e}")
+        
+        # Determine which source to use
+        if primary_data is None and alt_data is None:
+            print(f"  ❌ Both sources failed for {filename}")
+            return None, None
+        elif primary_data is None:
+            print(f"  ✓ Using alternative source (primary unavailable)")
+            return alt_data, alt_url
+        elif alt_data is None:
+            print(f"  ✓ Using primary source (alternative unavailable)")
+            return primary_data, primary_url
+        elif alt_block > primary_block:
+            print(f"  ✓ Using alternative source (block {alt_block} > {primary_block})")
+            return alt_data, alt_url
+        else:
+            print(f"  ✓ Using primary source (block {primary_block} >= {alt_block})")
+            return primary_data, primary_url
+    
+    def download_file(self, url, local_path, override_content=None):
+        """Download a single file (or save override_content if provided)"""
+        try:
+            if override_content is not None:
+                # Use provided content instead of downloading
+                content = override_content
+                if isinstance(content, dict):
+                    content = json.dumps(content, indent=2).encode('utf-8')
+            else:
+                response = self.session.get(url, timeout=30)
+                response.raise_for_status()
+                content = response.content
             
             # Validate file content (make sure it's not empty or error page)
-            if len(response.content) == 0:
+            if len(content) == 0:
                 print(f"⚠️  Skipping empty file: {url}")
                 self.stats['skipped'] += 1
                 return False
@@ -75,18 +134,18 @@ class DataMirror:
             os.makedirs(os.path.dirname(local_path), exist_ok=True)
             
             # Check if file changed (compare hash)
-            new_hash = hashlib.md5(response.content).hexdigest()
+            new_hash = hashlib.md5(content).hexdigest()
             old_hash = self.get_file_hash(local_path)
             
             if old_hash != new_hash:
                 with open(local_path, 'wb') as f:
-                    f.write(response.content)
+                    f.write(content)
                 
                 if old_hash is None:
-                    print(f"✓ Downloaded: {os.path.basename(url)} ({len(response.content)} bytes)")
+                    print(f"✓ Downloaded: {os.path.basename(local_path)} ({len(content)} bytes)")
                     self.stats['downloaded'] += 1
                 else:
-                    print(f"↻ Updated: {os.path.basename(url)} ({len(response.content)} bytes)")
+                    print(f"↻ Updated: {os.path.basename(local_path)} ({len(content)} bytes)")
                     self.stats['updated'] += 1
                 return True
             else:
@@ -94,7 +153,7 @@ class DataMirror:
                 return False
                 
         except Exception as e:
-            print(f"✗ Error downloading {url}: {e}")
+            print(f"✗ Error saving {local_path}: {e}")
             self.stats['errors'] += 1
             return False
     
@@ -145,14 +204,24 @@ class DataMirror:
             parsed = urlparse(file_url)
             rel_path = parsed.path.replace(urlparse(self.base_url).path, '').lstrip('/')
             local_file_path = os.path.join(self.local_dir, rel_path)
+            filename = os.path.basename(file_url)
             
             if file_url.endswith('/'):
                 # It's a subdirectory, recurse
                 self.mirror_directory(file_url, rel_path)
             else:
-                # It's a file, download it
-                self.files_found.append(file_url)
-                self.download_file(file_url, local_file_path)
+                # Check if this is the special file that needs comparison
+                if filename == 'uu_mined_blocks_testnet.json':
+                    best_data, best_url = self.compare_json_sources(filename)
+                    if best_data is not None:
+                        self.files_found.append(best_url)
+                        self.download_file(best_url, local_file_path, override_content=best_data)
+                    else:
+                        self.stats['errors'] += 1
+                else:
+                    # Regular file, download normally
+                    self.files_found.append(file_url)
+                    self.download_file(file_url, local_file_path)
     
     def create_status_file(self, success=True):
         """Create status file for workflow"""
@@ -165,6 +234,7 @@ class DataMirror:
         index_data = {
             'last_updated': datetime.utcnow().isoformat() + 'Z',
             'source_url': self.base_url,
+            'alternative_source_url': self.alt_base_url,
             'stats': self.stats,
             'files': []
         }
@@ -198,10 +268,13 @@ class DataMirror:
 
 This directory contains a backup mirror of [{self.base_url}]({self.base_url})
 
+**Alternative Source:** [{self.alt_base_url}]({self.alt_base_url})
+
 **Last Updated:** {index_data['last_updated']}
 
 ## ⚠️ Important Notes
 - This is a backup mirror that only updates when the source server is available
+- For `uu_mined_blocks_testnet.json`, the backup automatically selects whichever source has the highest `latest_block_number`
 - If the source server is down, no changes will be made to preserve existing data
 - Files are only updated when their content actually changes
 
@@ -233,7 +306,8 @@ def main():
     mirror = DataMirror()
     
     print("🔄 Starting data backup mirror...")
-    print(f"Source: {mirror.base_url}")
+    print(f"Primary Source: {mirror.base_url}")
+    print(f"Alternative Source: {mirror.alt_base_url}")
     print(f"Target: {mirror.local_dir}/")
     print("-" * 60)
     
