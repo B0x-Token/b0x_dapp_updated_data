@@ -124,13 +124,20 @@ class DataMirror:
             return None
         with open(filepath, 'rb') as f:
             return hashlib.md5(f.read()).hexdigest()
-    
+
+
     def compare_json_sources(self, filename):
-        """Compare JSON files from both sources and return the one with latest_block_number"""
+        """Compare JSON files from both sources and return the one with the most recent block"""
         primary_url = urljoin(self.base_url, filename)
         alt_url = urljoin(self.alt_base_url, filename)
         
         print(f"\nComparing {filename} from both sources...")
+        
+        # Determine which field to check based on filename
+        if filename == 'uniswap_v4_data_testnet.json':
+            block_field = 'current_block'
+        else:
+            block_field = 'latest_block_number'
         
         primary_data = None
         alt_data = None
@@ -143,8 +150,8 @@ class DataMirror:
                 response = self.session.get(primary_url, timeout=30)
                 response.raise_for_status()
                 primary_data = response.json()
-                primary_block = primary_data.get('latest_block_number', 0)
-                print(f"  Primary source: latest_block_number = {primary_block}")
+                primary_block = primary_data.get(block_field, 0)
+                print(f"  Primary source: {block_field} = {primary_block}")
             except Exception as e:
                 print(f"  Primary source error: {e}")
         else:
@@ -156,8 +163,8 @@ class DataMirror:
                 response = self.session.get(alt_url, timeout=30)
                 response.raise_for_status()
                 alt_data = response.json()
-                alt_block = alt_data.get('latest_block_number', 0)
-                print(f"  Alternative source: latest_block_number = {alt_block}")
+                alt_block = alt_data.get(block_field, 0)
+                print(f"  Alternative source: {block_field} = {alt_block}")
             except Exception as e:
                 print(f"  Alternative source error: {e}")
         else:
@@ -179,6 +186,7 @@ class DataMirror:
         else:
             print(f"  Using primary source (block {primary_block} >= {alt_block})")
             return primary_data, primary_url
+
     
     def download_file(self, url, local_path, override_content=None):
         """Download a single file (or save override_content if provided)"""
