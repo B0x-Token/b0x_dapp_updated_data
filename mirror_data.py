@@ -298,7 +298,7 @@ class DataMirror:
                     # Regular file, download normally
                     self.files_found.append(file_url)
                     self.download_file(file_url, local_file_path)
-     def mirror_from_alt_source(self):
+  def mirror_from_alt_source(self):
         """Mirror comparison files from alternative source when primary is down"""
         print("\nAttempting to update comparison files from alternative source...")
         
@@ -329,7 +329,6 @@ class DataMirror:
             except Exception as e:
                 print(f"  Error fetching {filename} from alternative source: {e}")
                 self.stats['errors'] += 1
-
 
     def create_status_file(self, success=True):
         """Create status file for workflow"""
