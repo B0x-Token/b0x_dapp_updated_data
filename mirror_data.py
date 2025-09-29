@@ -162,7 +162,12 @@ class DataMirror:
                 response = self.session.get(alt_url, timeout=30)
                 response.raise_for_status()
                 alt_data = response.json()
-                alt_block = alt_data.get(block_field, 0)
+                # To this:
+                if filename == 'uniswap_v4_data_testnet.json':
+                    alt_block = alt_data.get('metadata', {}).get('current_block', 0)
+                else:
+                    alt_block = alt_data.get('latest_block_number', 0)
+                    
                 print(f"  Alternative source: {block_field} = {alt_block}")
             except Exception as e:
                 print(f"  Alternative source error: {e}")
