@@ -133,7 +133,7 @@ class DataMirror:
         print(f"\nComparing {filename} from both sources...")
         
         # Determine which field to check based on filename
-        if filename == 'uniswap_v4_data_testnet.json':
+        if filename == 'testnet_uniswap_v4_data.json':
             block_field = 'current_block'
         else:
             block_field = 'latest_block_number'
@@ -163,7 +163,7 @@ class DataMirror:
                 response.raise_for_status()
                 alt_data = response.json()
                 # To this:
-                if filename == 'uniswap_v4_data_testnet.json':
+                if filename == 'testnet_uniswap_v4_data.json':
                     alt_block = alt_data.get('metadata', {}).get('current_block', 0)
                 else:
                     alt_block = alt_data.get('latest_block_number', 0)
@@ -292,7 +292,7 @@ class DataMirror:
                 self.mirror_directory(file_url, rel_path)
             else:
                 # Check if this is a special file that needs comparison
-                if filename in ['uu_mined_blocks_testnet.json', 'uniswap_v4_data_testnet.json']:
+                if filename in ['uu_mined_blocks_testnet.json', 'testnet_uniswap_v4_data.json']:
                     best_data, best_url = self.compare_json_sources(filename)
                     if best_data is not None:
                         self.files_found.append(best_url)
@@ -307,7 +307,7 @@ class DataMirror:
         """Mirror comparison files from alternative source when primary is down"""
         print("\nAttempting to update comparison files from alternative source...")
         
-        comparison_files = ['uu_mined_blocks_testnet.json', 'uniswap_v4_data_testnet.json']
+        comparison_files = ['uu_mined_blocks_testnet.json', 'testnet_uniswap_v4_data.json']
         
         for filename in comparison_files:
             alt_url = urljoin(self.alt_base_url, filename)
@@ -320,7 +320,7 @@ class DataMirror:
                 data = response.json()
                 
                 # Get block number based on file structure
-                if filename == 'uniswap_v4_data_testnet.json':
+                if filename == 'testnet_uniswap_v4_data.json:
                     block_num = data.get('metadata', {}).get('current_block', 'unknown')
                     block_field = 'current_block'
                 else:
@@ -397,7 +397,7 @@ This directory contains a backup mirror of [{self.base_url}]({self.base_url})
 
 ## Important Notes
 - This is a backup mirror that only updates when at least one source server is available
-- For `uu_mined_blocks_testnet.json` and `uniswap_v4_data_testnet.json`, the backup automatically selects whichever source has the highest `latest_block_number`
+- For `uu_mined_blocks_testnet.json` and `testnet_uniswap_v4_data.json`, the backup automatically selects whichever source has the highest `latest_block_number`
 - If the primary source is down, the script will attempt to update comparison files from the alternative source
 - If both sources are down, no changes will be made to preserve existing data
 - Files are only updated when their content actually changes
