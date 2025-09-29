@@ -320,7 +320,7 @@ class DataMirror:
                 data = response.json()
                 
                 # Get block number based on file structure
-                if filename == 'testnet_uniswap_v4_data.json:
+                if filename == 'testnet_uniswap_v4_data.json':
                     block_num = data.get('metadata', {}).get('current_block', 'unknown')
                     block_field = 'current_block'
                 else:
