@@ -303,7 +303,7 @@ class DataMirror:
                     # Regular file, download normally
                     self.files_found.append(file_url)
                     self.download_file(file_url, local_file_path)
-    def mirror_from_alt_source(self):
+def mirror_from_alt_source(self):
         """Mirror comparison files from alternative source when primary is down"""
         print("\nAttempting to update comparison files from alternative source...")
         
@@ -313,19 +313,20 @@ class DataMirror:
             alt_url = urljoin(self.alt_base_url, filename)
             local_file_path = os.path.join(self.local_dir, filename)
             
-            # Determine which field to check based on filename
-            if filename == 'uniswap_v4_data_testnet.json':
-                block_field = 'current_block'
-            else:
-                block_field = 'latest_block_number'
-            
             try:
                 print(f"\nFetching {filename} from alternative source...")
                 response = self.session.get(alt_url, timeout=30)
                 response.raise_for_status()
                 data = response.json()
                 
-                block_num = data.get(block_field, 'unknown')
+                # Get block number based on file structure
+                if filename == 'uniswap_v4_data_testnet.json':
+                    block_num = data.get('metadata', {}).get('current_block', 'unknown')
+                    block_field = 'current_block'
+                else:
+                    block_num = data.get('latest_block_number', 'unknown')
+                    block_field = 'latest_block_number'
+                
                 print(f"  Alternative source: {block_field} = {block_num}")
                 
                 self.files_found.append(alt_url)
@@ -334,6 +335,8 @@ class DataMirror:
             except Exception as e:
                 print(f"  Error fetching {filename} from alternative source: {e}")
                 self.stats['errors'] += 1
+
+
     def create_status_file(self, success=True):
         """Create status file for workflow"""
         status = "SUCCESS" if success else "FAILED"
