@@ -26,18 +26,20 @@ class DataMirror:
         }
         self.files_found = []
         
-        # Alternative source for comparison
+        # Alternative source for comparison and fallback
         self.alt_base_url = "https://b0x-token.github.io/B0x_scripts_auto/mainnetB0x/"
+        self.primary_available = False
+        self.alt_available = False
         
-    def test_server_availability(self):
-        """Test if the source server is responding with content"""
+    def test_server_availability(self, url, name="Server"):
+        """Test if a source server is responding with content"""
         try:
-            response = self.session.get(self.base_url, timeout=30)
+            response = self.session.get(url, timeout=30)
             response.raise_for_status()
             
             # Check if we get actual content (not just a blank page)
-            if len(response.content) < 100:  # Very small response likely means server issues
-                print(f"⚠️  Server returned minimal content ({len(response.content)} bytes)")
+            if len(response.content) < 100:
+                print(f"⚠️  {name} returned minimal content ({len(response.content)} bytes)")
                 return False
                 
             # Check for common error indicators
@@ -45,14 +47,14 @@ class DataMirror:
             error_indicators = ['error', '404', '500', 'not found', 'server error', 'maintenance']
             
             if any(indicator in content_lower for indicator in error_indicators):
-                print(f"⚠️  Server appears to be showing error page")
+                print(f"⚠️  {name} appears to be showing error page")
                 return False
                 
-            print(f"✓ Server is responding normally ({len(response.content)} bytes)")
+            print(f"✓ {name} is responding normally ({len(response.content)} bytes)")
             return True
             
         except Exception as e:
-            print(f"⚠️  Server availability test failed: {e}")
+            print(f"⚠️  {name} availability test failed: {e}")
             return False
     
     def get_file_hash(self, filepath):
@@ -74,25 +76,31 @@ class DataMirror:
         primary_block = None
         alt_block = None
         
-        # Try to fetch from primary source
-        try:
-            response = self.session.get(primary_url, timeout=30)
-            response.raise_for_status()
-            primary_data = response.json()
-            primary_block = primary_data.get('latest_block_number', 0)
-            print(f"  Primary source: latest_block_number = {primary_block}")
-        except Exception as e:
-            print(f"  ⚠️  Primary source error: {e}")
+        # Try to fetch from primary source (if available)
+        if self.primary_available:
+            try:
+                response = self.session.get(primary_url, timeout=30)
+                response.raise_for_status()
+                primary_data = response.json()
+                primary_block = primary_data.get('latest_block_number', 0)
+                print(f"  Primary source: latest_block_number = {primary_block}")
+            except Exception as e:
+                print(f"  ⚠️  Primary source error: {e}")
+        else:
+            print(f"  ⚠️  Primary source unavailable, skipping")
         
-        # Try to fetch from alternative source
-        try:
-            response = self.session.get(alt_url, timeout=30)
-            response.raise_for_status()
-            alt_data = response.json()
-            alt_block = alt_data.get('latest_block_number', 0)
-            print(f"  Alternative source: latest_block_number = {alt_block}")
-        except Exception as e:
-            print(f"  ⚠️  Alternative source error: {e}")
+        # Try to fetch from alternative source (if available)
+        if self.alt_available:
+            try:
+                response = self.session.get(alt_url, timeout=30)
+                response.raise_for_status()
+                alt_data = response.json()
+                alt_block = alt_data.get('latest_block_number', 0)
+                print(f"  Alternative source: latest_block_number = {alt_block}")
+            except Exception as e:
+                print(f"  ⚠️  Alternative source error: {e}")
+        else:
+            print(f"  ⚠️  Alternative source unavailable, skipping")
         
         # Determine which source to use
         if primary_data is None and alt_data is None:
@@ -223,6 +231,32 @@ class DataMirror:
                     self.files_found.append(file_url)
                     self.download_file(file_url, local_file_path)
     
+    def mirror_from_alt_source(self):
+        """Mirror comparison files from alternative source when primary is down"""
+        print("\n🔄 Attempting to update comparison files from alternative source...")
+        
+        comparison_files = ['uu_mined_blocks_testnet.json', 'uniswap_v4_data_testnet.json']
+        
+        for filename in comparison_files:
+            alt_url = urljoin(self.alt_base_url, filename)
+            local_file_path = os.path.join(self.local_dir, filename)
+            
+            try:
+                print(f"\n📥 Fetching {filename} from alternative source...")
+                response = self.session.get(alt_url, timeout=30)
+                response.raise_for_status()
+                data = response.json()
+                
+                block_num = data.get('latest_block_number', 'unknown')
+                print(f"  Alternative source: latest_block_number = {block_num}")
+                
+                self.files_found.append(alt_url)
+                self.download_file(alt_url, local_file_path, override_content=data)
+                
+            except Exception as e:
+                print(f"  ✗ Error fetching {filename} from alternative source: {e}")
+                self.stats['errors'] += 1
+    
     def create_status_file(self, success=True):
         """Create status file for workflow"""
         status = "SUCCESS" if success else "FAILED"
@@ -235,6 +269,8 @@ class DataMirror:
             'last_updated': datetime.utcnow().isoformat() + 'Z',
             'source_url': self.base_url,
             'alternative_source_url': self.alt_base_url,
+            'primary_available': self.primary_available,
+            'alternative_available': self.alt_available,
             'stats': self.stats,
             'files': []
         }
@@ -264,6 +300,9 @@ class DataMirror:
         # Create README
         readme_path = os.path.join(self.local_dir, 'README.md')
         with open(readme_path, 'w') as f:
+            primary_status = "✓ Available" if self.primary_available else "✗ Unavailable"
+            alt_status = "✓ Available" if self.alt_available else "✗ Unavailable"
+            
             f.write(f"""# Data Backup
 
 This directory contains a backup mirror of [{self.base_url}]({self.base_url})
@@ -272,10 +311,15 @@ This directory contains a backup mirror of [{self.base_url}]({self.base_url})
 
 **Last Updated:** {index_data['last_updated']}
 
+## Source Status (Latest Run)
+- Primary Source: {primary_status}
+- Alternative Source: {alt_status}
+
 ## ⚠️ Important Notes
-- This is a backup mirror that only updates when the source server is available
+- This is a backup mirror that only updates when at least one source server is available
 - For `uu_mined_blocks_testnet.json` and `uniswap_v4_data_testnet.json`, the backup automatically selects whichever source has the highest `latest_block_number`
-- If the source server is down, no changes will be made to preserve existing data
+- If the primary source is down, the script will attempt to update comparison files from the alternative source
+- If both sources are down, no changes will be made to preserve existing data
 - Files are only updated when their content actually changes
 
 ## Statistics (Latest Run)
@@ -311,9 +355,14 @@ def main():
     print(f"Target: {mirror.local_dir}/")
     print("-" * 60)
     
-    # Test server availability first
-    if not mirror.test_server_availability():
-        print("❌ Source server is not available or returning errors")
+    # Test both server availability
+    print("\nTesting source availability...")
+    mirror.primary_available = mirror.test_server_availability(mirror.base_url, "Primary source")
+    mirror.alt_available = mirror.test_server_availability(mirror.alt_base_url, "Alternative source")
+    
+    # Check if we can proceed
+    if not mirror.primary_available and not mirror.alt_available:
+        print("\n❌ Both sources are unavailable")
         print("🛡️  Preserving existing backup - no changes made")
         mirror.create_status_file(success=False)
         sys.exit(0)
@@ -321,12 +370,17 @@ def main():
     # Create local directory
     os.makedirs(mirror.local_dir, exist_ok=True)
     
-    # Mirror the directory
-    mirror.mirror_directory(mirror.base_url)
+    # If primary is available, do full mirror
+    if mirror.primary_available:
+        print("\n✓ Primary source available - performing full mirror")
+        mirror.mirror_directory(mirror.base_url)
+    else:
+        print("\n⚠️  Primary source unavailable - attempting partial update from alternative source")
+        mirror.mirror_from_alt_source()
     
     # Validate we found files
     if not mirror.files_found:
-        print("❌ No files were found during mirroring")
+        print("\n❌ No files were found during mirroring")
         print("🛡️  This could indicate server issues - preserving existing backup")
         mirror.create_status_file(success=False)
         sys.exit(0)
