@@ -125,7 +125,7 @@ class DataMirror:
         with open(filepath, 'rb') as f:
             return hashlib.md5(f.read()).hexdigest()
 
-def compare_json_sources(self, filename):
+    def compare_json_sources(self, filename):
         """Compare JSON files from both sources and return the one with the most recent block"""
         primary_url = urljoin(self.base_url, filename)
         alt_url = urljoin(self.alt_base_url, filename)
