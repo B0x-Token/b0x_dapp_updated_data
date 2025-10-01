@@ -126,7 +126,7 @@ class DataMirror:
             return hashlib.md5(f.read()).hexdigest()
 
     def compare_json_sources(self, filename):
-        """Compare JSON files from both sources and return the one with the most recent block"""
+        """Compare JSON files from both sources and return the one with the most recent block/timestamp"""
         primary_url = urljoin(self.base_url, filename)
         alt_url = urljoin(self.alt_base_url, filename)
         
@@ -134,14 +134,19 @@ class DataMirror:
         
         # Determine which field to check based on filename
         if filename == 'testnet_uniswap_v4_data.json':
-            block_field = 'current_block'
+            comparison_field = 'current_block'
+            is_timestamp_array = False
+        elif filename == 'y2price_data_bwork.json':
+            comparison_field = 'timestamps'
+            is_timestamp_array = True
         else:
-            block_field = 'latest_block_number'
+            comparison_field = 'latest_block_number'
+            is_timestamp_array = False
         
         primary_data = None
         alt_data = None
-        primary_block = None
-        alt_block = None
+        primary_value = None
+        alt_value = None
         
         # Try to fetch from primary source (if available)
         if self.primary_available:
@@ -149,8 +154,17 @@ class DataMirror:
                 response = self.session.get(primary_url, timeout=30)
                 response.raise_for_status()
                 primary_data = response.json()
-                primary_block = primary_data.get(block_field, 0)
-                print(f"  Primary source: {block_field} = {primary_block}")
+                
+                if is_timestamp_array:
+                    # Get last timestamp from array
+                    timestamps = primary_data.get(comparison_field, [])
+                    primary_value = timestamps[-1] if timestamps else 0
+                elif filename == 'testnet_uniswap_v4_data.json':
+                    primary_value = primary_data.get(comparison_field, 0)
+                else:
+                    primary_value = primary_data.get(comparison_field, 0)
+                    
+                print(f"  Primary source: {comparison_field} = {primary_value}")
             except Exception as e:
                 print(f"  Primary source error: {e}")
         else:
@@ -162,13 +176,17 @@ class DataMirror:
                 response = self.session.get(alt_url, timeout=30)
                 response.raise_for_status()
                 alt_data = response.json()
-                # To this:
-                if filename == 'testnet_uniswap_v4_data.json':
-                    alt_block = alt_data.get('metadata', {}).get('current_block', 0)
+                
+                if is_timestamp_array:
+                    # Get last timestamp from array
+                    timestamps = alt_data.get(comparison_field, [])
+                    alt_value = timestamps[-1] if timestamps else 0
+                elif filename == 'testnet_uniswap_v4_data.json':
+                    alt_value = alt_data.get('metadata', {}).get('current_block', 0)
                 else:
-                    alt_block = alt_data.get('latest_block_number', 0)
+                    alt_value = alt_data.get('latest_block_number', 0)
                     
-                print(f"  Alternative source: {block_field} = {alt_block}")
+                print(f"  Alternative source: {comparison_field} = {alt_value}")
             except Exception as e:
                 print(f"  Alternative source error: {e}")
         else:
@@ -184,11 +202,11 @@ class DataMirror:
         elif alt_data is None:
             print(f"  Using primary source (alternative unavailable)")
             return primary_data, primary_url
-        elif alt_block > primary_block:
-            print(f"  Using alternative source (block {alt_block} > {primary_block})")
+        elif alt_value > primary_value:
+            print(f"  Using alternative source ({comparison_field}: {alt_value} > {primary_value})")
             return alt_data, alt_url
         else:
-            print(f"  Using primary source (block {primary_block} >= {alt_block})")
+            print(f"  Using primary source ({comparison_field}: {primary_value} >= {alt_value})")
             return primary_data, primary_url
 
 
@@ -292,7 +310,7 @@ class DataMirror:
                 self.mirror_directory(file_url, rel_path)
             else:
                 # Check if this is a special file that needs comparison
-                if filename in ['uu_mined_blocks_testnet.json', 'testnet_uniswap_v4_data.json']:
+                if filename in ['uu_mined_blocks_testnet.json', 'testnet_uniswap_v4_data.json', 'y2price_data_bwork.json']:
                     best_data, best_url = self.compare_json_sources(filename)
                     if best_data is not None:
                         self.files_found.append(best_url)
@@ -303,11 +321,12 @@ class DataMirror:
                     # Regular file, download normally
                     self.files_found.append(file_url)
                     self.download_file(file_url, local_file_path)
+                    
     def mirror_from_alt_source(self):
         """Mirror comparison files from alternative source when primary is down"""
         print("\nAttempting to update comparison files from alternative source...")
         
-        comparison_files = ['uu_mined_blocks_testnet.json', 'testnet_uniswap_v4_data.json']
+        comparison_files = ['uu_mined_blocks_testnet.json', 'testnet_uniswap_v4_data.json', 'y2price_data_bwork.json']
         
         for filename in comparison_files:
             alt_url = urljoin(self.alt_base_url, filename)
@@ -319,15 +338,19 @@ class DataMirror:
                 response.raise_for_status()
                 data = response.json()
                 
-                # Get block number based on file structure
+                # Get comparison value based on file structure
                 if filename == 'testnet_uniswap_v4_data.json':
-                    block_num = data.get('metadata', {}).get('current_block', 'unknown')
-                    block_field = 'current_block'
+                    comp_value = data.get('metadata', {}).get('current_block', 'unknown')
+                    comp_field = 'current_block'
+                elif filename == 'y2price_data_bwork.json':
+                    timestamps = data.get('timestamps', [])
+                    comp_value = timestamps[-1] if timestamps else 'unknown'
+                    comp_field = 'last timestamp'
                 else:
-                    block_num = data.get('latest_block_number', 'unknown')
-                    block_field = 'latest_block_number'
+                    comp_value = data.get('latest_block_number', 'unknown')
+                    comp_field = 'latest_block_number'
                 
-                print(f"  Alternative source: {block_field} = {block_num}")
+                print(f"  Alternative source: {comp_field} = {comp_value}")
                 
                 self.files_found.append(alt_url)
                 self.download_file(alt_url, local_file_path, override_content=data)
@@ -397,7 +420,7 @@ This directory contains a backup mirror of [{self.base_url}]({self.base_url})
 
 ## Important Notes
 - This is a backup mirror that only updates when at least one source server is available
-- For `uu_mined_blocks_testnet.json` and `testnet_uniswap_v4_data.json`, the backup automatically selects whichever source has the highest `latest_block_number`
+- For `uu_mined_blocks_testnet.json`, `testnet_uniswap_v4_data.json`, and `y2price_data_bwork.json`, the backup automatically selects whichever source has the highest block number or most recent timestamp
 - If the primary source is down, the script will attempt to update comparison files from the alternative source
 - If both sources are down, no changes will be made to preserve existing data
 - Files are only updated when their content actually changes
