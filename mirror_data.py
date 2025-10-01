@@ -136,7 +136,7 @@ class DataMirror:
         if filename == 'testnet_uniswap_v4_data.json':
             comparison_field = 'current_block'
             is_timestamp_array = False
-        elif filename == 'y2price_data_bwork.json':
+        elif filename == 'price_data_bwork.json':
             comparison_field = 'timestamps'
             is_timestamp_array = True
         else:
@@ -310,7 +310,7 @@ class DataMirror:
                 self.mirror_directory(file_url, rel_path)
             else:
                 # Check if this is a special file that needs comparison
-                if filename in ['uu_mined_blocks_testnet.json', 'testnet_uniswap_v4_data.json', 'y2price_data_bwork.json']:
+                if filename in ['uu_mined_blocks_testnet.json', 'testnet_uniswap_v4_data.json', 'price_data_bwork.json']:
                     best_data, best_url = self.compare_json_sources(filename)
                     if best_data is not None:
                         self.files_found.append(best_url)
@@ -326,7 +326,7 @@ class DataMirror:
         """Mirror comparison files from alternative source when primary is down"""
         print("\nAttempting to update comparison files from alternative source...")
         
-        comparison_files = ['uu_mined_blocks_testnet.json', 'testnet_uniswap_v4_data.json', 'y2price_data_bwork.json']
+        comparison_files = ['uu_mined_blocks_testnet.json', 'testnet_uniswap_v4_data.json', 'price_data_bwork.json']
         
         for filename in comparison_files:
             alt_url = urljoin(self.alt_base_url, filename)
@@ -342,7 +342,7 @@ class DataMirror:
                 if filename == 'testnet_uniswap_v4_data.json':
                     comp_value = data.get('metadata', {}).get('current_block', 'unknown')
                     comp_field = 'current_block'
-                elif filename == 'y2price_data_bwork.json':
+                elif filename == 'price_data_bwork.json':
                     timestamps = data.get('timestamps', [])
                     comp_value = timestamps[-1] if timestamps else 'unknown'
                     comp_field = 'last timestamp'
@@ -420,7 +420,7 @@ This directory contains a backup mirror of [{self.base_url}]({self.base_url})
 
 ## Important Notes
 - This is a backup mirror that only updates when at least one source server is available
-- For `uu_mined_blocks_testnet.json`, `testnet_uniswap_v4_data.json`, and `y2price_data_bwork.json`, the backup automatically selects whichever source has the highest block number or most recent timestamp
+- For `uu_mined_blocks_testnet.json`, `testnet_uniswap_v4_data.json`, and `price_data_bwork.json`, the backup automatically selects whichever source has the highest block number or most recent timestamp
 - If the primary source is down, the script will attempt to update comparison files from the alternative source
 - If both sources are down, no changes will be made to preserve existing data
 - Files are only updated when their content actually changes
