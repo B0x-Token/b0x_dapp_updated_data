@@ -5,15 +5,20 @@
     "decimals": 18,
     "address": "0x313cD1962Cb6fA0A53900586C19373939F781909"
   },
-  "totalHolders": 1,
-  "lastUpdated": "2025-10-21T11:53:09.162188",
-  "scanCompletedBlock": 23627247,
-  "totalTransfers": 9,
+  "totalHolders": 2,
+  "lastUpdated": "2025-10-21T12:13:41.012735",
+  "scanCompletedBlock": 23627346,
+  "totalTransfers": 10,
   "holders": [
     {
       "address": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
       "balance": "20330350000000000000000000",
       "balanceFormatted": "20330350.0"
+    },
+    {
+      "address": "0x58d995B6DfAB4a82DF05914C6031d59B96A3aa41",
+      "balance": "100000000000000000000",
+      "balanceFormatted": "100.0"
     }
   ]
 }

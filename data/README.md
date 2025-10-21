@@ -4,7 +4,7 @@ This directory contains a backup mirror of [https://data.bzerox.org/mainnet/](ht
 
 **Alternative Source:** [https://b0x-token.github.io/B0x_scripts_auto/mainnetB0x/](https://b0x-token.github.io/B0x_scripts_auto/mainnetB0x/)
 
-**Last Updated:** 2025-10-21T16:54:48.773025Z
+**Last Updated:** 2025-10-21T17:16:17.557047Z
 
 ## Source Status (Latest Run)
 - Primary Source: Available
@@ -19,8 +19,8 @@ This directory contains a backup mirror of [https://data.bzerox.org/mainnet/](ht
 
 ## Statistics (Latest Run)
 - Files Downloaded: 0
-- Files Updated: 8
-- Files Skipped (no changes): 1
+- Files Updated: 7
+- Files Skipped (no changes): 2
 - Errors: 0
 - Total Files in Backup: 13
 
@@ -33,8 +33,8 @@ This directory contains a backup mirror of [https://data.bzerox.org/mainnet/](ht
 - [`B0x_Staking_Rich_List_logs_testnet.json`](B0x_Staking_Rich_List_logs_testnet.json) (0.6 KB)
 - [`RichList_B0x_testnet.json`](RichList_B0x_testnet.json) (1.6 KB)
 - [`RichList_B0x_testnet_miners.json`](RichList_B0x_testnet_miners.json) (0.3 KB)
-- [`RichList_RightsTo0xBTC_MainnetETH_holders.json`](RichList_RightsTo0xBTC_MainnetETH_holders.json) (0.6 KB)
-- [`RichList__MainnetETH_holders.json`](RichList__MainnetETH_holders.json) (0.4 KB)
+- [`RichList_RightsTo0xBTC_MainnetETH_holders.json`](RichList_RightsTo0xBTC_MainnetETH_holders.json) (0.7 KB)
+- [`RichList__MainnetETH_holders.json`](RichList__MainnetETH_holders.json) (0.6 KB)
 - [`atestnet_uniswap_v4_data.json`](atestnet_uniswap_v4_data.json) (1.1 KB)
 - [`githubERC20RewardsTestnet.json`](githubERC20RewardsTestnet.json) (0.2 KB)
 - [`mined_blocks_testnet.json`](mined_blocks_testnet.json) (271.6 KB)
