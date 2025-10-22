@@ -4,7 +4,7 @@ This directory contains a backup mirror of [https://data.bzerox.org/mainnet/](ht
 
 **Alternative Source:** [https://b0x-token.github.io/B0x_scripts_auto/mainnetB0x/](https://b0x-token.github.io/B0x_scripts_auto/mainnetB0x/)
 
-**Last Updated:** 2025-10-22T19:11:05.901538Z
+**Last Updated:** 2025-10-22T19:24:27.471300Z
 
 ## Source Status (Latest Run)
 - Primary Source: Available
@@ -41,4 +41,4 @@ This directory contains a backup mirror of [https://data.bzerox.org/mainnet/](ht
 - [`price_data_bwork.json`](price_data_bwork.json) (6.6 KB)
 - [`testnet_uniswap_v4_data.json`](testnet_uniswap_v4_data.json) (6.4 KB)
 - [`uniswap_v4_data_testnet.json`](uniswap_v4_data_testnet.json) (2.3 KB)
-- [`uu_mined_blocks_testnet.json`](uu_mined_blocks_testnet.json) (336.1 KB)
+- [`uu_mined_blocks_testnet.json`](uu_mined_blocks_testnet.json) (336.6 KB)
