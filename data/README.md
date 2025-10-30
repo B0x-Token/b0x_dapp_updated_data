@@ -4,7 +4,7 @@ This directory contains a backup mirror of [https://data.bzerox.org/mainnet/](ht
 
 **Alternative Source:** [https://b0x-token.github.io/B0x_scripts_auto/mainnetB0x/](https://b0x-token.github.io/B0x_scripts_auto/mainnetB0x/)
 
-**Last Updated:** 2025-10-30T19:27:40.274625Z
+**Last Updated:** 2025-10-30T19:39:57.351486Z
 
 ## Source Status (Latest Run)
 - Primary Source: Available
@@ -30,7 +30,7 @@ This directory contains a backup mirror of [https://data.bzerox.org/mainnet/](ht
 - [`mined_blocks_testnet.js`](mined_blocks_testnet.js) (0.3 KB)
 
 ### .JSON Files
-- [`B0x_Staking_Rich_List_logs_testnet.json`](B0x_Staking_Rich_List_logs_testnet.json) (0.6 KB)
+- [`B0x_Staking_Rich_List_logs_testnet.json`](B0x_Staking_Rich_List_logs_testnet.json) (0.5 KB)
 - [`RichList_B0x_testnet.json`](RichList_B0x_testnet.json) (2.0 KB)
 - [`RichList_B0x_testnet_miners.json`](RichList_B0x_testnet_miners.json) (0.3 KB)
 - [`RichList_RightsTo0xBTC_MainnetETH_holders.json`](RichList_RightsTo0xBTC_MainnetETH_holders.json) (0.6 KB)
