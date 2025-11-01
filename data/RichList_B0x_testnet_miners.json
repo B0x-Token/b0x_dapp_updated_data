@@ -1,25 +1,25 @@
 {
   "token": {
-    "name": "B Zero X",
-    "symbol": "B0x",
+    "name": "Unknown",
+    "symbol": "Unknown",
     "decimals": 18
   },
-  "totalHolders": 119,
-  "totalMiners": 114,
-  "lastUpdated": "2025-11-01T13:48:32.407868",
-  "scanCompletedBlock": 37616776,
-  "totalTransfers": 6179,
-  "totalMints": 5945,
+  "totalHolders": 121,
+  "totalMiners": 116,
+  "lastUpdated": "2025-11-01T13:59:11.145980",
+  "scanCompletedBlock": 37617095,
+  "totalTransfers": 6227,
+  "totalMints": 5972,
   "minersList": [
     {
       "address": "0x9878E1Dd2Cf28382F06D002c31c70030E19bf38B",
-      "totalMinted": "8406250000000000000000",
-      "totalMintedFormatted": "8406.25"
+      "totalMinted": "8681250000000000000000",
+      "totalMintedFormatted": "8681.25"
     },
     {
       "address": "0xe09e3c6710b5bAbcE2436962629BE1333436Ce97",
-      "totalMinted": "7543750000000000000000",
-      "totalMintedFormatted": "7543.75"
+      "totalMinted": "7662500000000000000000",
+      "totalMintedFormatted": "7662.5"
     },
     {
       "address": "0xa7A8359E0a21C464411F9f4435b09c85d92522d2",
@@ -43,8 +43,8 @@
     },
     {
       "address": "0x488029E89059DB74A027368EB1c9E6cc8Df76eca",
-      "totalMinted": "3118750000000000000000",
-      "totalMintedFormatted": "3118.75"
+      "totalMinted": "3225000000000000000000",
+      "totalMintedFormatted": "3225.0"
     },
     {
       "address": "0x4b52349CC088EF61594061d4a300a01439Df33D0",
@@ -92,6 +92,11 @@
       "totalMintedFormatted": "2025.0"
     },
     {
+      "address": "0x2Cf1e04D9f935857f41c1ed26317caCFbbeE5317",
+      "totalMinted": "1975000000000000000000",
+      "totalMintedFormatted": "1975.0"
+    },
+    {
       "address": "0xbC8D22246bcE0d6D50f0d187622E074DeeE4b869",
       "totalMinted": "1962500000000000000000",
       "totalMintedFormatted": "1962.5"
@@ -100,11 +105,6 @@
       "address": "0x27322c5b95a977b58302fA5f53A5BA1FDb9cfeAE",
       "totalMinted": "1893750000000000000000",
       "totalMintedFormatted": "1893.75"
-    },
-    {
-      "address": "0x2Cf1e04D9f935857f41c1ed26317caCFbbeE5317",
-      "totalMinted": "1862500000000000000000",
-      "totalMintedFormatted": "1862.5"
     },
     {
       "address": "0x13b15cfe0b006c082773204447918eb83CD15518",
@@ -127,24 +127,24 @@
       "totalMintedFormatted": "1718.75"
     },
     {
+      "address": "0x519BfDab9c0c16b557D6197f60C129eE9E4aC156",
+      "totalMinted": "1681250000000000000000",
+      "totalMintedFormatted": "1681.25"
+    },
+    {
       "address": "0x1c33a09D9F3EA895EB3E71B2F095E9EdDDFd3FA8",
       "totalMinted": "1656250000000000000000",
       "totalMintedFormatted": "1656.25"
     },
     {
-      "address": "0x519BfDab9c0c16b557D6197f60C129eE9E4aC156",
-      "totalMinted": "1625000000000000000000",
-      "totalMintedFormatted": "1625.0"
+      "address": "0x436Bc73bbEA1b6fe63D0a25148f97aa0F9bFA722",
+      "totalMinted": "1631250000000000000000",
+      "totalMintedFormatted": "1631.25"
     },
     {
       "address": "0xB47b669FF47312aeeCe16BfE76195Db516146EAa",
       "totalMinted": "1593750000000000000000",
       "totalMintedFormatted": "1593.75"
-    },
-    {
-      "address": "0x436Bc73bbEA1b6fe63D0a25148f97aa0F9bFA722",
-      "totalMinted": "1550000000000000000000",
-      "totalMintedFormatted": "1550.0"
     },
     {
       "address": "0x5FA243aFdb47f90D0051E2d1f04D4670777a34E7",
@@ -257,19 +257,19 @@
       "totalMintedFormatted": "900.0"
     },
     {
+      "address": "0x773E59e5A9c0c132C3e51Ee0a4d81A329330D121",
+      "totalMinted": "875000000000000000000",
+      "totalMintedFormatted": "875.0"
+    },
+    {
       "address": "0xBce6dCa279758553996b05E5f2504Ff3dfd42614",
       "totalMinted": "868750000000000000000",
       "totalMintedFormatted": "868.75"
     },
     {
       "address": "0xC47A0A1B2aC098b6453869389E7c8471D9D88B37",
-      "totalMinted": "843750000000000000000",
-      "totalMintedFormatted": "843.75"
-    },
-    {
-      "address": "0x773E59e5A9c0c132C3e51Ee0a4d81A329330D121",
-      "totalMinted": "843750000000000000000",
-      "totalMintedFormatted": "843.75"
+      "totalMinted": "856250000000000000000",
+      "totalMintedFormatted": "856.25"
     },
     {
       "address": "0xeaD8251eC15Ec8ff623C0af31431Aa2c1c9d1fbb",
@@ -567,12 +567,22 @@
       "totalMintedFormatted": "18.75"
     },
     {
+      "address": "0x32b6d60fa842EF11C809DD3Bce02D240cD7b799C",
+      "totalMinted": "12500000000000000000",
+      "totalMintedFormatted": "12.5"
+    },
+    {
       "address": "0x165f5E91ae88440c7B2BA4bD3e8cCbcFc147Cd53",
       "totalMinted": "12500000000000000000",
       "totalMintedFormatted": "12.5"
     },
     {
       "address": "0xfFF72Ee0dBa7b9f8027CFE7bfED3f773d872F2Fc",
+      "totalMinted": "12500000000000000000",
+      "totalMintedFormatted": "12.5"
+    },
+    {
+      "address": "0xe8e8DAeD744c33817a89A7A66F3BA3AbFA6A0ad9",
       "totalMinted": "12500000000000000000",
       "totalMintedFormatted": "12.5"
     },
