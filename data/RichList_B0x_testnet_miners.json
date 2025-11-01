@@ -4,11 +4,532 @@
     "symbol": "B0x",
     "decimals": 18
   },
-  "totalHolders": 11,
-  "totalMiners": 0,
-  "lastUpdated": "2025-11-01T12:51:30.178910",
-  "scanCompletedBlock": 37615065,
-  "totalTransfers": 2992,
-  "totalMints": 2868,
-  "minersList": []
+  "totalHolders": 111,
+  "totalMiners": 104,
+  "lastUpdated": "2025-11-01T13:12:56.409029",
+  "scanCompletedBlock": 37615707,
+  "totalTransfers": 5331,
+  "totalMints": 5160,
+  "minersList": [
+    {
+      "address": "0xa7A8359E0a21C464411F9f4435b09c85d92522d2",
+      "totalMinted": "5025000000000000000000",
+      "totalMintedFormatted": "5025.0"
+    },
+    {
+      "address": "0xe09e3c6710b5bAbcE2436962629BE1333436Ce97",
+      "totalMinted": "3793750000000000000000",
+      "totalMintedFormatted": "3793.75"
+    },
+    {
+      "address": "0x9dc153E17BeE1FBFe1a25E233B403AEc045d2a9A",
+      "totalMinted": "3600000000000000000000",
+      "totalMintedFormatted": "3600.0"
+    },
+    {
+      "address": "0x94909b7592d2341F68dC86c51c01021a23AB2CC4",
+      "totalMinted": "2912500000000000000000",
+      "totalMintedFormatted": "2912.5"
+    },
+    {
+      "address": "0x5c2649D685CEa3E5303A919D3F0c89FF68fFBF93",
+      "totalMinted": "2843750000000000000000",
+      "totalMintedFormatted": "2843.75"
+    },
+    {
+      "address": "0x2937d75b326BAe98FD823F3E5e4eA01fe9de37e3",
+      "totalMinted": "2493750000000000000000",
+      "totalMintedFormatted": "2493.75"
+    },
+    {
+      "address": "0x66c1A1c40FE3BA43fA8b8390Be21E9b39E5B7D53",
+      "totalMinted": "2243750000000000000000",
+      "totalMintedFormatted": "2243.75"
+    },
+    {
+      "address": "0xfDc7e8B9BA4D68a1f4ABD7E8cfb7B6e0fB84B9Ed",
+      "totalMinted": "2206250000000000000000",
+      "totalMintedFormatted": "2206.25"
+    },
+    {
+      "address": "0x4b52349CC088EF61594061d4a300a01439Df33D0",
+      "totalMinted": "2093750000000000000000",
+      "totalMintedFormatted": "2093.75"
+    },
+    {
+      "address": "0xe7F6df54B7461da00DEF9f79f82351d0ce6d6F70",
+      "totalMinted": "2050000000000000000000",
+      "totalMintedFormatted": "2050.0"
+    },
+    {
+      "address": "0x0F563d4601422B6e3ad4980D38090BB279774EE0",
+      "totalMinted": "1925000000000000000000",
+      "totalMintedFormatted": "1925.0"
+    },
+    {
+      "address": "0x1589BB843dc5788821b1645d3A3D6E5e867396C4",
+      "totalMinted": "1900000000000000000000",
+      "totalMintedFormatted": "1900.0"
+    },
+    {
+      "address": "0x27322c5b95a977b58302fA5f53A5BA1FDb9cfeAE",
+      "totalMinted": "1806250000000000000000",
+      "totalMintedFormatted": "1806.25"
+    },
+    {
+      "address": "0x13b15cfe0b006c082773204447918eb83CD15518",
+      "totalMinted": "1768750000000000000000",
+      "totalMintedFormatted": "1768.75"
+    },
+    {
+      "address": "0x375a19B5DbcCA6f23435a44336020ACe73677CFB",
+      "totalMinted": "1656250000000000000000",
+      "totalMintedFormatted": "1656.25"
+    },
+    {
+      "address": "0x0cC9afC487438491Fd4625e4879aFfb5992BaBD8",
+      "totalMinted": "1575000000000000000000",
+      "totalMintedFormatted": "1575.0"
+    },
+    {
+      "address": "0x6bFaaD74e4d2Bf187d23D3059261d6ad911709a4",
+      "totalMinted": "1518750000000000000000",
+      "totalMintedFormatted": "1518.75"
+    },
+    {
+      "address": "0x9878E1Dd2Cf28382F06D002c31c70030E19bf38B",
+      "totalMinted": "1481250000000000000000",
+      "totalMintedFormatted": "1481.25"
+    },
+    {
+      "address": "0x1c33a09D9F3EA895EB3E71B2F095E9EdDDFd3FA8",
+      "totalMinted": "1468750000000000000000",
+      "totalMintedFormatted": "1468.75"
+    },
+    {
+      "address": "0xbC8D22246bcE0d6D50f0d187622E074DeeE4b869",
+      "totalMinted": "1425000000000000000000",
+      "totalMintedFormatted": "1425.0"
+    },
+    {
+      "address": "0xB47b669FF47312aeeCe16BfE76195Db516146EAa",
+      "totalMinted": "1406250000000000000000",
+      "totalMintedFormatted": "1406.25"
+    },
+    {
+      "address": "0x2Cf1e04D9f935857f41c1ed26317caCFbbeE5317",
+      "totalMinted": "1406250000000000000000",
+      "totalMintedFormatted": "1406.25"
+    },
+    {
+      "address": "0x3874A76a2F5685580B6F48a6FC7689cBdAdE21e6",
+      "totalMinted": "1400000000000000000000",
+      "totalMintedFormatted": "1400.0"
+    },
+    {
+      "address": "0x932b01AA33e9CE820c6eEE2682927b9439A6d1a8",
+      "totalMinted": "1350000000000000000000",
+      "totalMintedFormatted": "1350.0"
+    },
+    {
+      "address": "0x519BfDab9c0c16b557D6197f60C129eE9E4aC156",
+      "totalMinted": "1287500000000000000000",
+      "totalMintedFormatted": "1287.5"
+    },
+    {
+      "address": "0x436Bc73bbEA1b6fe63D0a25148f97aa0F9bFA722",
+      "totalMinted": "1268750000000000000000",
+      "totalMintedFormatted": "1268.75"
+    },
+    {
+      "address": "0x9A938Cb10eff2f05B57504cDC60c3fa8b573DCdC",
+      "totalMinted": "1218750000000000000000",
+      "totalMintedFormatted": "1218.75"
+    },
+    {
+      "address": "0x7ED6A81B8abED0032a6c3aCc9106E6089E085f95",
+      "totalMinted": "1193750000000000000000",
+      "totalMintedFormatted": "1193.75"
+    },
+    {
+      "address": "0xa6c3491fF1e9E4501f0F83Fc3Bc0B67c078e5E8b",
+      "totalMinted": "1187500000000000000000",
+      "totalMintedFormatted": "1187.5"
+    },
+    {
+      "address": "0xD4629398B5a27AD7C5B0e11EF7db6Eb470716294",
+      "totalMinted": "1168750000000000000000",
+      "totalMintedFormatted": "1168.75"
+    },
+    {
+      "address": "0x66dE08DdE0d600F1aaedc32bF5A6De7b33E00A76",
+      "totalMinted": "1137500000000000000000",
+      "totalMintedFormatted": "1137.5"
+    },
+    {
+      "address": "0x842473c70e0205cD5AdA532283afeE6382914275",
+      "totalMinted": "1118750000000000000000",
+      "totalMintedFormatted": "1118.75"
+    },
+    {
+      "address": "0x86b8B3a50e16DfFA8440C7C058A8364f620C1dD9",
+      "totalMinted": "1112500000000000000000",
+      "totalMintedFormatted": "1112.5"
+    },
+    {
+      "address": "0xeCFeBb8F4042F5dc32a1ea6284cf6eD2de5d23AA",
+      "totalMinted": "1093750000000000000000",
+      "totalMintedFormatted": "1093.75"
+    },
+    {
+      "address": "0xbaaD767f31C318896ff33cEa20130695300FEa47",
+      "totalMinted": "1062500000000000000000",
+      "totalMintedFormatted": "1062.5"
+    },
+    {
+      "address": "0xba065Ac4163E092d6c52571a34B23E263D928808",
+      "totalMinted": "1031250000000000000000",
+      "totalMintedFormatted": "1031.25"
+    },
+    {
+      "address": "0xAF046E88790A1707bEDBce71444bb0446F991bAa",
+      "totalMinted": "1012500000000000000000",
+      "totalMintedFormatted": "1012.5"
+    },
+    {
+      "address": "0xf2ad108b8757059cD24724FE7D4d67c08f829AEC",
+      "totalMinted": "987500000000000000000",
+      "totalMintedFormatted": "987.5"
+    },
+    {
+      "address": "0xe625cebBF5bCE175FE4d248097E6eF0fce355104",
+      "totalMinted": "956250000000000000000",
+      "totalMintedFormatted": "956.25"
+    },
+    {
+      "address": "0x07DEba7ce47e7F5549EFb4E0369962F36E265490",
+      "totalMinted": "931250000000000000000",
+      "totalMintedFormatted": "931.25"
+    },
+    {
+      "address": "0xe4c54340dE35E0521c6Fb34C09df2F02d863c2c5",
+      "totalMinted": "900000000000000000000",
+      "totalMintedFormatted": "900.0"
+    },
+    {
+      "address": "0x0f6cd8Ded16d0Cd615B5b2264438c9c8176b6762",
+      "totalMinted": "900000000000000000000",
+      "totalMintedFormatted": "900.0"
+    },
+    {
+      "address": "0x5274D54D4f8257f385661db4917348522d6331bE",
+      "totalMinted": "881250000000000000000",
+      "totalMintedFormatted": "881.25"
+    },
+    {
+      "address": "0xf1F4481730849F912C21b4d87FF848e36892B84F",
+      "totalMinted": "875000000000000000000",
+      "totalMintedFormatted": "875.0"
+    },
+    {
+      "address": "0xC47A0A1B2aC098b6453869389E7c8471D9D88B37",
+      "totalMinted": "831250000000000000000",
+      "totalMintedFormatted": "831.25"
+    },
+    {
+      "address": "0x1E9b3a15F383a864021BE6Cb06135989e9d9f8c2",
+      "totalMinted": "831250000000000000000",
+      "totalMintedFormatted": "831.25"
+    },
+    {
+      "address": "0xeaD8251eC15Ec8ff623C0af31431Aa2c1c9d1fbb",
+      "totalMinted": "793750000000000000000",
+      "totalMintedFormatted": "793.75"
+    },
+    {
+      "address": "0x5FA243aFdb47f90D0051E2d1f04D4670777a34E7",
+      "totalMinted": "787500000000000000000",
+      "totalMintedFormatted": "787.5"
+    },
+    {
+      "address": "0x488029E89059DB74A027368EB1c9E6cc8Df76eca",
+      "totalMinted": "768750000000000000000",
+      "totalMintedFormatted": "768.75"
+    },
+    {
+      "address": "0x763d8725A6C6F453a4adBA4b01f256DCc01e758D",
+      "totalMinted": "768750000000000000000",
+      "totalMintedFormatted": "768.75"
+    },
+    {
+      "address": "0x2c0282892d3F88442C9987A3d6E936FcC6A68Eae",
+      "totalMinted": "737500000000000000000",
+      "totalMintedFormatted": "737.5"
+    },
+    {
+      "address": "0x3BE38FB806cA4E8DD69fABe6DdeDE73410bD85eD",
+      "totalMinted": "737500000000000000000",
+      "totalMintedFormatted": "737.5"
+    },
+    {
+      "address": "0x067EE955AC5ef4A0Fa054DE66E75e76ddF31A489",
+      "totalMinted": "718750000000000000000",
+      "totalMintedFormatted": "718.75"
+    },
+    {
+      "address": "0x613F1e10fcb8c06BA16E9d154D50F5E7DaF4E481",
+      "totalMinted": "700000000000000000000",
+      "totalMintedFormatted": "700.0"
+    },
+    {
+      "address": "0x71EFE23633e46912bA6c8A4fE427FB28974155eb",
+      "totalMinted": "650000000000000000000",
+      "totalMintedFormatted": "650.0"
+    },
+    {
+      "address": "0xBce6dCa279758553996b05E5f2504Ff3dfd42614",
+      "totalMinted": "650000000000000000000",
+      "totalMintedFormatted": "650.0"
+    },
+    {
+      "address": "0xEDD4E2433b41FfF2847965345dAe77Cb2FB6084D",
+      "totalMinted": "643750000000000000000",
+      "totalMintedFormatted": "643.75"
+    },
+    {
+      "address": "0x8dfBc75D286e0bfBa6FEbd56110090e98FB58449",
+      "totalMinted": "631250000000000000000",
+      "totalMintedFormatted": "631.25"
+    },
+    {
+      "address": "0xCFbB696eF9B57678a8308801A8B28a91b971D81e",
+      "totalMinted": "631250000000000000000",
+      "totalMintedFormatted": "631.25"
+    },
+    {
+      "address": "0x3A7FdFb898B5Df3C35d4F52bE729d73d9231F10B",
+      "totalMinted": "593750000000000000000",
+      "totalMintedFormatted": "593.75"
+    },
+    {
+      "address": "0x9267924F4bafa35aD22a3B987C0D58d098348c22",
+      "totalMinted": "581250000000000000000",
+      "totalMintedFormatted": "581.25"
+    },
+    {
+      "address": "0x2Bf0c742Bb061D14186Fa4071A090788B949a590",
+      "totalMinted": "543750000000000000000",
+      "totalMintedFormatted": "543.75"
+    },
+    {
+      "address": "0xE8be096E81d87DE24c38174Ce68b8632a6C87DDE",
+      "totalMinted": "531250000000000000000",
+      "totalMintedFormatted": "531.25"
+    },
+    {
+      "address": "0xbD3AEc83CD2EeadDbF342011a07DE1e2e336e331",
+      "totalMinted": "525000000000000000000",
+      "totalMintedFormatted": "525.0"
+    },
+    {
+      "address": "0x54Dff496F0823Ee73F77C2cF1DE74b25aeEddc0b",
+      "totalMinted": "525000000000000000000",
+      "totalMintedFormatted": "525.0"
+    },
+    {
+      "address": "0xA8609B1fd7177343ffcA69BFFE0a8Af0dB98Cd58",
+      "totalMinted": "506250000000000000000",
+      "totalMintedFormatted": "506.25"
+    },
+    {
+      "address": "0xe5636EAB787221329CdaB0eFE4c666BBF402C1Da",
+      "totalMinted": "475000000000000000000",
+      "totalMintedFormatted": "475.0"
+    },
+    {
+      "address": "0xC3386f1cf3f01C27e40A90F5bef84454E9c200EE",
+      "totalMinted": "450000000000000000000",
+      "totalMintedFormatted": "450.0"
+    },
+    {
+      "address": "0x39221B136154B511417289c6e512059d2E904869",
+      "totalMinted": "443750000000000000000",
+      "totalMintedFormatted": "443.75"
+    },
+    {
+      "address": "0x659F58dBec4425A3250A227D83Bb57cB2bFc364f",
+      "totalMinted": "443750000000000000000",
+      "totalMintedFormatted": "443.75"
+    },
+    {
+      "address": "0x93c57053539Ab63896A4913304F8780B425204cc",
+      "totalMinted": "431250000000000000000",
+      "totalMintedFormatted": "431.25"
+    },
+    {
+      "address": "0x96D39Bd3a53dA4e7c1D96a3E3B8Ea888EB216dcE",
+      "totalMinted": "431250000000000000000",
+      "totalMintedFormatted": "431.25"
+    },
+    {
+      "address": "0x7d9F15b73E114ce5ab3DF6273ea24f5029F4B71E",
+      "totalMinted": "431250000000000000000",
+      "totalMintedFormatted": "431.25"
+    },
+    {
+      "address": "0x8A664995c7860Ae4f05e5a3C664b5FE11c8F9297",
+      "totalMinted": "431250000000000000000",
+      "totalMintedFormatted": "431.25"
+    },
+    {
+      "address": "0x30727A88035541454d68f1abc005e0107c8db6aF",
+      "totalMinted": "425000000000000000000",
+      "totalMintedFormatted": "425.0"
+    },
+    {
+      "address": "0x45F7C6a22240aCB568BC0B97Eff76e209F793113",
+      "totalMinted": "425000000000000000000",
+      "totalMintedFormatted": "425.0"
+    },
+    {
+      "address": "0x73fC1B1E38F57A5FaFB01A84621d4898942D26ce",
+      "totalMinted": "393750000000000000000",
+      "totalMintedFormatted": "393.75"
+    },
+    {
+      "address": "0xebA3E0e04A06443bd23600bC0b9f1356aa426dC8",
+      "totalMinted": "381250000000000000000",
+      "totalMintedFormatted": "381.25"
+    },
+    {
+      "address": "0x7CBF9cdA97B8775c8a956F16396D34ab85b99b22",
+      "totalMinted": "368750000000000000000",
+      "totalMintedFormatted": "368.75"
+    },
+    {
+      "address": "0xb659786459B970c16587074259B8027fd5050577",
+      "totalMinted": "368750000000000000000",
+      "totalMintedFormatted": "368.75"
+    },
+    {
+      "address": "0x9627e23502d1E456b556b88084F055A1feCD3fB9",
+      "totalMinted": "362500000000000000000",
+      "totalMintedFormatted": "362.5"
+    },
+    {
+      "address": "0x13e6B3c32D402E6bC4D163c1a6a908a2e21744fb",
+      "totalMinted": "343750000000000000000",
+      "totalMintedFormatted": "343.75"
+    },
+    {
+      "address": "0x702326D94aaB1CF8bABE3B2202ea461e59A4CFC5",
+      "totalMinted": "331250000000000000000",
+      "totalMintedFormatted": "331.25"
+    },
+    {
+      "address": "0x420a86607c409CEc981CD736F55eFA6b479d4514",
+      "totalMinted": "250000000000000000000",
+      "totalMintedFormatted": "250.0"
+    },
+    {
+      "address": "0xF408DeB5B0eF90CbA0e0903EaD33Be2f26C65C41",
+      "totalMinted": "175000000000000000000",
+      "totalMintedFormatted": "175.0"
+    },
+    {
+      "address": "0x4af4306517ddbCAf28168F0b759bC4c9183b1b47",
+      "totalMinted": "175000000000000000000",
+      "totalMintedFormatted": "175.0"
+    },
+    {
+      "address": "0xFA737aF8b6607A269C4AAc199f9E82c998e1d796",
+      "totalMinted": "168750000000000000000",
+      "totalMintedFormatted": "168.75"
+    },
+    {
+      "address": "0x71DdEbf3fD65C7AfFbA2D4207d7e496bD1a09139",
+      "totalMinted": "162500000000000000000",
+      "totalMintedFormatted": "162.5"
+    },
+    {
+      "address": "0x92C0CD1493C5067E012345e1C4DB870E7EdC9397",
+      "totalMinted": "162500000000000000000",
+      "totalMintedFormatted": "162.5"
+    },
+    {
+      "address": "0x556C2750720647141Bf85C05607a83b636Ae9A7d",
+      "totalMinted": "162500000000000000000",
+      "totalMintedFormatted": "162.5"
+    },
+    {
+      "address": "0x329433F3E53f03323fA75F7E04959fa1e4B567b4",
+      "totalMinted": "150000000000000000000",
+      "totalMintedFormatted": "150.0"
+    },
+    {
+      "address": "0xDa21a3D4477F3efE9A80B94476550cd7685AD3db",
+      "totalMinted": "118750000000000000000",
+      "totalMintedFormatted": "118.75"
+    },
+    {
+      "address": "0x8dA5d4fC0487536b432BFff7fc666D8Cf36d1494",
+      "totalMinted": "112500000000000000000",
+      "totalMintedFormatted": "112.5"
+    },
+    {
+      "address": "0x510A9c8480A16f57ebf8f3753FDe9D923ba63c56",
+      "totalMinted": "87500000000000000000",
+      "totalMintedFormatted": "87.5"
+    },
+    {
+      "address": "0xC274a5205A1c2B29B240C23E78ae96B818BFd27F",
+      "totalMinted": "81250000000000000000",
+      "totalMintedFormatted": "81.25"
+    },
+    {
+      "address": "0xd9B638aAB5c62c9561894a95a64BE06463061E61",
+      "totalMinted": "68750000000000000000",
+      "totalMintedFormatted": "68.75"
+    },
+    {
+      "address": "0xD46b20D1DC8705B54F3eC6fCD0bf3086E9CDF514",
+      "totalMinted": "50000000000000000000",
+      "totalMintedFormatted": "50.0"
+    },
+    {
+      "address": "0x773E59e5A9c0c132C3e51Ee0a4d81A329330D121",
+      "totalMinted": "50000000000000000000",
+      "totalMintedFormatted": "50.0"
+    },
+    {
+      "address": "0xd4496e8B3cA1032FE68553fbdE2D65eCb56ecd6e",
+      "totalMinted": "43750000000000000000",
+      "totalMintedFormatted": "43.75"
+    },
+    {
+      "address": "0xe098ca5C2FA0f3b05e4C19fc606fcf6423798983",
+      "totalMinted": "37500000000000000000",
+      "totalMintedFormatted": "37.5"
+    },
+    {
+      "address": "0x8216D8Ac97B537f21e58f39EA4422991b90c3a80",
+      "totalMinted": "37500000000000000000",
+      "totalMintedFormatted": "37.5"
+    },
+    {
+      "address": "0x165f5E91ae88440c7B2BA4bD3e8cCbcFc147Cd53",
+      "totalMinted": "12500000000000000000",
+      "totalMintedFormatted": "12.5"
+    },
+    {
+      "address": "0xa4918AaeDa6c7d48595Ff83252340729E37952cF",
+      "totalMinted": "6250000000000000000",
+      "totalMintedFormatted": "6.25"
+    },
+    {
+      "address": "0x3BD04527f34F361a802DDD08196035222737159F",
+      "totalMinted": "6250000000000000000",
+      "totalMintedFormatted": "6.25"
+    }
+  ]
 }
