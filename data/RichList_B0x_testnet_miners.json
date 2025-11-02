@@ -4,12 +4,12 @@
     "symbol": "B0x",
     "decimals": 18
   },
-  "totalHolders": 147,
+  "totalHolders": 148,
   "totalMiners": 153,
-  "lastUpdated": "2025-11-02T15:37:10.047615",
-  "scanCompletedBlock": 37665034,
-  "totalTransfers": 7704,
-  "totalMints": 7168,
+  "lastUpdated": "2025-11-02T15:47:50.110533",
+  "scanCompletedBlock": 37665354,
+  "totalTransfers": 7705,
+  "totalMints": 7169,
   "minersList": [
     {
       "address": "0x9878E1Dd2Cf28382F06D002c31c70030E19bf38B",
@@ -542,6 +542,11 @@
       "totalMintedFormatted": "150.0"
     },
     {
+      "address": "0xA5fb4f6eCaD17ed3d01381089A6674095F928245",
+      "totalMinted": "143650000000000000000",
+      "totalMintedFormatted": "143.65"
+    },
+    {
       "address": "0xC274a5205A1c2B29B240C23E78ae96B818BFd27F",
       "totalMinted": "137500000000000000000",
       "totalMintedFormatted": "137.5"
@@ -570,11 +575,6 @@
       "address": "0x541588578e4d854c6a2F8395b45427EaaC1D9FcB",
       "totalMinted": "106250000000000000000",
       "totalMintedFormatted": "106.25"
-    },
-    {
-      "address": "0xA5fb4f6eCaD17ed3d01381089A6674095F928245",
-      "totalMinted": "100825000000000000000",
-      "totalMintedFormatted": "100.825"
     },
     {
       "address": "0x7409E9A9C8c61E4E2A143f934a753903469ceDE3",
