@@ -1,13 +1,19 @@
 {
-    "last_block": 37682760,
+    "last_block": 37683267,
     "user_addresses": [
-        "0x0cC9afC487438491Fd4625e4879aFfb5992BaBD8"
+        "0x0cC9afC487438491Fd4625e4879aFfb5992BaBD8",
+        "0xF40Ba6A2FfFe61718D4f6225dD62a45f6bA57c72"
     ],
     "users": {
         "0x0cC9afC487438491Fd4625e4879aFfb5992BaBD8": {
             "balance": 2983098809594207,
             "0xBTCStaked": 6670208871,
             "B0xStaked": 1334122902322990809088
+        },
+        "0xF40Ba6A2FfFe61718D4f6225dD62a45f6bA57c72": {
+            "balance": 2539948942013270,
+            "0xBTCStaked": 5679325777,
+            "B0xStaked": 1135934231669619949568
         }
     }
 }
