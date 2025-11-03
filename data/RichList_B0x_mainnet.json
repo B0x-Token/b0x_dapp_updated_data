@@ -4,18 +4,18 @@
     "symbol": "B0x",
     "decimals": 18
   },
-  "totalHolders": 149,
-  "totalMiners": 10,
-  "lastUpdated": "2025-11-03T06:56:24.807175",
-  "scanCompletedBlock": 37692612,
-  "totalTransfers": 268,
-  "totalMints": 23,
-  "minters": 730600000000000000000,
+  "totalHolders": 150,
+  "totalMiners": 12,
+  "lastUpdated": "2025-11-03T07:31:55.952330",
+  "scanCompletedBlock": 37693678,
+  "totalTransfers": 275,
+  "totalMints": 28,
+  "minters": 873600000000000000000,
   "holders": [
     {
       "address": "0xd44Ee7dAdbF50214cA7009a29D9F88BCcD0E9Ff4",
-      "balance": "20007469400000000000000000",
-      "balanceFormatted": "20007469.4"
+      "balance": "20007326400000000000000000",
+      "balanceFormatted": "20007326.4"
     },
     {
       "address": "0x08f489C5017942d3b7c82C1c178877C80492c948",
@@ -24,8 +24,8 @@
     },
     {
       "address": "0x498581fF718922c3f8e6A244956aF099B2652b2b",
-      "balance": "25913235124116074217509",
-      "balanceFormatted": "25913.235124116076"
+      "balance": "26043235124116074217509",
+      "balanceFormatted": "26043.235124116076"
     },
     {
       "address": "0x9878E1Dd2Cf28382F06D002c31c70030E19bf38B",
@@ -143,14 +143,14 @@
       "balanceFormatted": "2156.25"
     },
     {
+      "address": "0xAF046E88790A1707bEDBce71444bb0446F991bAa",
+      "balance": "2145325000000000000000",
+      "balanceFormatted": "2145.325"
+    },
+    {
       "address": "0x5FA243aFdb47f90D0051E2d1f04D4670777a34E7",
       "balance": "2137500000000000000000",
       "balanceFormatted": "2137.5"
-    },
-    {
-      "address": "0xAF046E88790A1707bEDBce71444bb0446F991bAa",
-      "balance": "2133325000000000000000",
-      "balanceFormatted": "2133.325"
     },
     {
       "address": "0x375a19B5DbcCA6f23435a44336020ACe73677CFB",
@@ -418,6 +418,11 @@
       "balanceFormatted": "343.75"
     },
     {
+      "address": "0x411F3Eb7D5264CEF2A504a5A4B09094eBF705D4e",
+      "balance": "337500000000000000000",
+      "balanceFormatted": "337.5"
+    },
+    {
       "address": "0xC5F11752fc5fAfD26F4221B5c563b95f62C52ED6",
       "balance": "337224085438761000000",
       "balanceFormatted": "337.224085438761"
@@ -431,16 +436,6 @@
       "address": "0x792C5cfB44c788D764De458b8B5E94370A5f585a",
       "balance": "300000235519275000000",
       "balanceFormatted": "300.000235519275"
-    },
-    {
-      "address": "0x411F3Eb7D5264CEF2A504a5A4B09094eBF705D4e",
-      "balance": "300000000000000000000",
-      "balanceFormatted": "300.0"
-    },
-    {
-      "address": "0x613F1e10fcb8c06BA16E9d154D50F5E7DaF4E481",
-      "balance": "297187500010687000000",
-      "balanceFormatted": "297.187500010687"
     },
     {
       "address": "0xdEbc7B848990EaC8227E2D7D597BBeA33351A69f",
@@ -483,6 +478,11 @@
       "balanceFormatted": "168.75"
     },
     {
+      "address": "0x613F1e10fcb8c06BA16E9d154D50F5E7DaF4E481",
+      "balance": "167187500010687000000",
+      "balanceFormatted": "167.187500010687"
+    },
+    {
       "address": "0xAa9b2e52a9b47fC4ce49fDD9d327916401255e4E",
       "balance": "161000000000000000000",
       "balanceFormatted": "161.0"
@@ -514,6 +514,11 @@
     },
     {
       "address": "0x7409E9A9C8c61E4E2A143f934a753903469ceDE3",
+      "balance": "100000000000000000000",
+      "balanceFormatted": "100.0"
+    },
+    {
+      "address": "0xF5A10EfE713d86d699b3F8557c60060D2029d4bA",
       "balance": "100000000000000000000",
       "balanceFormatted": "100.0"
     },
@@ -603,14 +608,14 @@
       "balanceFormatted": "50.0"
     },
     {
-      "address": "0xF5A10EfE713d86d699b3F8557c60060D2029d4bA",
-      "balance": "50000000000000000000",
-      "balanceFormatted": "50.0"
-    },
-    {
       "address": "0xe8e8DAeD744c33817a89A7A66F3BA3AbFA6A0ad9",
       "balance": "43750000000000000000",
       "balanceFormatted": "43.75"
+    },
+    {
+      "address": "0x8429caa7C79eEc611128ECFA79f2A0691dA6A1cc",
+      "balance": "43500000000000000000",
+      "balanceFormatted": "43.5"
     },
     {
       "address": "0x228A3dE11214db4f011aF9434F133be735CD2015",
