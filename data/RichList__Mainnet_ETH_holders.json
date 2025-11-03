@@ -3,17 +3,22 @@
     "name": "B Zero X",
     "symbol": "B0x",
     "decimals": 18,
-    "address": "0x4B61B752B2A53D3c403986DacBb4784732aBbdE3"
+    "address": "0x1F8f212540B31b37f40D8C57b5c7d8b55bf25919"
   },
-  "totalHolders": 1,
-  "lastUpdated": "2025-11-02T21:39:24.574408",
-  "scanCompletedBlock": 23716168,
-  "totalTransfers": 2,
+  "totalHolders": 2,
+  "lastUpdated": "2025-11-02T22:15:39.257956",
+  "scanCompletedBlock": 23716347,
+  "totalTransfers": 4,
   "holders": [
     {
-      "address": "0x1FBA79405AB9b93f94CCDf2d614271Be29694fFa",
+      "address": "0x3154Cf16ccdb4C6d922629664174b904d80F2C35",
       "balance": "20328200000000000000000000",
       "balanceFormatted": "20328200.0"
+    },
+    {
+      "address": "0x30301A1165d2F8d098832Ff29014B2Ab194abEd1",
+      "balance": "20000000000000000000",
+      "balanceFormatted": "20.0"
     }
   ]
 }
