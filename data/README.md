@@ -4,7 +4,7 @@ This directory contains a backup mirror of [https://data.bzerox.org/mainnet/](ht
 
 **Alternative Source:** [https://b0x-token.github.io/B0x_scripts_auto/mainnetB0x/](https://b0x-token.github.io/B0x_scripts_auto/mainnetB0x/)
 
-**Last Updated:** 2025-11-03T02:48:14.480062Z
+**Last Updated:** 2025-11-03T03:42:25.603210Z
 
 ## Source Status (Latest Run)
 - Primary Source: Available
@@ -18,9 +18,9 @@ This directory contains a backup mirror of [https://data.bzerox.org/mainnet/](ht
 - Files are only updated when their content actually changes
 
 ## Statistics (Latest Run)
-- Files Downloaded: 2
-- Files Updated: 8
-- Files Skipped (no changes): 6
+- Files Downloaded: 0
+- Files Updated: 9
+- Files Skipped (no changes): 7
 - Errors: 0
 - Total Files in Backup: 20
 
@@ -32,7 +32,7 @@ This directory contains a backup mirror of [https://data.bzerox.org/mainnet/](ht
 ### .JSON Files
 - [`B0x_Staking_Rich_List_logs_testnet.json`](B0x_Staking_Rich_List_logs_testnet.json) (1.9 KB)
 - [`RichList_B0x_mainnet.json`](RichList_B0x_mainnet.json) (22.5 KB)
-- [`RichList_B0x_mainnet_miners.json`](RichList_B0x_mainnet_miners.json) (0.3 KB)
+- [`RichList_B0x_mainnet_miners.json`](RichList_B0x_mainnet_miners.json) (0.4 KB)
 - [`RichList_B0x_testnet.json`](RichList_B0x_testnet.json) (22.7 KB)
 - [`RichList_B0x_testnet_miners.json`](RichList_B0x_testnet_miners.json) (24.3 KB)
 - [`RichList_RightsTo0xBTC_MainnetETH_holders.json`](RichList_RightsTo0xBTC_MainnetETH_holders.json) (0.6 KB)
@@ -42,10 +42,10 @@ This directory contains a backup mirror of [https://data.bzerox.org/mainnet/](ht
 - [`atestnet_uniswap_v4_data.json`](atestnet_uniswap_v4_data.json) (1.1 KB)
 - [`githubERC20RewardsTestnet.json`](githubERC20RewardsTestnet.json) (0.2 KB)
 - [`mainnet_uniswap_v4_data.json`](mainnet_uniswap_v4_data.json) (13.5 KB)
-- [`mined_blocks_mainnet.json`](mined_blocks_mainnet.json) (1282.8 KB)
+- [`mined_blocks_mainnet.json`](mined_blocks_mainnet.json) (1283.2 KB)
 - [`mined_blocks_testnet.json`](mined_blocks_testnet.json) (271.6 KB)
 - [`price_data_bwork.json`](price_data_bwork.json) (6.4 KB)
 - [`price_data_bwork_mainnet.json`](price_data_bwork_mainnet.json) (6.5 KB)
 - [`testnet_uniswap_v4_data.json`](testnet_uniswap_v4_data.json) (12.3 KB)
 - [`uniswap_v4_data_testnet.json`](uniswap_v4_data_testnet.json) (2.3 KB)
-- [`uu_mined_blocks_testnet.json`](uu_mined_blocks_testnet.json) (1256.2 KB)
+- [`uu_mined_blocks_testnet.json`](uu_mined_blocks_testnet.json) (1256.9 KB)
