@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "last_updated": "2025-11-03T01:55:10.389171",
-    "current_block": 37683580,
+    "last_updated": "2025-11-03T02:32:29.643835",
+    "current_block": 37684699,
     "start_block": 36321183,
     "target_pool_key": {
       "currency0": "0x6B19E31C1813cD00b0d47d798601414b79A3e8AD",
@@ -10,9 +10,9 @@
       "tickSpacing": 60,
       "hooks": "0x785319f8fCE23Cd733DE94Fd7f34b74A5cAa1000"
     },
-    "total_valid_positions": 25,
-    "total_invalid_positions": 440,
-    "total_nft_owners": 25
+    "total_valid_positions": 27,
+    "total_invalid_positions": 569,
+    "total_nft_owners": 27
   },
   "valid_positions": [
     {
@@ -364,6 +364,34 @@
       "block_number": 37683299,
       "tx_hash": "0xc93462e572438a94c94c5168a176ca2287d10eec63d6760032e19dee108af7d9",
       "timestamp": "2025-11-03T01:45:50.875407"
+    },
+    {
+      "token_id": 497874,
+      "pool_key": {
+        "currency0": "0x6b19e31c1813cd00b0d47d798601414b79a3e8ad",
+        "currency1": "0xc4d4fd4f4459730d176844c170f2bb323c87eb3b",
+        "fee": 8388608,
+        "tickSpacing": 60,
+        "hooks": "0x785319f8fce23cd733de94fd7f34b74a5caa1000"
+      },
+      "owner": "0x08f489c5017942d3b7c82c1c178877c80492c948",
+      "block_number": 37683952,
+      "tx_hash": "0x89c2c642e6edb43f88e92737599120be0f5bc17adde98255e7eb5ea76bb08282",
+      "timestamp": "2025-11-03T02:07:36.516582"
+    },
+    {
+      "token_id": 497894,
+      "pool_key": {
+        "currency0": "0x6b19e31c1813cd00b0d47d798601414b79a3e8ad",
+        "currency1": "0xc4d4fd4f4459730d176844c170f2bb323c87eb3b",
+        "fee": 8388608,
+        "tickSpacing": 60,
+        "hooks": "0x785319f8fce23cd733de94fd7f34b74a5caa1000"
+      },
+      "owner": "0xf40ba6a2fffe61718d4f6225dd62a45f6ba57c72",
+      "block_number": 37684046,
+      "tx_hash": "0xbf4c2372c802d5c458e6d4fddd34d1d4ac9a3a0c0415411df04944ba30531ad6",
+      "timestamp": "2025-11-03T02:10:43.066481"
     }
   ],
   "nft_owners": {
@@ -391,6 +419,8 @@
     "497172": "0xe4f85f4fae5fd0be23a260b8e226db3d6bc37015",
     "497360": "0x08f489c5017942d3b7c82c1c178877c80492c948",
     "497383": "0x08f489c5017942d3b7c82c1c178877c80492c948",
-    "497760": "0x08f489c5017942d3b7c82c1c178877c80492c948"
+    "497760": "0x08f489c5017942d3b7c82c1c178877c80492c948",
+    "497874": "0x08f489c5017942d3b7c82c1c178877c80492c948",
+    "497894": "0xf40ba6a2fffe61718d4f6225dd62a45f6ba57c72"
   }
 }
