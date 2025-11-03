@@ -1,9 +1,10 @@
 {
-    "last_block": 37687336,
+    "last_block": 37688354,
     "user_addresses": [
         "0x0cC9afC487438491Fd4625e4879aFfb5992BaBD8",
         "0x659F58dBec4425A3250A227D83Bb57cB2bFc364f",
-        "0xF40Ba6A2FfFe61718D4f6225dD62a45f6bA57c72"
+        "0xF40Ba6A2FfFe61718D4f6225dD62a45f6bA57c72",
+        "0xeaD8251eC15Ec8ff623C0af31431Aa2c1c9d1fbb"
     ],
     "users": {
         "0x0cC9afC487438491Fd4625e4879aFfb5992BaBD8": {
@@ -20,6 +21,11 @@
             "balance": 5378119195965093,
             "0xBTCStaked": 12025474401,
             "B0xStaked": 2405241143097089851392
+        },
+        "0xeaD8251eC15Ec8ff623C0af31431Aa2c1c9d1fbb": {
+            "balance": 1025287746026671,
+            "0xBTCStaked": 2292543377,
+            "B0xStaked": 458536559045917278208
         }
     }
 }

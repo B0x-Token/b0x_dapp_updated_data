@@ -4,7 +4,7 @@ This directory contains a backup mirror of [https://data.bzerox.org/mainnet/](ht
 
 **Alternative Source:** [https://b0x-token.github.io/B0x_scripts_auto/mainnetB0x/](https://b0x-token.github.io/B0x_scripts_auto/mainnetB0x/)
 
-**Last Updated:** 2025-11-03T10:14:27.404019Z
+**Last Updated:** 2025-11-03T10:41:54.010051Z
 
 ## Source Status (Latest Run)
 - Primary Source: Available
@@ -19,8 +19,8 @@ This directory contains a backup mirror of [https://data.bzerox.org/mainnet/](ht
 
 ## Statistics (Latest Run)
 - Files Downloaded: 0
-- Files Updated: 8
-- Files Skipped (no changes): 9
+- Files Updated: 11
+- Files Skipped (no changes): 6
 - Errors: 0
 - Total Files in Backup: 21
 
@@ -30,10 +30,10 @@ This directory contains a backup mirror of [https://data.bzerox.org/mainnet/](ht
 - [`mined_blocks_testnet.js`](mined_blocks_testnet.js) (0.3 KB)
 
 ### .JSON Files
-- [`B0x_Staking_Rich_List_logs_mainnet.json`](B0x_Staking_Rich_List_logs_mainnet.json) (0.8 KB)
+- [`B0x_Staking_Rich_List_logs_mainnet.json`](B0x_Staking_Rich_List_logs_mainnet.json) (1.1 KB)
 - [`B0x_Staking_Rich_List_logs_testnet.json`](B0x_Staking_Rich_List_logs_testnet.json) (1.9 KB)
-- [`RichList_B0x_mainnet.json`](RichList_B0x_mainnet.json) (22.7 KB)
-- [`RichList_B0x_mainnet_miners.json`](RichList_B0x_mainnet_miners.json) (1.5 KB)
+- [`RichList_B0x_mainnet.json`](RichList_B0x_mainnet.json) (22.8 KB)
+- [`RichList_B0x_mainnet_miners.json`](RichList_B0x_mainnet_miners.json) (1.7 KB)
 - [`RichList_B0x_testnet.json`](RichList_B0x_testnet.json) (22.7 KB)
 - [`RichList_B0x_testnet_miners.json`](RichList_B0x_testnet_miners.json) (24.3 KB)
 - [`RichList_RightsTo0xBTC_MainnetETH_holders.json`](RichList_RightsTo0xBTC_MainnetETH_holders.json) (0.6 KB)
@@ -42,11 +42,11 @@ This directory contains a backup mirror of [https://data.bzerox.org/mainnet/](ht
 - [`RichList__Mainnet_ETH_holders.json`](RichList__Mainnet_ETH_holders.json) (0.6 KB)
 - [`atestnet_uniswap_v4_data.json`](atestnet_uniswap_v4_data.json) (1.1 KB)
 - [`githubERC20RewardsTestnet.json`](githubERC20RewardsTestnet.json) (0.2 KB)
-- [`mainnet_uniswap_v4_data.json`](mainnet_uniswap_v4_data.json) (16.4 KB)
-- [`mined_blocks_mainnet.json`](mined_blocks_mainnet.json) (1284.7 KB)
+- [`mainnet_uniswap_v4_data.json`](mainnet_uniswap_v4_data.json) (17.0 KB)
+- [`mined_blocks_mainnet.json`](mined_blocks_mainnet.json) (1285.1 KB)
 - [`mined_blocks_testnet.json`](mined_blocks_testnet.json) (271.6 KB)
 - [`price_data_bwork.json`](price_data_bwork.json) (6.6 KB)
 - [`price_data_bwork_mainnet.json`](price_data_bwork_mainnet.json) (6.6 KB)
 - [`testnet_uniswap_v4_data.json`](testnet_uniswap_v4_data.json) (12.3 KB)
 - [`uniswap_v4_data_testnet.json`](uniswap_v4_data_testnet.json) (2.3 KB)
-- [`uu_mined_blocks_testnet.json`](uu_mined_blocks_testnet.json) (1259.9 KB)
+- [`uu_mined_blocks_testnet.json`](uu_mined_blocks_testnet.json) (1260.1 KB)
