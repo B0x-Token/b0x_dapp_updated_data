@@ -1,21 +1,21 @@
 {
   "token": {
-    "name": "Unknown",
-    "symbol": "Unknown",
+    "name": "B Zero X",
+    "symbol": "B0x",
     "decimals": 18
   },
-  "totalHolders": 153,
+  "totalHolders": 152,
   "totalMiners": 32,
-  "lastUpdated": "2025-11-06T12:58:50.064947",
-  "scanCompletedBlock": 37833084,
-  "totalTransfers": 655,
-  "totalMints": 252,
-  "minters": 8908150000000000000000,
+  "lastUpdated": "2025-11-06T13:20:10.407235",
+  "scanCompletedBlock": 37833725,
+  "totalTransfers": 658,
+  "totalMints": 253,
+  "minters": 8980650000000000000000,
   "holders": [
     {
       "address": "0xd44Ee7dAdbF50214cA7009a29D9F88BCcD0E9Ff4",
-      "balance": "19992147450000000000000000",
-      "balanceFormatted": "19992147.45"
+      "balance": "19992074950000000000000000",
+      "balanceFormatted": "19992074.95"
     },
     {
       "address": "0x08f489C5017942d3b7c82C1c178877C80492c948",
@@ -24,8 +24,8 @@
     },
     {
       "address": "0x498581fF718922c3f8e6A244956aF099B2652b2b",
-      "balance": "49020992195088340987494",
-      "balanceFormatted": "49020.99219508834"
+      "balance": "49070992195088340987494",
+      "balanceFormatted": "49070.99219508834"
     },
     {
       "address": "0x9878E1Dd2Cf28382F06D002c31c70030E19bf38B",
@@ -338,6 +338,11 @@
       "balanceFormatted": "468.75"
     },
     {
+      "address": "0xAD6f9d307F1cEd33C67D813009F639855678999B",
+      "balance": "462000000000000000000",
+      "balanceFormatted": "462.0"
+    },
+    {
       "address": "0x73fC1B1E38F57A5FaFB01A84621d4898942D26ce",
       "balance": "443750000000000000000",
       "balanceFormatted": "443.75"
@@ -361,11 +366,6 @@
       "address": "0x8dA5d4fC0487536b432BFff7fc666D8Cf36d1494",
       "balance": "393750000000000000000",
       "balanceFormatted": "393.75"
-    },
-    {
-      "address": "0xAD6f9d307F1cEd33C67D813009F639855678999B",
-      "balance": "389500000000000000000",
-      "balanceFormatted": "389.5"
     },
     {
       "address": "0x3A7FdFb898B5Df3C35d4F52bE729d73d9231F10B",
@@ -599,11 +599,6 @@
     },
     {
       "address": "0x20D764bE5dFE8d22F1F725f778d8a1E1972dAC38",
-      "balance": "50000000000000000000",
-      "balanceFormatted": "50.0"
-    },
-    {
-      "address": "0x7601D9dc02B9812541aBD94D6E31AA686977ad86",
       "balance": "50000000000000000000",
       "balanceFormatted": "50.0"
     },

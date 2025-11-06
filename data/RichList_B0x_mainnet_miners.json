@@ -1,15 +1,15 @@
 {
   "token": {
-    "name": "Unknown",
-    "symbol": "Unknown",
+    "name": "B Zero X",
+    "symbol": "B0x",
     "decimals": 18
   },
-  "totalHolders": 153,
+  "totalHolders": 152,
   "totalMiners": 32,
-  "lastUpdated": "2025-11-06T12:58:50.064966",
-  "scanCompletedBlock": 37833084,
-  "totalTransfers": 655,
-  "totalMints": 252,
+  "lastUpdated": "2025-11-06T13:20:10.407257",
+  "scanCompletedBlock": 37833725,
+  "totalTransfers": 658,
+  "totalMints": 253,
   "minersList": [
     {
       "address": "0x2d00Cf957208986DED62650dfa6FEee2A7E6e4Ed",
@@ -37,6 +37,11 @@
       "totalMintedFormatted": "567.5"
     },
     {
+      "address": "0xAD6f9d307F1cEd33C67D813009F639855678999B",
+      "totalMinted": "449500000000000000000",
+      "totalMintedFormatted": "449.5"
+    },
+    {
       "address": "0x6bFaaD74e4d2Bf187d23D3059261d6ad911709a4",
       "totalMinted": "435675000000000000000",
       "totalMintedFormatted": "435.675"
@@ -45,11 +50,6 @@
       "address": "0x6ea4540B1B66d104dFC051c17ea783ECd1c1e019",
       "totalMinted": "413325000000000000000",
       "totalMintedFormatted": "413.325"
-    },
-    {
-      "address": "0xAD6f9d307F1cEd33C67D813009F639855678999B",
-      "totalMinted": "377000000000000000000",
-      "totalMintedFormatted": "377.0"
     },
     {
       "address": "0x16684BbAE999ac9BFc27f4f1380B656109304883",
