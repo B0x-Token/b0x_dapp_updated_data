@@ -6,16 +6,16 @@
   },
   "totalHolders": 153,
   "totalMiners": 36,
-  "lastUpdated": "2025-11-15T16:08:49.703423",
-  "scanCompletedBlock": 38227584,
-  "totalTransfers": 1240,
-  "totalMints": 700,
-  "minters": 24175500000000000000000,
+  "lastUpdated": "2025-11-15T16:26:41.096808",
+  "scanCompletedBlock": 38228119,
+  "totalTransfers": 1243,
+  "totalMints": 703,
+  "minters": 24230400000000000000000,
   "holders": [
     {
       "address": "0xd44Ee7dAdbF50214cA7009a29D9F88BCcD0E9Ff4",
-      "balance": "19968076275000000000000000",
-      "balanceFormatted": "19968076.275"
+      "balance": "19968021375000000000000000",
+      "balanceFormatted": "19968021.375"
     },
     {
       "address": "0x08f489C5017942d3b7c82C1c178877C80492c948",
@@ -144,8 +144,8 @@
     },
     {
       "address": "0x8429caa7C79eEc611128ECFA79f2A0691dA6A1cc",
-      "balance": "1949706080885979623288",
-      "balanceFormatted": "1949.7060808859796"
+      "balance": "1962206080885979623288",
+      "balanceFormatted": "1962.2060808859796"
     },
     {
       "address": "0x375a19B5DbcCA6f23435a44336020ACe73677CFB",
@@ -413,14 +413,14 @@
       "balanceFormatted": "337.224085438761"
     },
     {
+      "address": "0x5580CE760213a896939A882801c364D485B54a85",
+      "balance": "335000000000000000000",
+      "balanceFormatted": "335.0"
+    },
+    {
       "address": "0x702326D94aaB1CF8bABE3B2202ea461e59A4CFC5",
       "balance": "331250000000000000000",
       "balanceFormatted": "331.25"
-    },
-    {
-      "address": "0x5580CE760213a896939A882801c364D485B54a85",
-      "balance": "310000000000000000000",
-      "balanceFormatted": "310.0"
     },
     {
       "address": "0xbD3AEc83CD2EeadDbF342011a07DE1e2e336e331",
@@ -608,6 +608,11 @@
       "balanceFormatted": "43.75"
     },
     {
+      "address": "0xaE8c876424DA0a9fc07861EC66d0DBeeAA496428",
+      "balance": "43150000000000000000",
+      "balanceFormatted": "43.15"
+    },
+    {
       "address": "0x228A3dE11214db4f011aF9434F133be735CD2015",
       "balance": "37500000000000000000",
       "balanceFormatted": "37.5"
@@ -621,11 +626,6 @@
       "address": "0x25CcbcD84d67634DEfc423b91e03a0490dD48c07",
       "balance": "31250000000000000000",
       "balanceFormatted": "31.25"
-    },
-    {
-      "address": "0xaE8c876424DA0a9fc07861EC66d0DBeeAA496428",
-      "balance": "25750000000000000000",
-      "balanceFormatted": "25.75"
     },
     {
       "address": "0xA4c794adB9973499d35DeCA90C9E29C189983EFD",
