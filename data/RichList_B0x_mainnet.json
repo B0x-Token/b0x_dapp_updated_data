@@ -4,18 +4,18 @@
     "symbol": "B0x",
     "decimals": 18
   },
-  "totalHolders": 152,
+  "totalHolders": 153,
   "totalMiners": 36,
-  "lastUpdated": "2025-11-16T04:09:49.984036",
-  "scanCompletedBlock": 38249214,
-  "totalTransfers": 1333,
-  "totalMints": 773,
-  "minters": 25829975000000000000000,
+  "lastUpdated": "2025-11-16T04:31:05.444730",
+  "scanCompletedBlock": 38249853,
+  "totalTransfers": 1336,
+  "totalMints": 776,
+  "minters": 25881100000000000000000,
   "holders": [
     {
       "address": "0xd44Ee7dAdbF50214cA7009a29D9F88BCcD0E9Ff4",
-      "balance": "19956771600000000000000000",
-      "balanceFormatted": "19956771.6"
+      "balance": "19956720475000000000000000",
+      "balanceFormatted": "19956720.475"
     },
     {
       "address": "0x08f489C5017942d3b7c82C1c178877C80492c948",
@@ -223,14 +223,14 @@
       "balanceFormatted": "1193.75"
     },
     {
+      "address": "0x834696b663DDFAEF61eBE49Dfec480f615087b50",
+      "balance": "1190475000000000000000",
+      "balanceFormatted": "1190.475"
+    },
+    {
       "address": "0x081A7A775E7959EaF5bFcd4722Ea0AcD344FBB4a",
       "balance": "1174445019506190000000",
       "balanceFormatted": "1174.44501950619"
-    },
-    {
-      "address": "0x834696b663DDFAEF61eBE49Dfec480f615087b50",
-      "balance": "1173925000000000000000",
-      "balanceFormatted": "1173.925"
     },
     {
       "address": "0xEFAD8b7b95d8E5F175D7d451f9837dc246e36499",
@@ -484,8 +484,8 @@
     },
     {
       "address": "0xaE8c876424DA0a9fc07861EC66d0DBeeAA496428",
-      "balance": "109050000000000000000",
-      "balanceFormatted": "109.05"
+      "balance": "118625000000000000000",
+      "balanceFormatted": "118.625"
     },
     {
       "address": "0x541588578e4d854c6a2F8395b45427EaaC1D9FcB",
@@ -624,6 +624,11 @@
     },
     {
       "address": "0xA720e2F20D5dA138f42B5DC3e1724adbd550Ffe1",
+      "balance": "25000000000000000000",
+      "balanceFormatted": "25.0"
+    },
+    {
+      "address": "0x5580CE760213a896939A882801c364D485B54a85",
       "balance": "25000000000000000000",
       "balanceFormatted": "25.0"
     },
