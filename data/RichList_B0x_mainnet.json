@@ -4,18 +4,18 @@
     "symbol": "B0x",
     "decimals": 18
   },
-  "totalHolders": 148,
+  "totalHolders": 149,
   "totalMiners": 38,
-  "lastUpdated": "2025-11-18T08:20:37.482984",
-  "scanCompletedBlock": 38343138,
-  "totalTransfers": 2033,
-  "totalMints": 1411,
-  "minters": 33391575000000000000000,
+  "lastUpdated": "2025-11-18T08:38:23.847555",
+  "scanCompletedBlock": 38343671,
+  "totalTransfers": 2037,
+  "totalMints": 1413,
+  "minters": 33437475000000000000000,
   "holders": [
     {
       "address": "0xd44Ee7dAdbF50214cA7009a29D9F88BCcD0E9Ff4",
-      "balance": "19946603775000000000000000",
-      "balanceFormatted": "19946603.775"
+      "balance": "19946557875000000000000000",
+      "balanceFormatted": "19946557.875"
     },
     {
       "address": "0x08f489C5017942d3b7c82C1c178877C80492c948",
@@ -24,8 +24,13 @@
     },
     {
       "address": "0x498581fF718922c3f8e6A244956aF099B2652b2b",
-      "balance": "70347958236825329788763",
-      "balanceFormatted": "70347.95823682533"
+      "balance": "54193641574482686507845",
+      "balanceFormatted": "54193.64157448269"
+    },
+    {
+      "address": "0x812568d06C766fE483eb8C08D9A75E19bc80bEca",
+      "balance": "16154316662342643280918",
+      "balanceFormatted": "16154.316662342644"
     },
     {
       "address": "0xC47A0A1B2aC098b6453869389E7c8471D9D88B37",
@@ -323,6 +328,11 @@
       "balanceFormatted": "443.75"
     },
     {
+      "address": "0x5580CE760213a896939A882801c364D485B54a85",
+      "balance": "417700000000000000000",
+      "balanceFormatted": "417.7"
+    },
+    {
       "address": "0x411F3Eb7D5264CEF2A504a5A4B09094eBF705D4e",
       "balance": "414000000000000000000",
       "balanceFormatted": "414.0"
@@ -351,11 +361,6 @@
       "address": "0x3e527387e1DFd45DaAC23e36bd147A061745add9",
       "balance": "375000000000000000000",
       "balanceFormatted": "375.0"
-    },
-    {
-      "address": "0x5580CE760213a896939A882801c364D485B54a85",
-      "balance": "371800000000000000000",
-      "balanceFormatted": "371.8"
     },
     {
       "address": "0x613F1e10fcb8c06BA16E9d154D50F5E7DaF4E481",
