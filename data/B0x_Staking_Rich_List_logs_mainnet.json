@@ -1,61 +1,26 @@
 {
-    "last_block": 38482037,
+    "last_block": 38482402,
     "user_addresses": [
-        "0xeaD8251eC15Ec8ff623C0af31431Aa2c1c9d1fbb",
-        "0x48030B83fce50878aA75Db5a84D93598f8cf6101",
-        "0xb94f5d34cd89C226f64aa23c41f331239bd04B03",
-        "0xE4F85f4FAe5fd0Be23a260b8e226db3d6bc37015",
         "0x0cC9afC487438491Fd4625e4879aFfb5992BaBD8",
-        "0xC47A0A1B2aC098b6453869389E7c8471D9D88B37",
-        "0x1589BB843dc5788821b1645d3A3D6E5e867396C4",
-        "0xB95BA8D390d8907705022c37Eb19981B7a213181",
         "0xE334A51bA6cb11E8B394dDc2198F5c9a3E8e4CBf",
         "0xF40Ba6A2FfFe61718D4f6225dD62a45f6bA57c72",
+        "0xC47A0A1B2aC098b6453869389E7c8471D9D88B37",
         "0x659F58dBec4425A3250A227D83Bb57cB2bFc364f",
-        "0xbD3AEc83CD2EeadDbF342011a07DE1e2e336e331",
         "0x8429caa7C79eEc611128ECFA79f2A0691dA6A1cc",
-        "0x812568d06C766fE483eb8C08D9A75E19bc80bEca"
+        "0xeaD8251eC15Ec8ff623C0af31431Aa2c1c9d1fbb",
+        "0xB95BA8D390d8907705022c37Eb19981B7a213181",
+        "0x812568d06C766fE483eb8C08D9A75E19bc80bEca",
+        "0xbD3AEc83CD2EeadDbF342011a07DE1e2e336e331",
+        "0xE4F85f4FAe5fd0Be23a260b8e226db3d6bc37015",
+        "0x48030B83fce50878aA75Db5a84D93598f8cf6101",
+        "0x1589BB843dc5788821b1645d3A3D6E5e867396C4",
+        "0xb94f5d34cd89C226f64aa23c41f331239bd04B03"
     ],
     "users": {
-        "0xeaD8251eC15Ec8ff623C0af31431Aa2c1c9d1fbb": {
-            "balance": 1446649377233426,
-            "0xBTCStaked": 12613799271,
-            "B0xStaked": 165913090551318249472
-        },
-        "0x48030B83fce50878aA75Db5a84D93598f8cf6101": {
-            "balance": 14742706739125439,
-            "0xBTCStaked": 128546382036,
-            "B0xStaked": 1690809173718235086848
-        },
-        "0xb94f5d34cd89C226f64aa23c41f331239bd04B03": {
-            "balance": 19553346843555181,
-            "0xBTCStaked": 170491893919,
-            "B0xStaked": 2242531090456923078656
-        },
-        "0xE4F85f4FAe5fd0Be23a260b8e226db3d6bc37015": {
-            "balance": 76467127037768863,
-            "0xBTCStaked": 666741372488,
-            "B0xStaked": 8769849537887984418816
-        },
         "0x0cC9afC487438491Fd4625e4879aFfb5992BaBD8": {
             "balance": 2983098809594207,
             "0xBTCStaked": 26010593984,
             "B0xStaked": 342125155347764936704
-        },
-        "0xC47A0A1B2aC098b6453869389E7c8471D9D88B37": {
-            "balance": 144292749881501825,
-            "0xBTCStaked": 1258134702100,
-            "B0xStaked": 16548623635929888718848
-        },
-        "0x1589BB843dc5788821b1645d3A3D6E5e867396C4": {
-            "balance": 10567494871832516,
-            "0xBTCStaked": 92141372476,
-            "B0xStaked": 1211963148198304284672
-        },
-        "0xB95BA8D390d8907705022c37Eb19981B7a213181": {
-            "balance": 3670485851891450,
-            "0xBTCStaked": 32004141771,
-            "B0xStaked": 420960089636105093120
         },
         "0xE334A51bA6cb11E8B394dDc2198F5c9a3E8e4CBf": {
             "balance": 8243443216933023,
@@ -67,25 +32,60 @@
             "0xBTCStaked": 67880741510,
             "B0xStaked": 892855782064323428352
         },
+        "0xC47A0A1B2aC098b6453869389E7c8471D9D88B37": {
+            "balance": 144292749881501825,
+            "0xBTCStaked": 1258134702100,
+            "B0xStaked": 16548623635929888718848
+        },
         "0x659F58dBec4425A3250A227D83Bb57cB2bFc364f": {
             "balance": 3135616892697703,
             "0xBTCStaked": 27340448001,
             "B0xStaked": 359617124674193326080
-        },
-        "0xbD3AEc83CD2EeadDbF342011a07DE1e2e336e331": {
-            "balance": 980880076407400,
-            "0xBTCStaked": 8552607554,
-            "B0xStaked": 112495016068227039232
         },
         "0x8429caa7C79eEc611128ECFA79f2A0691dA6A1cc": {
             "balance": 11535125483240975,
             "0xBTCStaked": 100578453702,
             "B0xStaked": 1322938611760775036928
         },
+        "0xeaD8251eC15Ec8ff623C0af31431Aa2c1c9d1fbb": {
+            "balance": 1446649377233426,
+            "0xBTCStaked": 12613799271,
+            "B0xStaked": 165913090551318249472
+        },
+        "0xB95BA8D390d8907705022c37Eb19981B7a213181": {
+            "balance": 3670485851891450,
+            "0xBTCStaked": 32004141771,
+            "B0xStaked": 420960089636105093120
+        },
         "0x812568d06C766fE483eb8C08D9A75E19bc80bEca": {
             "balance": 164015099591518850,
             "0xBTCStaked": 1430100186142,
             "B0xStaked": 18810537299889411325952
+        },
+        "0xbD3AEc83CD2EeadDbF342011a07DE1e2e336e331": {
+            "balance": 980880076407400,
+            "0xBTCStaked": 8552607554,
+            "B0xStaked": 112495016068227039232
+        },
+        "0xE4F85f4FAe5fd0Be23a260b8e226db3d6bc37015": {
+            "balance": 76467127037768863,
+            "0xBTCStaked": 666741372488,
+            "B0xStaked": 8769849537887984418816
+        },
+        "0x48030B83fce50878aA75Db5a84D93598f8cf6101": {
+            "balance": 14742706739125439,
+            "0xBTCStaked": 128546382036,
+            "B0xStaked": 1690809173718235086848
+        },
+        "0x1589BB843dc5788821b1645d3A3D6E5e867396C4": {
+            "balance": 10567494871832516,
+            "0xBTCStaked": 92141372476,
+            "B0xStaked": 1211963148198304284672
+        },
+        "0xb94f5d34cd89C226f64aa23c41f331239bd04B03": {
+            "balance": 19553346843555181,
+            "0xBTCStaked": 170491893919,
+            "B0xStaked": 2242531090456923078656
         }
     }
 }
