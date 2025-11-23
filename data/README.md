@@ -4,7 +4,7 @@ This directory contains a backup mirror of [https://data.bzerox.org/mainnet/](ht
 
 **Alternative Source:** [https://b0x-token.github.io/B0x_scripts_auto/mainnetB0x/](https://b0x-token.github.io/B0x_scripts_auto/mainnetB0x/)
 
-**Last Updated:** 2025-11-22T23:51:36.467198Z
+**Last Updated:** 2025-11-23T00:58:15.944704Z
 
 ## Source Status (Latest Run)
 - Primary Source: Available
@@ -32,7 +32,7 @@ This directory contains a backup mirror of [https://data.bzerox.org/mainnet/](ht
 ### .JSON Files
 - [`B0x_Staking_Rich_List_logs_mainnet.json`](B0x_Staking_Rich_List_logs_mainnet.json) (3.5 KB)
 - [`B0x_Staking_Rich_List_logs_testnet.json`](B0x_Staking_Rich_List_logs_testnet.json) (1.9 KB)
-- [`RichList_B0x_mainnet.json`](RichList_B0x_mainnet.json) (23.5 KB)
+- [`RichList_B0x_mainnet.json`](RichList_B0x_mainnet.json) (23.7 KB)
 - [`RichList_B0x_mainnet_miners.json`](RichList_B0x_mainnet_miners.json) (6.4 KB)
 - [`RichList_B0x_testnet.json`](RichList_B0x_testnet.json) (22.7 KB)
 - [`RichList_B0x_testnet_miners.json`](RichList_B0x_testnet_miners.json) (24.3 KB)
@@ -43,10 +43,10 @@ This directory contains a backup mirror of [https://data.bzerox.org/mainnet/](ht
 - [`atestnet_uniswap_v4_data.json`](atestnet_uniswap_v4_data.json) (1.1 KB)
 - [`githubERC20RewardsTestnet.json`](githubERC20RewardsTestnet.json) (0.2 KB)
 - [`mainnet_uniswap_v4_data.json`](mainnet_uniswap_v4_data.json) (28.8 KB)
-- [`mined_blocks_mainnet.json`](mined_blocks_mainnet.json) (1696.8 KB)
+- [`mined_blocks_mainnet.json`](mined_blocks_mainnet.json) (1697.0 KB)
 - [`mined_blocks_testnet.json`](mined_blocks_testnet.json) (271.6 KB)
 - [`price_data_bwork.json`](price_data_bwork.json) (5.7 KB)
-- [`price_data_bwork_mainnet.json`](price_data_bwork_mainnet.json) (6.7 KB)
+- [`price_data_bwork_mainnet.json`](price_data_bwork_mainnet.json) (6.5 KB)
 - [`testnet_uniswap_v4_data.json`](testnet_uniswap_v4_data.json) (12.3 KB)
 - [`uniswap_v4_data_testnet.json`](uniswap_v4_data_testnet.json) (2.3 KB)
 - [`uu_mined_blocks_testnet.json`](uu_mined_blocks_testnet.json) (1273.9 KB)
