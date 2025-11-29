@@ -1,21 +1,21 @@
 {
   "token": {
-    "name": "Unknown",
-    "symbol": "Unknown",
+    "name": "B Zero X",
+    "symbol": "B0x",
     "decimals": 18
   },
   "totalHolders": 149,
   "totalMiners": 39,
-  "lastUpdated": "2025-11-29T02:38:01.950140",
-  "scanCompletedBlock": 38808060,
-  "totalTransfers": 3971,
-  "totalMints": 3148,
-  "minters": 65614100000000000000000,
+  "lastUpdated": "2025-11-29T02:52:13.192884",
+  "scanCompletedBlock": 38808486,
+  "totalTransfers": 3972,
+  "totalMints": 3149,
+  "minters": 65638100000000000000000,
   "holders": [
     {
       "address": "0xd44Ee7dAdbF50214cA7009a29D9F88BCcD0E9Ff4",
-      "balance": "19884195850000000000000000",
-      "balanceFormatted": "19884195.85"
+      "balance": "19884171850000000000000000",
+      "balanceFormatted": "19884171.85"
     },
     {
       "address": "0x08f489C5017942d3b7c82C1c178877C80492c948",
@@ -418,6 +418,11 @@
       "balanceFormatted": "250.0"
     },
     {
+      "address": "0x5580CE760213a896939A882801c364D485B54a85",
+      "balance": "247575000000000000000",
+      "balanceFormatted": "247.575"
+    },
+    {
       "address": "0xA5fb4f6eCaD17ed3d01381089A6674095F928245",
       "balance": "243750000000000000000",
       "balanceFormatted": "243.75"
@@ -426,11 +431,6 @@
       "address": "0xA219a5E6e4D751eB130EB2cdbb60143f3F6A3009",
       "balance": "232300000000000000000",
       "balanceFormatted": "232.3"
-    },
-    {
-      "address": "0x5580CE760213a896939A882801c364D485B54a85",
-      "balance": "223575000000000000000",
-      "balanceFormatted": "223.575"
     },
     {
       "address": "0xcEc9fe2B18302465d37135DA94BBcA56dEDd8447",
