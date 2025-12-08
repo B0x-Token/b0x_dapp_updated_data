@@ -4,18 +4,18 @@
     "symbol": "B0x",
     "decimals": 18
   },
-  "totalHolders": 147,
+  "totalHolders": 148,
   "totalMiners": 39,
-  "lastUpdated": "2025-12-07T19:57:34.361971",
-  "scanCompletedBlock": 39184846,
-  "totalTransfers": 4962,
-  "totalMints": 3998,
-  "minters": 84396425000000000000000,
+  "lastUpdated": "2025-12-07T21:34:13.863968",
+  "scanCompletedBlock": 39187746,
+  "totalTransfers": 4973,
+  "totalMints": 4003,
+  "minters": 84507675000000000000000,
   "holders": [
     {
       "address": "0xd44Ee7dAdbF50214cA7009a29D9F88BCcD0E9Ff4",
-      "balance": "19843518850000000000000000",
-      "balanceFormatted": "19843518.85"
+      "balance": "19843407600000000000000000",
+      "balanceFormatted": "19843407.6"
     },
     {
       "address": "0x08f489C5017942d3b7c82C1c178877C80492c948",
@@ -29,8 +29,8 @@
     },
     {
       "address": "0xC47A0A1B2aC098b6453869389E7c8471D9D88B37",
-      "balance": "24964487107348318415632",
-      "balanceFormatted": "24964.48710734832"
+      "balance": "25001059559018318415632",
+      "balanceFormatted": "25001.05955901832"
     },
     {
       "address": "0x9878E1Dd2Cf28382F06D002c31c70030E19bf38B",
@@ -133,11 +133,6 @@
       "balanceFormatted": "2378.298821991588"
     },
     {
-      "address": "0xdFD18d5374dF275A8EDE107f981f78b1E60f63E4",
-      "balance": "2219007882605714292736",
-      "balanceFormatted": "2219.0078826057143"
-    },
-    {
       "address": "0x5FA243aFdb47f90D0051E2d1f04D4670777a34E7",
       "balance": "2137500000000000000000",
       "balanceFormatted": "2137.5"
@@ -169,8 +164,13 @@
     },
     {
       "address": "0xfFF72Ee0dBa7b9f8027CFE7bfED3f773d872F2Fc",
-      "balance": "1557952448030000000000",
-      "balanceFormatted": "1557.95244803"
+      "balance": "1589927390160000000000",
+      "balanceFormatted": "1589.92739016"
+    },
+    {
+      "address": "0x93c28109EDd2DDDCB78A11EBa1F16a0CA732ad2d",
+      "balance": "1451933849863144951116",
+      "balanceFormatted": "1451.933849863145"
     },
     {
       "address": "0x763d8725A6C6F453a4adBA4b01f256DCc01e758D",
@@ -213,11 +213,6 @@
       "balanceFormatted": "1282.625"
     },
     {
-      "address": "0x93c28109EDd2DDDCB78A11EBa1F16a0CA732ad2d",
-      "balance": "1239155481363144951116",
-      "balanceFormatted": "1239.1554813631449"
-    },
-    {
       "address": "0xbaaD767f31C318896ff33cEa20130695300FEa47",
       "balance": "1237500000000000000000",
       "balanceFormatted": "1237.5"
@@ -251,6 +246,11 @@
       "address": "0x0f6cd8Ded16d0Cd615B5b2264438c9c8176b6762",
       "balance": "943750000000000000000",
       "balanceFormatted": "943.75"
+    },
+    {
+      "address": "0xdFD18d5374dF275A8EDE107f981f78b1E60f63E4",
+      "balance": "931983600422857176064",
+      "balanceFormatted": "931.9836004228572"
     },
     {
       "address": "0xe625cebBF5bCE175FE4d248097E6eF0fce355104",
@@ -311,6 +311,11 @@
       "address": "0xA8609B1fd7177343ffcA69BFFE0a8Af0dB98Cd58",
       "balance": "568750000000000000000",
       "balanceFormatted": "568.75"
+    },
+    {
+      "address": "0x1589BB843dc5788821b1645d3A3D6E5e867396C4",
+      "balance": "493150438535969773173",
+      "balanceFormatted": "493.1504385359698"
     },
     {
       "address": "0x7CBF9cdA97B8775c8a956F16396D34ab85b99b22",
@@ -386,11 +391,6 @@
       "address": "0xbD3AEc83CD2EeadDbF342011a07DE1e2e336e331",
       "balance": "285648487511914195296",
       "balanceFormatted": "285.6484875119142"
-    },
-    {
-      "address": "0x1589BB843dc5788821b1645d3A3D6E5e867396C4",
-      "balance": "279154495585969773173",
-      "balanceFormatted": "279.15449558596976"
     },
     {
       "address": "0xdEbc7B848990EaC8227E2D7D597BBeA33351A69f",
@@ -681,6 +681,11 @@
       "address": "0xBbe88fbB8a8DE67e18df1ee3c0115DdDcF68427C",
       "balance": "6250000000000000000",
       "balanceFormatted": "6.25"
+    },
+    {
+      "address": "0x23400DC0cC44fb8F295fD4C73bB19528066b59f3",
+      "balance": "4769903742857114624",
+      "balanceFormatted": "4.769903742857115"
     },
     {
       "address": "0xF2E00a6DbA02eD1115e5BEf3CcD7B5dD47141dDC",
