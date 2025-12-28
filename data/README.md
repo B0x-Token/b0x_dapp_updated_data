@@ -4,7 +4,7 @@ This directory contains a backup mirror of [https://data.bzerox.org/mainnet/](ht
 
 **Alternative Source:** [https://b0x-token.github.io/B0x_scripts_auto/mainnetB0x/](https://b0x-token.github.io/B0x_scripts_auto/mainnetB0x/)
 
-**Last Updated:** 2025-12-28T05:35:02.479512Z
+**Last Updated:** 2025-12-28T05:51:02.439515Z
 
 ## Source Status (Latest Run)
 - Primary Source: Available
@@ -18,11 +18,11 @@ This directory contains a backup mirror of [https://data.bzerox.org/mainnet/](ht
 - Files are only updated when their content actually changes
 
 ## Statistics (Latest Run)
-- Files Downloaded: 0
-- Files Updated: 9
-- Files Skipped (no changes): 8
+- Files Downloaded: 2
+- Files Updated: 10
+- Files Skipped (no changes): 7
 - Errors: 0
-- Total Files in Backup: 21
+- Total Files in Backup: 23
 
 ## Files in Backup
 
@@ -30,6 +30,7 @@ This directory contains a backup mirror of [https://data.bzerox.org/mainnet/](ht
 - [`mined_blocks_testnet.js`](mined_blocks_testnet.js) (0.3 KB)
 
 ### .JSON Files
+- [`B0x_Mainnet_APY_STATS.json`](B0x_Mainnet_APY_STATS.json) (0.6 KB)
 - [`B0x_Staking_Rich_List_logs_mainnet.json`](B0x_Staking_Rich_List_logs_mainnet.json) (3.4 KB)
 - [`B0x_Staking_Rich_List_logs_testnet.json`](B0x_Staking_Rich_List_logs_testnet.json) (1.9 KB)
 - [`RichList_B0x_mainnet.json`](RichList_B0x_mainnet.json) (22.6 KB)
@@ -46,7 +47,10 @@ This directory contains a backup mirror of [https://data.bzerox.org/mainnet/](ht
 - [`mined_blocks_mainnet.json`](mined_blocks_mainnet.json) (2486.0 KB)
 - [`mined_blocks_testnet.json`](mined_blocks_testnet.json) (271.6 KB)
 - [`price_data_bwork.json`](price_data_bwork.json) (6.5 KB)
-- [`price_data_bwork_mainnet.json`](price_data_bwork_mainnet.json) (6.5 KB)
+- [`price_data_bwork_mainnet.json`](price_data_bwork_mainnet.json) (6.6 KB)
 - [`testnet_uniswap_v4_data.json`](testnet_uniswap_v4_data.json) (12.3 KB)
 - [`uniswap_v4_data_testnet.json`](uniswap_v4_data_testnet.json) (2.3 KB)
 - [`uu_mined_blocks_testnet.json`](uu_mined_blocks_testnet.json) (1274.8 KB)
+
+### .TXT Files
+- [`B0x_Mainnet_APY_STATS.txt`](B0x_Mainnet_APY_STATS.txt) (0.6 KB)
