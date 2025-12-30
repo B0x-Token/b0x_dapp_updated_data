@@ -1,159 +1,159 @@
 {
-  "last_updated": "2025-12-30T21:27:59.678079Z",
+  "last_updated": "2025-12-30T21:43:15.680611Z",
   "source_url": "https://data.bzerox.org/mainnet/",
   "alternative_source_url": "https://b0x-token.github.io/B0x_scripts_auto/mainnetB0x/",
   "primary_available": true,
   "alternative_available": true,
   "stats": {
     "downloaded": 0,
-    "updated": 10,
+    "updated": 12,
     "errors": 0,
-    "skipped": 10
+    "skipped": 8
   },
   "files": [
     {
       "path": "RichList_RightsTo0xBTC_MainnetETH_holders.json",
       "size": 613,
-      "modified": "2025-12-30T21:27:51.242206Z",
+      "modified": "2025-12-30T21:43:09.356589Z",
       "md5": "688b75a9bfbe0c932e1b46b722db9ab8"
     },
     {
       "path": "mined_blocks_testnet.json",
       "size": 278126,
-      "modified": "2025-12-30T21:27:51.253206Z",
+      "modified": "2025-12-30T21:43:09.366589Z",
       "md5": "ec38b30e891cf22ec21ad931cfd3bb82"
     },
     {
       "path": "testnet_uniswap_v4_data.json",
-      "size": 12606,
-      "modified": "2025-12-30T21:27:51.253206Z",
-      "md5": "7b5cdfbb0c01cde6153ca5b0022b462d"
+      "size": 12607,
+      "modified": "2025-12-30T21:43:15.322557Z",
+      "md5": "cba5f893e9a9baba6893200b8e6a11c5"
     },
     {
       "path": "price_data_bwork.json",
-      "size": 6879,
-      "modified": "2025-12-30T21:27:51.253206Z",
-      "md5": "d0d0c29e554847abb9d0361f8d3d38b3"
+      "size": 6880,
+      "modified": "2025-12-30T21:43:15.142557Z",
+      "md5": "fb561987d6a626e7f6eaebad6af39768"
     },
     {
       "path": "mined_blocks_testnet.js",
       "size": 354,
-      "modified": "2025-12-30T21:27:51.252206Z",
+      "modified": "2025-12-30T21:43:09.365589Z",
       "md5": "04f660f0973f48b1fa99b58e20d0b82d"
     },
     {
       "path": "RichList_B0x_testnet.json",
       "size": 23229,
-      "modified": "2025-12-30T21:27:51.242206Z",
+      "modified": "2025-12-30T21:43:09.355589Z",
       "md5": "38bfddf555d337ad0c957cd4dc8b9a06"
     },
     {
       "path": "price_data_bwork_mainnetv2.json",
-      "size": 6824,
-      "modified": "2025-12-30T21:27:58.949192Z",
-      "md5": "367aaf77947821f369e2dde92f1b5b49"
+      "size": 6825,
+      "modified": "2025-12-30T21:43:15.230557Z",
+      "md5": "c0a8d8e43caa33895eff9a0904dfabc0"
     },
     {
       "path": "RichList_B0x_mainnet_miners.json",
       "size": 6547,
-      "modified": "2025-12-30T21:27:57.594194Z",
-      "md5": "71eec2bc1d0c5089e4a751aacbc9d574"
+      "modified": "2025-12-30T21:43:14.440559Z",
+      "md5": "290cf2e38fda1fd0b3dc28b83ba75a59"
     },
     {
       "path": "RichList_B0x_testnet_miners.json",
       "size": 24855,
-      "modified": "2025-12-30T21:27:51.242206Z",
+      "modified": "2025-12-30T21:43:09.356589Z",
       "md5": "0444b8e93f71d6307837ac6dc166c973"
     },
     {
       "path": "price_data_bwork_mainnet.json",
       "size": 6856,
-      "modified": "2025-12-30T21:27:51.253206Z",
+      "modified": "2025-12-30T21:43:09.366589Z",
       "md5": "b02c22c6dad61a16083f5ee80d68e279"
     },
     {
       "path": "atestnet_uniswap_v4_data.json",
       "size": 1084,
-      "modified": "2025-12-30T21:27:51.242206Z",
+      "modified": "2025-12-30T21:43:09.356589Z",
       "md5": "fecdd4dea02d9e8cb3600ae50776b9e2"
     },
     {
       "path": "RichList_RightsTo0xBTC_mainnet_ETH_holders.json",
       "size": 765,
-      "modified": "2025-12-30T21:27:57.859194Z",
-      "md5": "af13b10ed3108bc51973d5b4bb9dd8f9"
+      "modified": "2025-12-30T21:43:14.588558Z",
+      "md5": "2659148b10b8015e4d324821e80b8bfa"
     },
     {
       "path": "B0x_Staking_Rich_List_logs_testnet.json",
       "size": 1975,
-      "modified": "2025-12-30T21:27:51.241206Z",
+      "modified": "2025-12-30T21:43:09.355589Z",
       "md5": "0de0ce2d7e784eb9b675c448cdbf7b61"
     },
     {
       "path": "B0x_Mainnet_APY_STATS.txt",
       "size": 632,
-      "modified": "2025-12-30T21:27:51.241206Z",
+      "modified": "2025-12-30T21:43:09.355589Z",
       "md5": "daecadf8f5bba39bc33e64c36f0240b6"
     },
     {
       "path": "RichList_B0x_mainnet.json",
       "size": 23155,
-      "modified": "2025-12-30T21:27:57.524194Z",
-      "md5": "f2bf80d3dfbe3779eeb793c79859f582"
+      "modified": "2025-12-30T21:43:14.363559Z",
+      "md5": "a1174ee8b6ef93866938fe5762952786"
     },
     {
       "path": "mined_blocks_mainnet.json",
-      "size": 2586169,
-      "modified": "2025-12-30T21:27:58.610193Z",
-      "md5": "c4a065222e7e58d86938b8017349e1e2"
+      "size": 2586529,
+      "modified": "2025-12-30T21:43:15.053557Z",
+      "md5": "93e304f4bf25b2b0b56662a94982e18b"
     },
     {
       "path": "RichList__Mainnet_ETH_holders.json",
       "size": 908,
-      "modified": "2025-12-30T21:27:57.991194Z",
-      "md5": "f415f86094d11e6c5e7b575071b698b9"
+      "modified": "2025-12-30T21:43:14.656558Z",
+      "md5": "503aea91e5e7309758c318de49bd30d9"
     },
     {
       "path": "B0x_Mainnet_APY_STATS.json",
       "size": 632,
-      "modified": "2025-12-30T21:27:57.190195Z",
-      "md5": "8712ce66edb8e452a5ed30300ab0c86b"
+      "modified": "2025-12-30T21:43:14.149559Z",
+      "md5": "6de7c44fa6830b59b4012a21ece8ea7c"
     },
     {
       "path": "mainnet_uniswap_v4_data.json",
       "size": 32507,
-      "modified": "2025-12-30T21:27:58.124193Z",
-      "md5": "e4cd7abf5f6d13be98901f2079cf88fb"
+      "modified": "2025-12-30T21:43:14.725558Z",
+      "md5": "5939c1d165dfbf108f6454a42c9ae7ba"
     },
     {
       "path": "uniswap_v4_data_testnet.json",
       "size": 2353,
-      "modified": "2025-12-30T21:27:51.253206Z",
+      "modified": "2025-12-30T21:43:09.367589Z",
       "md5": "cc51aadbda45ff461a7b4d6f21aa620b"
     },
     {
       "path": "RichList__MainnetETH_holders.json",
       "size": 452,
-      "modified": "2025-12-30T21:27:51.242206Z",
+      "modified": "2025-12-30T21:43:09.356589Z",
       "md5": "c29d42f15e7581e872f9487b12274383"
     },
     {
       "path": "githubERC20RewardsTestnet.json",
       "size": 182,
-      "modified": "2025-12-30T21:27:51.242206Z",
+      "modified": "2025-12-30T21:43:09.356589Z",
       "md5": "f4559b4fa75caf8238c951742f6506a2"
     },
     {
       "path": "B0x_Staking_Rich_List_logs_mainnet.json",
       "size": 3497,
-      "modified": "2025-12-30T21:27:57.323195Z",
-      "md5": "a00dbcc0750e8c05eb1bae8991d458af"
+      "modified": "2025-12-30T21:43:14.216559Z",
+      "md5": "06b27d06f8cdb65a881285f6028fbc9c"
     },
     {
       "path": "uu_mined_blocks_testnet.json",
       "size": 1305381,
-      "modified": "2025-12-30T21:27:59.675191Z",
-      "md5": "b33a5bed3b7ab4ecbf95b3835beaa1cf"
+      "modified": "2025-12-30T21:43:15.677556Z",
+      "md5": "fc4e80d353416c175ca063034b0bc93a"
     }
   ]
 }
