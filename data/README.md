@@ -4,7 +4,7 @@ This directory contains a backup mirror of [https://data.bzerox.org/mainnet/](ht
 
 **Alternative Source:** [https://b0x-token.github.io/B0x_scripts_auto/mainnetB0x/](https://b0x-token.github.io/B0x_scripts_auto/mainnetB0x/)
 
-**Last Updated:** 2026-01-15T07:52:58.534379Z
+**Last Updated:** 2026-01-15T08:22:18.463120Z
 
 ## Source Status (Latest Run)
 - Primary Source: Available
@@ -19,8 +19,8 @@ This directory contains a backup mirror of [https://data.bzerox.org/mainnet/](ht
 
 ## Statistics (Latest Run)
 - Files Downloaded: 0
-- Files Updated: 11
-- Files Skipped (no changes): 9
+- Files Updated: 10
+- Files Skipped (no changes): 10
 - Errors: 0
 - Total Files in Backup: 24
 
@@ -44,7 +44,7 @@ This directory contains a backup mirror of [https://data.bzerox.org/mainnet/](ht
 - [`atestnet_uniswap_v4_data.json`](atestnet_uniswap_v4_data.json) (1.1 KB)
 - [`githubERC20RewardsTestnet.json`](githubERC20RewardsTestnet.json) (0.2 KB)
 - [`mainnet_uniswap_v4_data.json`](mainnet_uniswap_v4_data.json) (37.0 KB)
-- [`mined_blocks_mainnet.json`](mined_blocks_mainnet.json) (2968.5 KB)
+- [`mined_blocks_mainnet.json`](mined_blocks_mainnet.json) (2968.8 KB)
 - [`mined_blocks_testnet.json`](mined_blocks_testnet.json) (271.6 KB)
 - [`price_data_bwork.json`](price_data_bwork.json) (6.6 KB)
 - [`price_data_bwork_mainnet.json`](price_data_bwork_mainnet.json) (6.7 KB)
