@@ -160,7 +160,7 @@ class DataMirror:
                     timestamps = primary_data.get(comparison_field, [])
                     primary_value = timestamps[-1] if timestamps else 0
                 elif filename == 'mainnet_uniswap_v4_data.json':
-                    primary_value = primary_data.get(comparison_field, 0)
+                    primary_value = primary_data.get('metadata', {}).get('current_block', 0)
                 else:
                     primary_value = primary_data.get(comparison_field, 0)
                     
