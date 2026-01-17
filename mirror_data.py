@@ -261,26 +261,34 @@ class DataMirror:
         try:
             response = self.session.get(url, timeout=30)
             response.raise_for_status()
-            
+
             soup = BeautifulSoup(response.content, 'html.parser')
             files = []
-            
+
             # Look for links that appear to be files
             for link in soup.find_all('a', href=True):
                 href = link['href']
-                
+
                 # Skip parent directory links and fragments
-                if href in ['..', '../'] or href.startswith('#'):
+                if href in ['..', '../', '/', ''] or href.startswith('#'):
                     continue
-                    
+
+                # Skip links that navigate up directories
+                if href.startswith('/') and not href.startswith(urlparse(self.base_url).path):
+                    continue
+
                 # If it's a relative link, make it absolute
                 if not href.startswith('http'):
                     href = urljoin(url, href)
-                
+
+                # Only include URLs that are within the base_url directory
+                if not href.startswith(self.base_url):
+                    continue
+
                 # Check if it looks like a file (has extension) or subdirectory
                 if '.' in os.path.basename(href) or href.endswith('/'):
                     files.append(href)
-            
+
             return files
             
         except Exception as e:
@@ -289,8 +297,13 @@ class DataMirror:
     
     def mirror_directory(self, url, local_subdir=""):
         """Recursively mirror a directory"""
+        # Safety check: never scan outside the base_url
+        if not url.startswith(self.base_url):
+            print(f"Skipping URL outside base path: {url}")
+            return
+
         local_path = os.path.join(self.local_dir, local_subdir)
-        
+
         print(f"Scanning: {url}")
         files = self.get_directory_listing(url)
         
