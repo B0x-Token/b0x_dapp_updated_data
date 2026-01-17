@@ -297,8 +297,13 @@ class DataMirror:
     
     def mirror_directory(self, url, local_subdir=""):
         """Recursively mirror a directory"""
+        # Safety check: never scan outside the base_url
+        if not url.startswith(self.base_url):
+            print(f"Skipping URL outside base path: {url}")
+            return
+
         local_path = os.path.join(self.local_dir, local_subdir)
-        
+
         print(f"Scanning: {url}")
         files = self.get_directory_listing(url)
         
@@ -523,4 +528,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
