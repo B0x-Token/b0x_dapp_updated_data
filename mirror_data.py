@@ -180,7 +180,7 @@ class DataMirror:
                 if is_timestamp_array:
                     # Get last timestamp from array
                     timestamps = alt_data.get(comparison_field, [])
-                    alt_value = timestamps[-1]-300 if timestamps else 0
+                    alt_value = timestamps[-1]-5400 if timestamps else 0
                 elif filename == 'mainnet_uniswap_v4_data.json':
                     alt_value = alt_data.get('metadata', {}).get('current_block', 0)
                 else:
