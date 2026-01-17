@@ -28,7 +28,7 @@ class DataMirror:
         self.files_found = []
         
         # Alternative source for comparison and fallback
-        self.alt_base_url = "https://b0x-token.github.io/B0x_scripts_auto/mainnetB0x/"
+        self.alt_base_url = "https://b0x-token.github.io/B0x_Scripts_auto_2/mainnetB0x/"
         self.primary_available = False
         self.alt_available = False
         
@@ -133,10 +133,10 @@ class DataMirror:
         print(f"\nComparing {filename} from both sources...")
         
         # Determine which field to check based on filename
-        if filename == 'testnet_uniswap_v4_data.json':
+        if filename == 'mainnet_uniswap_v4_data.json':
             comparison_field = 'current_block'
             is_timestamp_array = False
-        elif filename == 'price_data_bwork.json':
+        elif filename == 'price_data_bwork_mainnetv2.json':
             comparison_field = 'timestamps'
             is_timestamp_array = True
         else:
@@ -159,7 +159,7 @@ class DataMirror:
                     # Get last timestamp from array
                     timestamps = primary_data.get(comparison_field, [])
                     primary_value = timestamps[-1] if timestamps else 0
-                elif filename == 'testnet_uniswap_v4_data.json':
+                elif filename == 'mainnet_uniswap_v4_data.json':
                     primary_value = primary_data.get(comparison_field, 0)
                 else:
                     primary_value = primary_data.get(comparison_field, 0)
@@ -180,8 +180,8 @@ class DataMirror:
                 if is_timestamp_array:
                     # Get last timestamp from array
                     timestamps = alt_data.get(comparison_field, [])
-                    alt_value = timestamps[-1] if timestamps else 0
-                elif filename == 'testnet_uniswap_v4_data.json':
+                    alt_value = timestamps[-1]-300 if timestamps else 0
+                elif filename == 'mainnet_uniswap_v4_data.json':
                     alt_value = alt_data.get('metadata', {}).get('current_block', 0)
                 else:
                     alt_value = alt_data.get('latest_block_number', 0)
@@ -310,7 +310,7 @@ class DataMirror:
                 self.mirror_directory(file_url, rel_path)
             else:
                 # Check if this is a special file that needs comparison
-                if filename in ['uu_mined_blocks_testnet.json', 'testnet_uniswap_v4_data.json', 'price_data_bwork.json']:
+                if filename in ['mined_blocks_mainnet.json', 'mainnet_uniswap_v4_data.json', 'price_data_bwork_mainnetv2.json']:
                     best_data, best_url = self.compare_json_sources(filename)
                     if best_data is not None:
                         self.files_found.append(best_url)
@@ -326,7 +326,7 @@ class DataMirror:
         """Mirror comparison files from alternative source when primary is down"""
         print("\nAttempting to update comparison files from alternative source...")
         
-        comparison_files = ['uu_mined_blocks_testnet.json', 'testnet_uniswap_v4_data.json', 'price_data_bwork.json']
+        comparison_files = ['mined_blocks_mainnet.json', 'mainnet_uniswap_v4_data.json', 'price_data_bwork_mainnetv2.json']
         
         for filename in comparison_files:
             alt_url = urljoin(self.alt_base_url, filename)
@@ -339,10 +339,10 @@ class DataMirror:
                 data = response.json()
                 
                 # Get comparison value based on file structure
-                if filename == 'testnet_uniswap_v4_data.json':
+                if filename == 'mainnet_uniswap_v4_data.json':
                     comp_value = data.get('metadata', {}).get('current_block', 'unknown')
                     comp_field = 'current_block'
-                elif filename == 'price_data_bwork.json':
+                elif filename == 'price_data_bwork_mainnetv2.json':
                     timestamps = data.get('timestamps', [])
                     comp_value = timestamps[-1] if timestamps else 'unknown'
                     comp_field = 'last timestamp'
