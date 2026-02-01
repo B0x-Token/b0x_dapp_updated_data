@@ -1,23 +1,63 @@
 {
-    "last_block": 41557120,
+    "last_block": 41562834,
     "user_addresses": [
+        "0x8429caa7C79eEc611128ECFA79f2A0691dA6A1cc",
+        "0xF40Ba6A2FfFe61718D4f6225dD62a45f6bA57c72",
+        "0xeaD8251eC15Ec8ff623C0af31431Aa2c1c9d1fbb",
+        "0x0cC9afC487438491Fd4625e4879aFfb5992BaBD8",
+        "0x23400DC0cC44fb8F295fD4C73bB19528066b59f3",
+        "0xb94f5d34cd89C226f64aa23c41f331239bd04B03",
+        "0x659F58dBec4425A3250A227D83Bb57cB2bFc364f",
+        "0x1589BB843dc5788821b1645d3A3D6E5e867396C4",
         "0xC47A0A1B2aC098b6453869389E7c8471D9D88B37",
         "0xE4F85f4FAe5fd0Be23a260b8e226db3d6bc37015",
-        "0xb94f5d34cd89C226f64aa23c41f331239bd04B03",
-        "0x23400DC0cC44fb8F295fD4C73bB19528066b59f3",
-        "0x659F58dBec4425A3250A227D83Bb57cB2bFc364f",
-        "0x0cC9afC487438491Fd4625e4879aFfb5992BaBD8",
-        "0x8429caa7C79eEc611128ECFA79f2A0691dA6A1cc",
         "0xE334A51bA6cb11E8B394dDc2198F5c9a3E8e4CBf",
-        "0x48030B83fce50878aA75Db5a84D93598f8cf6101",
-        "0xF40Ba6A2FfFe61718D4f6225dD62a45f6bA57c72",
         "0x812568d06C766fE483eb8C08D9A75E19bc80bEca",
-        "0x1589BB843dc5788821b1645d3A3D6E5e867396C4",
-        "0xbD3AEc83CD2EeadDbF342011a07DE1e2e336e331",
+        "0x48030B83fce50878aA75Db5a84D93598f8cf6101",
         "0xB95BA8D390d8907705022c37Eb19981B7a213181",
-        "0xeaD8251eC15Ec8ff623C0af31431Aa2c1c9d1fbb"
+        "0xbD3AEc83CD2EeadDbF342011a07DE1e2e336e331"
     ],
     "users": {
+        "0x8429caa7C79eEc611128ECFA79f2A0691dA6A1cc": {
+            "balance": 11535125483240975,
+            "0xBTCStaked": 51314205389,
+            "B0xStaked": 2593026997179472412672
+        },
+        "0xF40Ba6A2FfFe61718D4f6225dD62a45f6bA57c72": {
+            "balance": 12751251997122769,
+            "0xBTCStaked": 56724165238,
+            "B0xStaked": 2866404940667195752448
+        },
+        "0xeaD8251eC15Ec8ff623C0af31431Aa2c1c9d1fbb": {
+            "balance": 4110932197603367,
+            "0xBTCStaked": 18287553042,
+            "B0xStaked": 924112892178511560704
+        },
+        "0x0cC9afC487438491Fd4625e4879aFfb5992BaBD8": {
+            "balance": 0,
+            "0xBTCStaked": 0,
+            "B0xStaked": 0
+        },
+        "0x23400DC0cC44fb8F295fD4C73bB19528066b59f3": {
+            "balance": 101684565380541,
+            "0xBTCStaked": 452345549,
+            "B0xStaked": 22858080183980933120
+        },
+        "0xb94f5d34cd89C226f64aa23c41f331239bd04B03": {
+            "balance": 19553346843555181,
+            "0xBTCStaked": 86983401909,
+            "B0xStaked": 4395475049163225825280
+        },
+        "0x659F58dBec4425A3250A227D83Bb57cB2bFc364f": {
+            "balance": 4304596031040834,
+            "0xBTCStaked": 19149069958,
+            "B0xStaked": 967647359940497899520
+        },
+        "0x1589BB843dc5788821b1645d3A3D6E5e867396C4": {
+            "balance": 0,
+            "0xBTCStaked": 0,
+            "B0xStaked": 0
+        },
         "0xC47A0A1B2aC098b6453869389E7c8471D9D88B37": {
             "balance": 144292749881501825,
             "0xBTCStaked": 641888795610,
@@ -28,70 +68,30 @@
             "0xBTCStaked": 2173877850018,
             "B0xStaked": 109851139871846059474944
         },
-        "0xb94f5d34cd89C226f64aa23c41f331239bd04B03": {
-            "balance": 19553346843555181,
-            "0xBTCStaked": 86983401909,
-            "B0xStaked": 4395475049163225825280
-        },
-        "0x23400DC0cC44fb8F295fD4C73bB19528066b59f3": {
-            "balance": 101684565380541,
-            "0xBTCStaked": 452345549,
-            "B0xStaked": 22858080183980933120
-        },
-        "0x659F58dBec4425A3250A227D83Bb57cB2bFc364f": {
-            "balance": 4304596031040834,
-            "0xBTCStaked": 19149069958,
-            "B0xStaked": 967647359940497899520
-        },
-        "0x0cC9afC487438491Fd4625e4879aFfb5992BaBD8": {
-            "balance": 0,
-            "0xBTCStaked": 0,
-            "B0xStaked": 0
-        },
-        "0x8429caa7C79eEc611128ECFA79f2A0691dA6A1cc": {
-            "balance": 11535125483240975,
-            "0xBTCStaked": 51314205389,
-            "B0xStaked": 2593026997179472412672
-        },
         "0xE334A51bA6cb11E8B394dDc2198F5c9a3E8e4CBf": {
             "balance": 8243443216933023,
             "0xBTCStaked": 36671099847,
             "B0xStaked": 1853076574006852714496
-        },
-        "0x48030B83fce50878aA75Db5a84D93598f8cf6101": {
-            "balance": 23100411199081732,
-            "0xBTCStaked": 102762579096,
-            "B0xStaked": 5192833833684149731328
-        },
-        "0xF40Ba6A2FfFe61718D4f6225dD62a45f6bA57c72": {
-            "balance": 12751251997122769,
-            "0xBTCStaked": 56724165238,
-            "B0xStaked": 2866404940667195752448
         },
         "0x812568d06C766fE483eb8C08D9A75E19bc80bEca": {
             "balance": 164015099591518850,
             "0xBTCStaked": 729624009696,
             "B0xStaked": 36869610287619930849280
         },
-        "0x1589BB843dc5788821b1645d3A3D6E5e867396C4": {
-            "balance": 0,
-            "0xBTCStaked": 0,
-            "B0xStaked": 0
-        },
-        "0xbD3AEc83CD2EeadDbF342011a07DE1e2e336e331": {
-            "balance": 980880076407400,
-            "0xBTCStaked": 4363461999,
-            "B0xStaked": 220495955836384215040
+        "0x48030B83fce50878aA75Db5a84D93598f8cf6101": {
+            "balance": 23100411199081732,
+            "0xBTCStaked": 102762579096,
+            "B0xStaked": 5192833833684149731328
         },
         "0xB95BA8D390d8907705022c37Eb19981B7a213181": {
             "balance": 15062457145870787,
             "0xBTCStaked": 67005601350,
             "B0xStaked": 3385949990734564687872
         },
-        "0xeaD8251eC15Ec8ff623C0af31431Aa2c1c9d1fbb": {
-            "balance": 4110932197603367,
-            "0xBTCStaked": 18287553042,
-            "B0xStaked": 924112892178511560704
+        "0xbD3AEc83CD2EeadDbF342011a07DE1e2e336e331": {
+            "balance": 980880076407400,
+            "0xBTCStaked": 4363461999,
+            "B0xStaked": 220495955836384215040
         }
     }
 }
