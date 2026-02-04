@@ -4,18 +4,18 @@
     "symbol": "B0x",
     "decimals": 18
   },
-  "totalHolders": 205,
+  "totalHolders": 207,
   "totalMiners": 40,
-  "lastUpdated": "2026-02-04T15:01:52.667622",
-  "scanCompletedBlock": 41724776,
-  "totalTransfers": 13824,
-  "totalMints": 12014,
-  "minters": 257548750000000000000000,
+  "lastUpdated": "2026-02-04T15:40:56.603300",
+  "scanCompletedBlock": 41725948,
+  "totalTransfers": 13831,
+  "totalMints": 12015,
+  "minters": 257598750000000000000000,
   "holders": [
     {
       "address": "0xd44Ee7dAdbF50214cA7009a29D9F88BCcD0E9Ff4",
-      "balance": "19495502125000000000000000",
-      "balanceFormatted": "19495502.125"
+      "balance": "19495452125000000000000000",
+      "balanceFormatted": "19495452.125"
     },
     {
       "address": "0x08f489C5017942d3b7c82C1c178877C80492c948",
@@ -49,8 +49,8 @@
     },
     {
       "address": "0x93c28109EDd2DDDCB78A11EBa1F16a0CA732ad2d",
-      "balance": "10623876909033144951116",
-      "balanceFormatted": "10623.876909033144"
+      "balance": "10937393076803144951116",
+      "balanceFormatted": "10937.393076803144"
     },
     {
       "address": "0x9878E1Dd2Cf28382F06D002c31c70030E19bf38B",
@@ -113,14 +113,14 @@
       "balanceFormatted": "3093.75"
     },
     {
-      "address": "0x9F4Af4dfcA552Ed10E861b5040a38DaE8341F020",
-      "balance": "2933900000000000000000",
-      "balanceFormatted": "2933.9"
-    },
-    {
       "address": "0x773E59e5A9c0c132C3e51Ee0a4d81A329330D121",
       "balance": "2826250000000000000000",
       "balanceFormatted": "2826.25"
+    },
+    {
+      "address": "0xdFD18d5374dF275A8EDE107f981f78b1E60f63E4",
+      "balance": "2605488202525714273280",
+      "balanceFormatted": "2605.4882025257143"
     },
     {
       "address": "0xfFF72Ee0dBa7b9f8027CFE7bfED3f773d872F2Fc",
@@ -178,11 +178,6 @@
       "balanceFormatted": "1836.8"
     },
     {
-      "address": "0xdFD18d5374dF275A8EDE107f981f78b1E60f63E4",
-      "balance": "1652759738057142841344",
-      "balanceFormatted": "1652.7597380571428"
-    },
-    {
       "address": "0xAD6f9d307F1cEd33C67D813009F639855678999B",
       "balance": "1638225000000000000000",
       "balanceFormatted": "1638.225"
@@ -233,6 +228,11 @@
       "balanceFormatted": "1237.5"
     },
     {
+      "address": "0x1589BB843dc5788821b1645d3A3D6E5e867396C4",
+      "balance": "1227993670438651216622",
+      "balanceFormatted": "1227.9936704386512"
+    },
+    {
       "address": "0x1E9b3a15F383a864021BE6Cb06135989e9d9f8c2",
       "balance": "1193750000000000000000",
       "balanceFormatted": "1193.75"
@@ -253,11 +253,6 @@
       "balanceFormatted": "1156.25"
     },
     {
-      "address": "0x1589BB843dc5788821b1645d3A3D6E5e867396C4",
-      "balance": "1067269651348651216622",
-      "balanceFormatted": "1067.2696513486512"
-    },
-    {
       "address": "0x07DEba7ce47e7F5549EFb4E0369962F36E265490",
       "balance": "956250000000000000000",
       "balanceFormatted": "956.25"
@@ -266,6 +261,11 @@
       "address": "0x0f6cd8Ded16d0Cd615B5b2264438c9c8176b6762",
       "balance": "943750000000000000000",
       "balanceFormatted": "943.75"
+    },
+    {
+      "address": "0x23400DC0cC44fb8F295fD4C73bB19528066b59f3",
+      "balance": "803071875844285726720",
+      "balanceFormatted": "803.0718758442857"
     },
     {
       "address": "0xeaD8251eC15Ec8ff623C0af31431Aa2c1c9d1fbb",
@@ -433,6 +433,11 @@
       "balanceFormatted": "232.3"
     },
     {
+      "address": "0x6E03004F0F795697c572E537b168614e824E389F",
+      "balance": "220622326980000000000",
+      "balanceFormatted": "220.62232698"
+    },
+    {
       "address": "0xcEc9fe2B18302465d37135DA94BBcA56dEDd8447",
       "balance": "219375000000000000000",
       "balanceFormatted": "219.375"
@@ -569,6 +574,11 @@
     },
     {
       "address": "0x20D764bE5dFE8d22F1F725f778d8a1E1972dAC38",
+      "balance": "50000000000000000000",
+      "balanceFormatted": "50.0"
+    },
+    {
+      "address": "0x9F4Af4dfcA552Ed10E861b5040a38DaE8341F020",
       "balance": "50000000000000000000",
       "balanceFormatted": "50.0"
     },
