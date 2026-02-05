@@ -4,7 +4,7 @@ This directory contains a backup mirror of [https://data.bzerox.org/mainnet/](ht
 
 **Alternative Source:** [https://b0x-token.github.io/B0x_Scripts_auto_2/mainnetB0x/](https://b0x-token.github.io/B0x_Scripts_auto_2/mainnetB0x/)
 
-**Last Updated:** 2026-02-05T19:54:18.448128Z
+**Last Updated:** 2026-02-05T20:29:23.857668Z
 
 ## Source Status (Latest Run)
 - Primary Source: Available
@@ -20,8 +20,8 @@ This directory contains a backup mirror of [https://data.bzerox.org/mainnet/](ht
 ## Statistics (Latest Run)
 - Files Downloaded: 0
 - Files Updated: 9
-- Files Skipped (no changes): 11
-- Errors: 0
+- Files Skipped (no changes): 10
+- Errors: 1
 - Total Files in Backup: 24
 
 ## Files in Backup
