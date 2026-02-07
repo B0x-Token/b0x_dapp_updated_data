@@ -4,7 +4,7 @@ This directory contains a backup mirror of [https://data.bzerox.org/mainnet/](ht
 
 **Alternative Source:** [https://b0x-token.github.io/B0x_Scripts_auto_2/mainnetB0x/](https://b0x-token.github.io/B0x_Scripts_auto_2/mainnetB0x/)
 
-**Last Updated:** 2026-02-07T20:58:58.686158Z
+**Last Updated:** 2026-02-07T21:35:21.525946Z
 
 ## Source Status (Latest Run)
 - Primary Source: Available
@@ -19,8 +19,8 @@ This directory contains a backup mirror of [https://data.bzerox.org/mainnet/](ht
 
 ## Statistics (Latest Run)
 - Files Downloaded: 0
-- Files Updated: 8
-- Files Skipped (no changes): 12
+- Files Updated: 9
+- Files Skipped (no changes): 11
 - Errors: 0
 - Total Files in Backup: 24
 
@@ -33,7 +33,7 @@ This directory contains a backup mirror of [https://data.bzerox.org/mainnet/](ht
 - [`B0x_Mainnet_APY_STATS.json`](B0x_Mainnet_APY_STATS.json) (0.7 KB)
 - [`B0x_Staking_Rich_List_logs_mainnet.json`](B0x_Staking_Rich_List_logs_mainnet.json) (3.7 KB)
 - [`B0x_Staking_Rich_List_logs_testnet.json`](B0x_Staking_Rich_List_logs_testnet.json) (1.9 KB)
-- [`RichList_B0x_mainnet.json`](RichList_B0x_mainnet.json) (43.2 KB)
+- [`RichList_B0x_mainnet.json`](RichList_B0x_mainnet.json) (43.1 KB)
 - [`RichList_B0x_mainnet_miners.json`](RichList_B0x_mainnet_miners.json) (6.6 KB)
 - [`RichList_B0x_testnet.json`](RichList_B0x_testnet.json) (22.7 KB)
 - [`RichList_B0x_testnet_miners.json`](RichList_B0x_testnet_miners.json) (24.3 KB)
