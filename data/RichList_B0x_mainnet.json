@@ -4,11 +4,11 @@
     "symbol": "B0x",
     "decimals": 18
   },
-  "totalHolders": 342,
+  "totalHolders": 341,
   "totalMiners": 40,
-  "lastUpdated": "2026-02-19T15:42:50.246095",
-  "scanCompletedBlock": 42374005,
-  "totalTransfers": 14540,
+  "lastUpdated": "2026-02-19T16:00:37.477844",
+  "scanCompletedBlock": 42374538,
+  "totalTransfers": 14545,
   "totalMints": 12433,
   "minters": 308558225000000000000000,
   "holders": [
@@ -44,13 +44,18 @@
     },
     {
       "address": "0x93c28109EDd2DDDCB78A11EBa1F16a0CA732ad2d",
-      "balance": "16502903186793144951116",
-      "balanceFormatted": "16502.903186793144"
+      "balance": "16899619684203144951116",
+      "balanceFormatted": "16899.619684203146"
     },
     {
       "address": "0x729A621A0a83D8bAeC4BC64290cb5167640aE799",
       "balance": "15000000000000000000000",
       "balanceFormatted": "15000.0"
+    },
+    {
+      "address": "0x23400DC0cC44fb8F295fD4C73bB19528066b59f3",
+      "balance": "9308678159914285798400",
+      "balanceFormatted": "9308.678159914285"
     },
     {
       "address": "0x9878E1Dd2Cf28382F06D002c31c70030E19bf38B",
@@ -68,14 +73,9 @@
       "balanceFormatted": "8193.25"
     },
     {
-      "address": "0x23400DC0cC44fb8F295fD4C73bB19528066b59f3",
-      "balance": "7620748969221428666368",
-      "balanceFormatted": "7620.7489692214285"
-    },
-    {
-      "address": "0x9F4Af4dfcA552Ed10E861b5040a38DaE8341F020",
-      "balance": "6841900000000000000000",
-      "balanceFormatted": "6841.9"
+      "address": "0xdFD18d5374dF275A8EDE107f981f78b1E60f63E4",
+      "balance": "7670552303165714201600",
+      "balanceFormatted": "7670.552303165714"
     },
     {
       "address": "0x2Cf1e04D9f935857f41c1ed26317caCFbbeE5317",
@@ -113,11 +113,6 @@
       "balanceFormatted": "3356.25"
     },
     {
-      "address": "0xdFD18d5374dF275A8EDE107f981f78b1E60f63E4",
-      "balance": "3136919171028571333632",
-      "balanceFormatted": "3136.9191710285713"
-    },
-    {
       "address": "0xf2ad108b8757059cD24724FE7D4d67c08f829AEC",
       "balance": "3102500000000000000000",
       "balanceFormatted": "3102.5"
@@ -128,14 +123,14 @@
       "balanceFormatted": "3093.75"
     },
     {
+      "address": "0x6E03004F0F795697c572E537b168614e824E389F",
+      "balance": "3009501303920884965117",
+      "balanceFormatted": "3009.5013039208848"
+    },
+    {
       "address": "0x773E59e5A9c0c132C3e51Ee0a4d81A329330D121",
       "balance": "2826250000000000000000",
       "balanceFormatted": "2826.25"
-    },
-    {
-      "address": "0x6E03004F0F795697c572E537b168614e824E389F",
-      "balance": "2785880124160884965117",
-      "balanceFormatted": "2785.880124160885"
     },
     {
       "address": "0xfFF72Ee0dBa7b9f8027CFE7bfED3f773d872F2Fc",
