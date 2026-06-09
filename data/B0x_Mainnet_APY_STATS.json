@@ -1,32 +1,11 @@
 {
-  "timestamp": "2026-06-08T20:58:56.281628",
-  "timestamp_unix": 1780970336,
+  "timestamp": "2026-06-09T01:11:33.492576",
+  "timestamp_unix": 1780985493,
+  "status": "error",
+  "error_message": "float division by zero",
+  "error_type": "ZeroDivisionError",
   "user_address": "0x08e259639a4eFCA939E15871aCdCf1AfD3d0EAa9",
-  "status": "success",
-  "staking": {
-    "token_symbols": [
-      "USDC",
-      "B0x",
-      "0xBTC",
-      "WETH"
-    ],
-    "apy": 85.92
-  },
-  "mining": {
-    "mining_cost_eth": "0.00000068",
-    "mining_cost_usd": 0,
-    "mining_fee_percentage": 0,
-    "swap_fee_percentage": 35.0,
-    "daily_total_value_received": 0.0,
-    "daily_net_profit": 0.0,
-    "eth_in": "0.00001691",
-    "b0x_out": 25,
-    "eth_in_usd": 0
-  },
-  "summary": {
-    "final_apy": 85.92,
-    "total_value_usd": 0.0,
-    "usd_cost_b0x:": 0,
-    "usd_cost_weth:": 0
-  }
+  "staking": {},
+  "mining": {},
+  "summary": {}
 }
