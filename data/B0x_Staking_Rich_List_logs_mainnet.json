@@ -1,14 +1,16 @@
 {
-    "last_block": 47687296,
+    "last_block": 47689920,
     "user_addresses": [
         "0x0cC9afC487438491Fd4625e4879aFfb5992BaBD8",
         "0xB95BA8D390d8907705022c37Eb19981B7a213181",
         "0x48030B83fce50878aA75Db5a84D93598f8cf6101",
+        "0xce67D4eB4ddE816aCfa95fc92C04E1AB9f26890e",
         "0x8429caa7C79eEc611128ECFA79f2A0691dA6A1cc",
         "0x1589BB843dc5788821b1645d3A3D6E5e867396C4",
         "0xC47A0A1B2aC098b6453869389E7c8471D9D88B37",
         "0x812568d06C766fE483eb8C08D9A75E19bc80bEca",
         "0xb94f5d34cd89C226f64aa23c41f331239bd04B03",
+        "0xF8eF2A346d8a1Af014e50A83aB5A43408DEf6E49",
         "0x6E03004F0F795697c572E537b168614e824E389F",
         "0xeaD8251eC15Ec8ff623C0af31431Aa2c1c9d1fbb",
         "0xbD3AEc83CD2EeadDbF342011a07DE1e2e336e331",
@@ -29,17 +31,22 @@
         "0xB95BA8D390d8907705022c37Eb19981B7a213181": {
             "balance": 16633206466057433,
             "0xBTCStaked": 49473040393,
-            "B0xStaked": 5592208506717413048320
+            "B0xStaked": 5592208506717414096896
         },
         "0x48030B83fce50878aA75Db5a84D93598f8cf6101": {
             "balance": 23100411199081732,
             "0xBTCStaked": 68708795185,
             "B0xStaked": 7766531142374206210048
         },
+        "0xce67D4eB4ddE816aCfa95fc92C04E1AB9f26890e": {
+            "balance": 39137652548221,
+            "0xBTCStaked": 116409224,
+            "B0xStaked": 13158371716225662976
+        },
         "0x8429caa7C79eEc611128ECFA79f2A0691dA6A1cc": {
             "balance": 11535125483240975,
             "0xBTCStaked": 34309543992,
-            "B0xStaked": 3878195523218503106560
+            "B0xStaked": 3878195523218503630848
         },
         "0x1589BB843dc5788821b1645d3A3D6E5e867396C4": {
             "balance": 0,
@@ -54,12 +61,17 @@
         "0x812568d06C766fE483eb8C08D9A75E19bc80bEca": {
             "balance": 164015099591518850,
             "0xBTCStaked": 487838930143,
-            "B0xStaked": 55143104069410431696896
+            "B0xStaked": 55143104069410423308288
         },
         "0xb94f5d34cd89C226f64aa23c41f331239bd04B03": {
             "balance": 19553346843555181,
             "0xBTCStaked": 58158570940,
             "B0xStaked": 6573981557702849986560
+        },
+        "0xF8eF2A346d8a1Af014e50A83aB5A43408DEf6E49": {
+            "balance": 0,
+            "0xBTCStaked": 0,
+            "B0xStaked": 0
         },
         "0x6E03004F0F795697c572E537b168614e824E389F": {
             "balance": 1721703765648953,
@@ -74,7 +86,7 @@
         "0xbD3AEc83CD2EeadDbF342011a07DE1e2e336e331": {
             "balance": 980880076407400,
             "0xBTCStaked": 2917484355,
-            "B0xStaked": 329779223179165302784
+            "B0xStaked": 329779223179165237248
         },
         "0xE4F85f4FAe5fd0Be23a260b8e226db3d6bc37015": {
             "balance": 1119136287365806443,
@@ -94,7 +106,7 @@
         "0xE334A51bA6cb11E8B394dDc2198F5c9a3E8e4CBf": {
             "balance": 8243443216933023,
             "0xBTCStaked": 24518916426,
-            "B0xStaked": 2771507308374178398208
+            "B0xStaked": 2771507308374177873920
         },
         "0x298D98A6310d7fEA5c9e8A2B3fe9414fEaB566aF": {
             "balance": 0,
