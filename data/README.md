@@ -4,7 +4,7 @@ This directory contains a backup mirror of [https://data.bzerox.org/mainnet/](ht
 
 **Alternative Source:** [https://b0x-token.github.io/B0x_Scripts_auto_2/mainnetB0x/](https://b0x-token.github.io/B0x_Scripts_auto_2/mainnetB0x/)
 
-**Last Updated:** 2026-06-23T00:18:44.843805Z
+**Last Updated:** 2026-06-23T04:34:11.072856Z
 
 ## Source Status (Latest Run)
 - Primary Source: Available
@@ -31,20 +31,20 @@ This directory contains a backup mirror of [https://data.bzerox.org/mainnet/](ht
 
 ### .JSON Files
 - [`B0x_Mainnet_APY_STATS.json`](B0x_Mainnet_APY_STATS.json) (0.7 KB)
-- [`B0x_Staking_Rich_List_logs_mainnet.json`](B0x_Staking_Rich_List_logs_mainnet.json) (4.9 KB)
+- [`B0x_Staking_Rich_List_logs_mainnet.json`](B0x_Staking_Rich_List_logs_mainnet.json) (5.1 KB)
 - [`B0x_Staking_Rich_List_logs_testnet.json`](B0x_Staking_Rich_List_logs_testnet.json) (1.9 KB)
 - [`RichList_B0x_mainnet.json`](RichList_B0x_mainnet.json) (52.3 KB)
 - [`RichList_B0x_mainnet_miners.json`](RichList_B0x_mainnet_miners.json) (6.6 KB)
 - [`RichList_B0x_testnet.json`](RichList_B0x_testnet.json) (22.7 KB)
 - [`RichList_B0x_testnet_miners.json`](RichList_B0x_testnet_miners.json) (24.3 KB)
 - [`RichList_RightsTo0xBTC_MainnetETH_holders.json`](RichList_RightsTo0xBTC_MainnetETH_holders.json) (0.6 KB)
-- [`RichList_RightsTo0xBTC_mainnet_ETH_holders.json`](RichList_RightsTo0xBTC_mainnet_ETH_holders.json) (1698.3 KB)
+- [`RichList_RightsTo0xBTC_mainnet_ETH_holders.json`](RichList_RightsTo0xBTC_mainnet_ETH_holders.json) (1699.4 KB)
 - [`RichList__MainnetETH_holders.json`](RichList__MainnetETH_holders.json) (0.4 KB)
-- [`RichList__Mainnet_ETH_holders.json`](RichList__Mainnet_ETH_holders.json) (4926.1 KB)
+- [`RichList__Mainnet_ETH_holders.json`](RichList__Mainnet_ETH_holders.json) (4955.5 KB)
 - [`atestnet_uniswap_v4_data.json`](atestnet_uniswap_v4_data.json) (1.1 KB)
 - [`githubERC20RewardsTestnet.json`](githubERC20RewardsTestnet.json) (0.2 KB)
 - [`mainnet_uniswap_v4_data.json`](mainnet_uniswap_v4_data.json) (52.4 KB)
-- [`mined_blocks_mainnet.json`](mined_blocks_mainnet.json) (4060.5 KB)
+- [`mined_blocks_mainnet.json`](mined_blocks_mainnet.json) (4061.4 KB)
 - [`mined_blocks_testnet.json`](mined_blocks_testnet.json) (271.6 KB)
 - [`price_data_bwork.json`](price_data_bwork.json) (6.5 KB)
 - [`price_data_bwork_mainnet.json`](price_data_bwork_mainnet.json) (0.7 KB)
