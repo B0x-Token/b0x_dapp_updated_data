@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-07-11T19:58:23.964585",
-  "timestamp_unix": 1783817903,
+  "timestamp": "2026-07-11T23:29:00.683963",
+  "timestamp_unix": 1783830540,
   "user_address": "0x08e259639a4eFCA939E15871aCdCf1AfD3d0EAa9",
   "status": "success",
   "staking": {
@@ -10,23 +10,23 @@
       "0xBTC",
       "WETH"
     ],
-    "apy": 88.26
+    "apy": 88.27
   },
   "mining": {
     "mining_cost_eth": "0.00000058",
-    "mining_cost_usd": "0.001038",
-    "mining_fee_percentage": 64.91,
+    "mining_cost_usd": "0.001050",
+    "mining_fee_percentage": 64.97,
     "swap_fee_percentage": 35.0,
-    "daily_total_value_received": 3.24,
+    "daily_total_value_received": 3.26,
     "daily_net_profit": 0.98,
     "eth_in": "0.00001451",
     "b0x_out": 25,
     "eth_in_usd": 0.03
   },
   "summary": {
-    "final_apy": 88.26,
-    "total_value_usd": 3.24,
-    "usd_cost_b0x:": 0.001417010298221,
-    "usd_cost_weth:": 1787.84
+    "final_apy": 88.27,
+    "total_value_usd": 3.26,
+    "usd_cost_b0x:": 0.0014314182752379998,
+    "usd_cost_weth:": 1809.41
   }
 }
