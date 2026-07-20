@@ -4,7 +4,7 @@ This directory contains a backup mirror of [https://data.bzerox.org/mainnet/](ht
 
 **Alternative Source:** [https://b0x-token.github.io/B0x_Scripts_auto_2/mainnetB0x/](https://b0x-token.github.io/B0x_Scripts_auto_2/mainnetB0x/)
 
-**Last Updated:** 2026-07-20T20:05:12.530697Z
+**Last Updated:** 2026-07-20T21:19:35.234311Z
 
 ## Source Status (Latest Run)
 - Primary Source: Available
@@ -31,7 +31,7 @@ This directory contains a backup mirror of [https://data.bzerox.org/mainnet/](ht
 
 ### .JSON Files
 - [`B0x_Mainnet_APY_STATS.json`](B0x_Mainnet_APY_STATS.json) (0.7 KB)
-- [`B0x_Staking_Rich_List_logs_mainnet.json`](B0x_Staking_Rich_List_logs_mainnet.json) (9.8 KB)
+- [`B0x_Staking_Rich_List_logs_mainnet.json`](B0x_Staking_Rich_List_logs_mainnet.json) (10.4 KB)
 - [`B0x_Staking_Rich_List_logs_testnet.json`](B0x_Staking_Rich_List_logs_testnet.json) (1.9 KB)
 - [`RichList_B0x_mainnet.json`](RichList_B0x_mainnet.json) (61.0 KB)
 - [`RichList_B0x_mainnet_miners.json`](RichList_B0x_mainnet_miners.json) (6.6 KB)
@@ -44,7 +44,7 @@ This directory contains a backup mirror of [https://data.bzerox.org/mainnet/](ht
 - [`atestnet_uniswap_v4_data.json`](atestnet_uniswap_v4_data.json) (1.1 KB)
 - [`githubERC20RewardsTestnet.json`](githubERC20RewardsTestnet.json) (0.2 KB)
 - [`mainnet_uniswap_v4_data.json`](mainnet_uniswap_v4_data.json) (61.9 KB)
-- [`mined_blocks_mainnet.json`](mined_blocks_mainnet.json) (4157.2 KB)
+- [`mined_blocks_mainnet.json`](mined_blocks_mainnet.json) (4157.4 KB)
 - [`mined_blocks_testnet.json`](mined_blocks_testnet.json) (271.6 KB)
 - [`price_data_bwork.json`](price_data_bwork.json) (6.5 KB)
 - [`price_data_bwork_mainnet.json`](price_data_bwork_mainnet.json) (0.7 KB)
