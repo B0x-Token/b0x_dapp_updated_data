@@ -1,7 +1,8 @@
 {
-    "last_block": 49005060,
+    "last_block": 49008094,
     "user_addresses": [
         "0x2B11579686Fa4eb3dE311e901dAA870a305E5Fd2",
+        "0x91fA635F393a21Fe7842c71547dd75fB4Ffa045D",
         "0x23400DC0cC44fb8F295fD4C73bB19528066b59f3",
         "0xF8eF2A346d8a1Af014e50A83aB5A43408DEf6E49",
         "0xE2D8Fb5d6d40D00af357bB455f29d1Da2bFfaF9f",
@@ -25,6 +26,7 @@
         "0xce67D4eB4ddE816aCfa95fc92C04E1AB9f26890e",
         "0x4f27C0271D007ABbDD9494EBB6e5b22080131ad0",
         "0x70dCCE16CDC59a48E9a0AC814Ad89C37e2F591f9",
+        "0x78259d6906a98aE543BA6650b7FeCafB93054f18",
         "0x22c8DDe1428aB8ec18230789C5E97b50530397a7",
         "0x27E4CE1BE4E773aF12a35665C9443a5bCcdE1Fba",
         "0x6E03004F0F795697c572E537b168614e824E389F",
@@ -52,6 +54,7 @@
         "0xEaDAfb7120d32150Aad4B0aCe1c691b393563b44",
         "0x13e54De0C2D4410ee780791B6707fE7843EA4b74",
         "0xbD3AEc83CD2EeadDbF342011a07DE1e2e336e331",
+        "0x2a054e6eaa66ADaE96037f05DB173388BaCE58b3",
         "0xC4Ff2cCD10f68eB145B3b3BCA011eBbbfce2cbe5",
         "0xB95BA8D390d8907705022c37Eb19981B7a213181",
         "0xb94f5d34cd89C226f64aa23c41f331239bd04B03",
@@ -169,13 +172,13 @@
         "0x659F58dBec4425A3250A227D83Bb57cB2bFc364f": {
             "balance": 5677301040974274,
             "0xBTCStaked": 16790240995,
-            "B0xStaked": 1919671499596302123008,
+            "B0xStaked": 1919671499596302385152,
             "owner": null
         },
         "0xC47A0A1B2aC098b6453869389E7c8471D9D88B37": {
             "balance": 144292749881501825,
             "0xBTCStaked": 426736230276,
-            "B0xStaked": 48789852351807308693504,
+            "B0xStaked": 48789852351807317082112,
             "owner": null
         },
         "0xce67D4eB4ddE816aCfa95fc92C04E1AB9f26890e": {
@@ -253,7 +256,7 @@
         "0xb94f5d34cd89C226f64aa23c41f331239bd04B03": {
             "balance": 19553346843555181,
             "0xBTCStaked": 57827725427,
-            "B0xStaked": 6611592794954677616640,
+            "B0xStaked": 6611592794954676568064,
             "owner": null
         },
         "0xF40Ba6A2FfFe61718D4f6225dD62a45f6bA57c72": {
@@ -265,13 +268,13 @@
         "0xEaDAfb7120d32150Aad4B0aCe1c691b393563b44": {
             "balance": 338131003752,
             "0xBTCStaked": 999999,
-            "B0xStaked": 114332575698894688,
+            "B0xStaked": 114332575698894672,
             "owner": "0xEC50858c6a46fcbf7fEe2AC4fe8287708c038E4b"
         },
         "0xdE19F178bDFcEDbb4C3503907e87e2De84885FB2": {
             "balance": 2585986165695,
             "0xBTCStaked": 7647882,
-            "B0xStaked": 874402097899516160,
+            "B0xStaked": 874402097899516288,
             "owner": "0x23400DC0cC44fb8F295fD4C73bB19528066b59f3"
         },
         "0xadFD35390eb9Dd58AAE1Bb1fEA8F4fdE6772f6A8": {
@@ -289,7 +292,7 @@
         "0x22c8DDe1428aB8ec18230789C5E97b50530397a7": {
             "balance": 383756427254,
             "0xBTCStaked": 1134934,
-            "B0xStaked": 129759945944311552,
+            "B0xStaked": 129759945944311536,
             "owner": "0x23400DC0cC44fb8F295fD4C73bB19528066b59f3"
         },
         "0xc9dbFC0C118F8eE23450635Db999F353E7EDb901": {
@@ -385,7 +388,25 @@
         "0x4e46fD1367551b002227b098CBf4945eeE5b70b0": {
             "balance": 64633889732539,
             "0xBTCStaked": 191150438,
-            "B0xStaked": 21854722011766476800,
+            "B0xStaked": 21854722011766472704,
+            "owner": "0x23400DC0cC44fb8F295fD4C73bB19528066b59f3"
+        },
+        "0x91fA635F393a21Fe7842c71547dd75fB4Ffa045D": {
+            "balance": 0,
+            "0xBTCStaked": 0,
+            "B0xStaked": 0,
+            "owner": null
+        },
+        "0x2a054e6eaa66ADaE96037f05DB173388BaCE58b3": {
+            "balance": 23659432088,
+            "0xBTCStaked": 69971,
+            "B0xStaked": 7999987520156876,
+            "owner": "0xEC50858c6a46fcbf7fEe2AC4fe8287708c038E4b"
+        },
+        "0x78259d6906a98aE543BA6650b7FeCafB93054f18": {
+            "balance": 2514993323385,
+            "0xBTCStaked": 7437925,
+            "B0xStaked": 850397216869910912,
             "owner": "0x23400DC0cC44fb8F295fD4C73bB19528066b59f3"
         }
     }
