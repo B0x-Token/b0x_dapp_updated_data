@@ -4,18 +4,18 @@
     "symbol": "B0x",
     "decimals": 18
   },
-  "totalHolders": 357,
+  "totalHolders": 358,
   "totalMiners": 40,
-  "lastUpdated": "2026-07-28T16:15:28.978833",
-  "scanCompletedBlock": 49241988,
-  "totalTransfers": 19807,
-  "totalMints": 16473,
-  "minters": 783541825000000000000000,
+  "lastUpdated": "2026-07-28T17:25:13.865472",
+  "scanCompletedBlock": 49244080,
+  "totalTransfers": 19810,
+  "totalMints": 16474,
+  "minters": 783666825000000000000000,
   "holders": [
     {
       "address": "0xd44Ee7dAdbF50214cA7009a29D9F88BCcD0E9Ff4",
-      "balance": "18442701975000000000000000",
-      "balanceFormatted": "18442701.975",
+      "balance": "18442576975000000000000000",
+      "balanceFormatted": "18442576.975",
       "owner": null
     },
     {
@@ -26,8 +26,8 @@
     },
     {
       "address": "0x498581fF718922c3f8e6A244956aF099B2652b2b",
-      "balance": "558398485522949822528365",
-      "balanceFormatted": "558398.4855229498",
+      "balance": "558398485469988349076674",
+      "balanceFormatted": "558398.4854699883",
       "owner": "0x31FAfd4889FA1269F7a13A66eE0fB458f27D72A9"
     },
     {
@@ -104,8 +104,8 @@
     },
     {
       "address": "0x9F4Af4dfcA552Ed10E861b5040a38DaE8341F020",
-      "balance": "6304250000000000000000",
-      "balanceFormatted": "6304.25",
+      "balance": "6429250000000000000000",
+      "balanceFormatted": "6429.25",
       "owner": null
     },
     {
@@ -115,15 +115,15 @@
       "owner": null
     },
     {
-      "address": "0x23400DC0cC44fb8F295fD4C73bB19528066b59f3",
-      "balance": "5549511601984187443864",
-      "balanceFormatted": "5549.511601984187",
-      "owner": null
-    },
-    {
       "address": "0x6E03004F0F795697c572E537b168614e824E389F",
       "balance": "5546392454519022597414",
       "balanceFormatted": "5546.392454519023",
+      "owner": null
+    },
+    {
+      "address": "0x23400DC0cC44fb8F295fD4C73bB19528066b59f3",
+      "balance": "5500294691218484040587",
+      "balanceFormatted": "5500.294691218484",
       "owner": null
     },
     {
@@ -719,6 +719,12 @@
       "balance": "50000000000000000000",
       "balanceFormatted": "50.0",
       "owner": null
+    },
+    {
+      "address": "0xC0c23b545465220e8225a4471F21a9302AE18cA3",
+      "balance": "49216963727176854968",
+      "balanceFormatted": "49.216963727176854",
+      "owner": "0xEC50858c6a46fcbf7fEe2AC4fe8287708c038E4b"
     },
     {
       "address": "0xe8e8DAeD744c33817a89A7A66F3BA3AbFA6A0ad9",
