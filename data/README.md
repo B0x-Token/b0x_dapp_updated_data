@@ -4,7 +4,7 @@ This directory contains a backup mirror of [https://data.bzerox.org/mainnet/](ht
 
 **Alternative Source:** [https://b0x-token.github.io/B0x_Scripts_auto_2/mainnetB0x/](https://b0x-token.github.io/B0x_Scripts_auto_2/mainnetB0x/)
 
-**Last Updated:** 2026-07-30T19:53:17.476691Z
+**Last Updated:** 2026-07-30T20:59:37.040989Z
 
 ## Source Status (Latest Run)
 - Primary Source: Available
@@ -31,9 +31,9 @@ This directory contains a backup mirror of [https://data.bzerox.org/mainnet/](ht
 
 ### .JSON Files
 - [`B0x_Mainnet_APY_STATS.json`](B0x_Mainnet_APY_STATS.json) (0.7 KB)
-- [`B0x_Staking_Rich_List_logs_mainnet.json`](B0x_Staking_Rich_List_logs_mainnet.json) (17.9 KB)
+- [`B0x_Staking_Rich_List_logs_mainnet.json`](B0x_Staking_Rich_List_logs_mainnet.json) (18.7 KB)
 - [`B0x_Staking_Rich_List_logs_testnet.json`](B0x_Staking_Rich_List_logs_testnet.json) (1.9 KB)
-- [`RichList_B0x_mainnet.json`](RichList_B0x_mainnet.json) (61.8 KB)
+- [`RichList_B0x_mainnet.json`](RichList_B0x_mainnet.json) (61.4 KB)
 - [`RichList_B0x_mainnet_miners.json`](RichList_B0x_mainnet_miners.json) (6.6 KB)
 - [`RichList_B0x_testnet.json`](RichList_B0x_testnet.json) (22.7 KB)
 - [`RichList_B0x_testnet_miners.json`](RichList_B0x_testnet_miners.json) (24.3 KB)
@@ -43,8 +43,8 @@ This directory contains a backup mirror of [https://data.bzerox.org/mainnet/](ht
 - [`RichList__Mainnet_ETH_holders.json`](RichList__Mainnet_ETH_holders.json) (3123.7 KB)
 - [`atestnet_uniswap_v4_data.json`](atestnet_uniswap_v4_data.json) (1.1 KB)
 - [`githubERC20RewardsTestnet.json`](githubERC20RewardsTestnet.json) (0.2 KB)
-- [`mainnet_uniswap_v4_data.json`](mainnet_uniswap_v4_data.json) (46.2 KB)
-- [`mined_blocks_mainnet.json`](mined_blocks_mainnet.json) (4205.2 KB)
+- [`mainnet_uniswap_v4_data.json`](mainnet_uniswap_v4_data.json) (64.8 KB)
+- [`mined_blocks_mainnet.json`](mined_blocks_mainnet.json) (4205.4 KB)
 - [`mined_blocks_testnet.json`](mined_blocks_testnet.json) (271.6 KB)
 - [`price_data_bwork.json`](price_data_bwork.json) (6.5 KB)
 - [`price_data_bwork_mainnet.json`](price_data_bwork_mainnet.json) (0.7 KB)
