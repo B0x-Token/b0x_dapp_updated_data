@@ -1,5 +1,5 @@
 {
-    "last_block": 49589860,
+    "last_block": 49591379,
     "user_addresses": [
         "0x2B11579686Fa4eb3dE311e901dAA870a305E5Fd2",
         "0x91fA635F393a21Fe7842c71547dd75fB4Ffa045D",
@@ -13,6 +13,7 @@
         "0xC5bAF4f867372f2254Ece18078e28F937b55585C",
         "0x2179db1d788E55e8742CdDE3997f375e758DEB77",
         "0x82571D7A94B85ea18d272493cD683Ef592eCfA65",
+        "0x7dDDf12D9B902fc215da7A65C689Fe84b3F19565",
         "0x78623c8bB8Ef4c0D52F1D9a7f168cFa19964585C",
         "0x76DEA4976F067D547084d517CbEAdbFD42B02c72",
         "0x9884eC6c9173EdB24E19e663318d876911BD89dD",
@@ -37,6 +38,7 @@
         "0x78259d6906a98aE543BA6650b7FeCafB93054f18",
         "0x06C6ECfa71ED12EB1fbb74832E0bC6aFCf89d348",
         "0x22c8DDe1428aB8ec18230789C5E97b50530397a7",
+        "0xeaA139038fE6FCaDfD63Abda655EbF2eeA919B8A",
         "0xc7A53d8F7A0178ccb240Af2BA9d761BBc45C2FC7",
         "0x1f36989F2F47467B39e2688e7c2A8DC87Ce2B7cB",
         "0x27E4CE1BE4E773aF12a35665C9443a5bCcdE1Fba",
@@ -244,7 +246,7 @@
         "0xE4F85f4FAe5fd0Be23a260b8e226db3d6bc37015": {
             "balance": 1119136287365806443,
             "0xBTCStaked": 3309355547018,
-            "B0xStaked": 378462214743616936476672,
+            "B0xStaked": 378462214743616869367808,
             "owner": null
         },
         "0x812568d06C766fE483eb8C08D9A75E19bc80bEca": {
@@ -575,6 +577,18 @@
             "balance": 0,
             "0xBTCStaked": 0,
             "B0xStaked": 0,
+            "owner": "0x23400DC0cC44fb8F295fD4C73bB19528066b59f3"
+        },
+        "0x7dDDf12D9B902fc215da7A65C689Fe84b3F19565": {
+            "balance": 720009729803,
+            "0xBTCStaked": 2129113,
+            "B0xStaked": 243488197152101664,
+            "owner": "0x23400DC0cC44fb8F295fD4C73bB19528066b59f3"
+        },
+        "0xeaA139038fE6FCaDfD63Abda655EbF2eeA919B8A": {
+            "balance": 5173474958052,
+            "0xBTCStaked": 15298286,
+            "B0xStaked": 1749532038813258752,
             "owner": "0x23400DC0cC44fb8F295fD4C73bB19528066b59f3"
         }
     }
