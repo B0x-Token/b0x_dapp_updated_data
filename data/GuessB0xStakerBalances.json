@@ -1,0 +1,41 @@
+{
+  "generated_at": "2026-08-12T05:01:32.073625+00:00",
+  "block_number": 49860764,
+  "staking_contract": "0x57da35b42B97908255D5B1655DaC6ed936fc3668",
+  "b0x_token": "0x6b19e31C1813cD00b0D47D798601414b79a3E8AD",
+  "total_supply": "154734207718873313854733912",
+  "unreleased": "0",
+  "b0x_contract_balance": "163446330507674349292",
+  "pool_balance": "163446330507674349292",
+  "fee_bps_denominator": 100000,
+  "user_count": 3,
+  "users": {
+    "0x0000000000000000000000000000000000000000": {
+      "staking_balance": "0",
+      "staking_balance_formatted": "0.0",
+      "withdraw_fee_bps": "0",
+      "b0x_owned": "0",
+      "b0x_owned_formatted": "0.0",
+      "withdrawable_b0x": "0",
+      "withdrawable_b0x_formatted": "0.0"
+    },
+    "0x23400dc0cc44fb8f295fd4c73bb19528066b59f3": {
+      "staking_balance": "150000000000000000000000000",
+      "staking_balance_formatted": "150000000.0",
+      "withdraw_fee_bps": "2500",
+      "b0x_owned": "158445568937764751564",
+      "b0x_owned_formatted": "158.44556893776476",
+      "withdrawable_b0x": "154484429714320632774",
+      "withdrawable_b0x_formatted": "154.48442971432064"
+    },
+    "0x89dee55c9b849b7fb6526322714e7b0f1771d3e0": {
+      "staking_balance": "4734206718873313854733912",
+      "staking_balance_formatted": "4734206.718873314",
+      "withdraw_fee_bps": "2500",
+      "b0x_owned": "5000760513605804808",
+      "b0x_owned_formatted": "5.000760513605805",
+      "withdrawable_b0x": "4875741500765659687",
+      "withdrawable_b0x_formatted": "4.87574150076566"
+    }
+  }
+}
