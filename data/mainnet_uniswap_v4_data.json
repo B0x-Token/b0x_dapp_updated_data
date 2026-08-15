@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "last_updated": "2026-08-14T20:42:58.073540",
-    "current_block": 49984415,
+    "last_updated": "2026-08-14T21:35:36.347806",
+    "current_block": 49985994,
     "start_block": 36321183,
     "target_pool_key": {
       "currency0": "0x6B19E31C1813cD00b0d47d798601414b79A3e8AD",
@@ -10,9 +10,9 @@
       "tickSpacing": 60,
       "hooks": "0x785319f8fCE23Cd733DE94Fd7f34b74A5cAa1000"
     },
-    "total_valid_positions": 113,
-    "total_invalid_positions": 4210,
-    "total_nft_owners": 113
+    "total_valid_positions": 114,
+    "total_invalid_positions": 4233,
+    "total_nft_owners": 114
   },
   "valid_positions": [
     {
@@ -304,7 +304,7 @@
         "tickSpacing": 60,
         "hooks": "0x785319f8fce23cd733de94fd7f34b74a5caa1000"
       },
-      "owner": "0x08f489c5017942d3b7c82c1c178877c80492c948",
+      "owner": "0xe4f85f4fae5fd0be23a260b8e226db3d6bc37015",
       "block_number": 37672243,
       "tx_hash": "0x1cd638454a92185d9ad8328c762158fb7741e591407921a2af70b47aad290228",
       "timestamp": "2025-11-02T19:37:17.478635"
@@ -318,7 +318,7 @@
         "tickSpacing": 60,
         "hooks": "0x785319f8fce23cd733de94fd7f34b74a5caa1000"
       },
-      "owner": "0x08f489c5017942d3b7c82c1c178877c80492c948",
+      "owner": "0xe4f85f4fae5fd0be23a260b8e226db3d6bc37015",
       "block_number": 37673801,
       "tx_hash": "0xd6a2fe03dcfa581a8297748bef8042db996eb22e202335c8727c822a1bfed197",
       "timestamp": "2025-11-02T20:29:14.109055"
@@ -598,7 +598,7 @@
         "tickSpacing": 60,
         "hooks": "0x785319f8fce23cd733de94fd7f34b74a5caa1000"
       },
-      "owner": "0x08f489c5017942d3b7c82c1c178877c80492c948",
+      "owner": "0xe4f85f4fae5fd0be23a260b8e226db3d6bc37015",
       "block_number": 38005939,
       "tx_hash": "0xa8b551f39cd1583662c39716ef8ed13431899ba163d128a114e586b2a7cad599",
       "timestamp": "2025-11-10T13:00:29.367237"
@@ -696,7 +696,7 @@
         "tickSpacing": 60,
         "hooks": "0x785319f8fce23cd733de94fd7f34b74a5caa1000"
       },
-      "owner": "0x08f489c5017942d3b7c82c1c178877c80492c948",
+      "owner": "0xe4f85f4fae5fd0be23a260b8e226db3d6bc37015",
       "block_number": 38660514,
       "tx_hash": "0x25be0984bed569c6ae9fa07a60fd3d0ec5e94cccaad28fb96cec3fb4f31fbeaf",
       "timestamp": "2025-11-25T16:39:40.986478"
@@ -752,7 +752,7 @@
         "tickSpacing": 60,
         "hooks": "0x785319f8fce23cd733de94fd7f34b74a5caa1000"
       },
-      "owner": "0x08f489c5017942d3b7c82c1c178877c80492c948",
+      "owner": "0xe4f85f4fae5fd0be23a260b8e226db3d6bc37015",
       "block_number": 39710380,
       "tx_hash": "0x78f74472405e5de96b914863328cdeb36896ebf2c67888c7238ce41461d4c618",
       "timestamp": "2025-12-19T23:55:13.126408"
@@ -766,7 +766,7 @@
         "tickSpacing": 60,
         "hooks": "0x785319f8fce23cd733de94fd7f34b74a5caa1000"
       },
-      "owner": "0x08f489c5017942d3b7c82c1c178877c80492c948",
+      "owner": "0xe4f85f4fae5fd0be23a260b8e226db3d6bc37015",
       "block_number": 40391087,
       "tx_hash": "0xde1eddd9c43e857c3c3be013181de84d9df424a0ac83dab483f78cf1c4c9602c",
       "timestamp": "2026-01-04T18:05:25.503505"
@@ -822,7 +822,7 @@
         "tickSpacing": 60,
         "hooks": "0x785319f8fce23cd733de94fd7f34b74a5caa1000"
       },
-      "owner": "0xdfd18d5374df275a8ede107f981f78b1e60f63e4",
+      "owner": "0x08f489c5017942d3b7c82c1c178877c80492c948",
       "block_number": 40485131,
       "tx_hash": "0xe02f54bcd5f48d7e2cea173351a8cd81a026ecb2d0612921bf0d605e3488301e",
       "timestamp": "2026-01-06T22:20:14.006377"
@@ -892,7 +892,7 @@
         "tickSpacing": 60,
         "hooks": "0x785319f8fce23cd733de94fd7f34b74a5caa1000"
       },
-      "owner": "0x08f489c5017942d3b7c82c1c178877c80492c948",
+      "owner": "0xe4f85f4fae5fd0be23a260b8e226db3d6bc37015",
       "block_number": 40912069,
       "tx_hash": "0xef32cb05a6743dc42f9c807de1ae9bcb0baed2c997b75c0feefb4df337602857",
       "timestamp": "2026-01-16T19:31:29.837478"
@@ -1596,6 +1596,20 @@
       "block_number": 49984228,
       "tx_hash": "0x23605a0bfbbdd48d2d9489b2c9020e8c06a6810012476716094aa037dfc2f616",
       "timestamp": "2026-08-14T20:36:47.122363"
+    },
+    {
+      "token_id": 2907604,
+      "pool_key": {
+        "currency0": "0x6b19e31c1813cd00b0d47d798601414b79a3e8ad",
+        "currency1": "0xc4d4fd4f4459730d176844c170f2bb323c87eb3b",
+        "fee": 8388608,
+        "tickSpacing": 60,
+        "hooks": "0x785319f8fce23cd733de94fd7f34b74a5caa1000"
+      },
+      "owner": "0x08f489c5017942d3b7c82c1c178877c80492c948",
+      "block_number": 49985621,
+      "tx_hash": "0xd8f7e4e2ea35b8fac5e2e7565837c20c539f67feedcd011a5c1082d918380733",
+      "timestamp": "2026-08-14T21:23:14.419860"
     }
   ],
   "nft_owners": {
@@ -1619,8 +1633,8 @@
     "494630": "0xe66ea3fe7659310d3392363673afb39fd1019ada",
     "494648": "0xe66ea3fe7659310d3392363673afb39fd1019ada",
     "495028": "0xe66ea3fe7659310d3392363673afb39fd1019ada",
-    "497029": "0x08f489c5017942d3b7c82c1c178877c80492c948",
-    "497172": "0x08f489c5017942d3b7c82c1c178877c80492c948",
+    "497029": "0xe4f85f4fae5fd0be23a260b8e226db3d6bc37015",
+    "497172": "0xe4f85f4fae5fd0be23a260b8e226db3d6bc37015",
     "497360": "0x0cc9afc487438491fd4625e4879affb5992babd8",
     "497383": "0x0cc9afc487438491fd4625e4879affb5992babd8",
     "497760": "0x08f489c5017942d3b7c82c1c178877c80492c948",
@@ -1640,28 +1654,28 @@
     "523283": "0x08f489c5017942d3b7c82c1c178877c80492c948",
     "532141": "0x08f489c5017942d3b7c82c1c178877c80492c948",
     "554289": "0x08f489c5017942d3b7c82c1c178877c80492c948",
-    "556634": "0x08f489c5017942d3b7c82c1c178877c80492c948",
+    "556634": "0xe4f85f4fae5fd0be23a260b8e226db3d6bc37015",
     "558866": "0x08f489c5017942d3b7c82c1c178877c80492c948",
     "564864": "0x08f489c5017942d3b7c82c1c178877c80492c948",
     "646181": "0x08f489c5017942d3b7c82c1c178877c80492c948",
     "698812": "0x08f489c5017942d3b7c82c1c178877c80492c948",
     "706820": "0x08f489c5017942d3b7c82c1c178877c80492c948",
     "719548": "0x08f489c5017942d3b7c82c1c178877c80492c948",
-    "747685": "0x08f489c5017942d3b7c82c1c178877c80492c948",
+    "747685": "0xe4f85f4fae5fd0be23a260b8e226db3d6bc37015",
     "769658": "0x1589bb843dc5788821b1645d3a3d6e5e867396c4",
     "821979": "0x08f489c5017942d3b7c82c1c178877c80492c948",
     "827258": "0x08f489c5017942d3b7c82c1c178877c80492c948",
-    "842805": "0x08f489c5017942d3b7c82c1c178877c80492c948",
-    "911297": "0x08f489c5017942d3b7c82c1c178877c80492c948",
+    "842805": "0xe4f85f4fae5fd0be23a260b8e226db3d6bc37015",
+    "911297": "0xe4f85f4fae5fd0be23a260b8e226db3d6bc37015",
     "917230": "0x08f489c5017942d3b7c82c1c178877c80492c948",
     "918750": "0x1589bb843dc5788821b1645d3a3d6e5e867396c4",
     "922062": "0x08f489c5017942d3b7c82c1c178877c80492c948",
-    "922074": "0xdfd18d5374df275a8ede107f981f78b1e60f63e4",
+    "922074": "0x08f489c5017942d3b7c82c1c178877c80492c948",
     "922155": "0x78623c8bb8ef4c0d52f1d9a7f168cfa19964585c",
     "937338": "0x08f489c5017942d3b7c82c1c178877c80492c948",
     "937344": "0x08f489c5017942d3b7c82c1c178877c80492c948",
     "952360": "0x08f489c5017942d3b7c82c1c178877c80492c948",
-    "975724": "0x08f489c5017942d3b7c82c1c178877c80492c948",
+    "975724": "0xe4f85f4fae5fd0be23a260b8e226db3d6bc37015",
     "977235": "0x08f489c5017942d3b7c82c1c178877c80492c948",
     "982316": "0x08f489c5017942d3b7c82c1c178877c80492c948",
     "993989": "0x08f489c5017942d3b7c82c1c178877c80492c948",
@@ -1711,6 +1725,7 @@
     "2890321": "0x23400dc0cc44fb8f295fd4c73bb19528066b59f3",
     "2892123": "0xdfd18d5374df275a8ede107f981f78b1e60f63e4",
     "2900520": "0xdfd18d5374df275a8ede107f981f78b1e60f63e4",
-    "2907583": "0x08f489c5017942d3b7c82c1c178877c80492c948"
+    "2907583": "0x08f489c5017942d3b7c82c1c178877c80492c948",
+    "2907604": "0x08f489c5017942d3b7c82c1c178877c80492c948"
   }
 }

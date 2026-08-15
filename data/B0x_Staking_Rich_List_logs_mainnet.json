@@ -1,5 +1,5 @@
 {
-    "last_block": 49984051,
+    "last_block": 49986073,
     "user_addresses": [
         "0xadFD35390eb9Dd58AAE1Bb1fEA8F4fdE6772f6A8",
         "0x78259d6906a98aE543BA6650b7FeCafB93054f18",
@@ -72,6 +72,7 @@
         "0x90bDa4c53220942Db57FaF06177A1AE3c9fd65f7",
         "0x14Af92534FEbA1cFeAb34aa10A4aaCFED968720A",
         "0x4f27C0271D007ABbDD9494EBB6e5b22080131ad0",
+        "0x468712cBF5F37A70584Fb4Ac93a8E149156F520A",
         "0x06C6ECfa71ED12EB1fbb74832E0bC6aFCf89d348",
         "0xC0c23b545465220e8225a4471F21a9302AE18cA3",
         "0xE2D8Fb5d6d40D00af357bB455f29d1Da2bFfaF9f",
@@ -101,7 +102,7 @@
         "0x48030B83fce50878aA75Db5a84D93598f8cf6101": {
             "balance": 33349452450633650,
             "0xBTCStaked": 98620712440,
-            "B0xStaked": 11277407668552188559360,
+            "B0xStaked": 11277407668552186462208,
             "owner": null,
             "unlock_time": null,
             "unlock_time_iso": null
@@ -109,7 +110,7 @@
         "0x6E03004F0F795697c572E537b168614e824E389F": {
             "balance": 1721703765648953,
             "0xBTCStaked": 5091407489,
-            "B0xStaked": 582209116579836526592,
+            "B0xStaked": 582209116579836461056,
             "owner": null,
             "unlock_time": null,
             "unlock_time_iso": null
@@ -149,7 +150,7 @@
         "0x4BC87a64cC8C76B9550471560869bB2E85fFC9C2": {
             "balance": 43089259821692,
             "0xBTCStaked": 127423186,
-            "B0xStaked": 14571008320592504832,
+            "B0xStaked": 14571008320592502784,
             "owner": "0xC47A0A1B2aC098b6453869389E7c8471D9D88B37",
             "unlock_time": 1908930660,
             "unlock_time_iso": "2030-06-29T02:31:00+00:00"
@@ -165,7 +166,7 @@
         "0xeaD8251eC15Ec8ff623C0af31431Aa2c1c9d1fbb": {
             "balance": 5923801639935845,
             "0xBTCStaked": 17517814991,
-            "B0xStaked": 2003185093970717048832,
+            "B0xStaked": 2003185093970716786688,
             "owner": null,
             "unlock_time": null,
             "unlock_time_iso": null
@@ -195,9 +196,9 @@
             "unlock_time_iso": "2030-06-29T02:05:00+00:00"
         },
         "0xB95BA8D390d8907705022c37Eb19981B7a213181": {
-            "balance": 16805701353644602,
-            "0xBTCStaked": 49697674737,
-            "B0xStaked": 5682994214119053197312,
+            "balance": 16862390643225073,
+            "0xBTCStaked": 49865315814,
+            "B0xStaked": 5702164190897109991424,
             "owner": null,
             "unlock_time": null,
             "unlock_time_iso": null
@@ -245,7 +246,7 @@
         "0x659F58dBec4425A3250A227D83Bb57cB2bFc364f": {
             "balance": 5677301040974274,
             "0xBTCStaked": 16788865551,
-            "B0xStaked": 1919828770530416918528,
+            "B0xStaked": 1919828770530416656384,
             "owner": null,
             "unlock_time": null,
             "unlock_time_iso": null
@@ -285,7 +286,7 @@
         "0xbD3AEc83CD2EeadDbF342011a07DE1e2e336e331": {
             "balance": 980880076407400,
             "0xBTCStaked": 2900650081,
-            "B0xStaked": 331693136850787827712,
+            "B0xStaked": 331693136850787762176,
             "owner": null,
             "unlock_time": null,
             "unlock_time_iso": null
@@ -307,9 +308,9 @@
             "unlock_time_iso": null
         },
         "0xE4F85f4FAe5fd0Be23a260b8e226db3d6bc37015": {
-            "balance": 1119136287365806443,
-            "0xBTCStaked": 3309500152712,
-            "B0xStaked": 378445678170478278082560,
+            "balance": 0,
+            "0xBTCStaked": 0,
+            "B0xStaked": 0,
             "owner": null,
             "unlock_time": null,
             "unlock_time_iso": null
@@ -341,7 +342,7 @@
         "0xE334A51bA6cb11E8B394dDc2198F5c9a3E8e4CBf": {
             "balance": 8243443216933023,
             "0xBTCStaked": 24377439006,
-            "B0xStaked": 2787592086782481530880,
+            "B0xStaked": 2787592086782481006592,
             "owner": null,
             "unlock_time": null,
             "unlock_time_iso": null
@@ -851,12 +852,20 @@
             "unlock_time_iso": "2026-08-11T06:44:00+00:00"
         },
         "0xFce0399707B99FedB4a62A520172DE187C2c3D88": {
-            "balance": 3497269071642,
-            "0xBTCStaked": 10342093,
-            "B0xStaked": 1182631981916587776,
+            "balance": 6205978549948,
+            "0xBTCStaked": 18352266,
+            "B0xStaked": 2098605672571519744,
             "owner": "0xdFD18d5374dF275A8EDE107f981f78b1E60f63E4",
             "unlock_time": 1786705140,
             "unlock_time_iso": "2026-08-14T10:59:00+00:00"
+        },
+        "0x468712cBF5F37A70584Fb4Ac93a8E149156F520A": {
+            "balance": 150371806192779378,
+            "0xBTCStaked": 444678205127,
+            "B0xStaked": 50849535320040096661504,
+            "owner": "0xE4F85f4FAe5fd0Be23a260b8e226db3d6bc37015",
+            "unlock_time": 1912987800,
+            "unlock_time_iso": "2030-08-15T01:30:00+00:00"
         }
     }
 }
