@@ -4,18 +4,18 @@
     "symbol": "B0x",
     "decimals": 18
   },
-  "totalHolders": 375,
+  "totalHolders": 376,
   "totalMiners": 40,
-  "lastUpdated": "2026-08-21T07:03:42.357614",
-  "scanCompletedBlock": 50262235,
-  "totalTransfers": 21075,
-  "totalMints": 17099,
-  "minters": 863882350000000000000000,
+  "lastUpdated": "2026-08-21T08:02:48.902490",
+  "scanCompletedBlock": 50264008,
+  "totalTransfers": 21090,
+  "totalMints": 17100,
+  "minters": 864007350000000000000000,
   "holders": [
     {
       "address": "0xd44Ee7dAdbF50214cA7009a29D9F88BCcD0E9Ff4",
-      "balance": "18291611375000000000000000",
-      "balanceFormatted": "18291611.375",
+      "balance": "18291486375000000000000000",
+      "balanceFormatted": "18291486.375",
       "owner": null,
       "unlock_time": null,
       "unlock_time_iso": null
@@ -38,8 +38,8 @@
     },
     {
       "address": "0x57da35b42B97908255D5B1655DaC6ed936fc3668",
-      "balance": "158506526878820713281613",
-      "balanceFormatted": "158506.5268788207",
+      "balance": "158506521435335822101582",
+      "balanceFormatted": "158506.52143533583",
       "owner": "0x89dee55c9B849B7FB6526322714e7B0F1771D3E0",
       "unlock_time": null,
       "unlock_time_iso": null
@@ -158,8 +158,8 @@
     },
     {
       "address": "0x9F4Af4dfcA552Ed10E861b5040a38DaE8341F020",
-      "balance": "4924125000000000000000",
-      "balanceFormatted": "4924.125",
+      "balance": "5049125000000000000000",
+      "balanceFormatted": "5049.125",
       "owner": null,
       "unlock_time": null,
       "unlock_time_iso": null
@@ -2920,6 +2920,14 @@
       "address": "0x4f82e73EDb06d29Ff62C91EC8f5Ff06571bdeb29",
       "balance": "7433268924848638",
       "balanceFormatted": "0.007433268924848638",
+      "owner": null,
+      "unlock_time": null,
+      "unlock_time_iso": null
+    },
+    {
+      "address": "0x1589BB843dc5788821b1645d3A3D6E5e867396C4",
+      "balance": "5443484891180031",
+      "balanceFormatted": "0.005443484891180031",
       "owner": null,
       "unlock_time": null,
       "unlock_time_iso": null
