@@ -1,5 +1,5 @@
 {
-    "last_block": 51966342,
+    "last_block": 51971902,
     "user_addresses": [
         "0x7317147AC0B2d3Ca331C2DacBBD95F344506b16a",
         "0x9E47696050687B771EDcE68d7376D180FF19506a",
@@ -53,6 +53,7 @@
         "0xc7A53d8F7A0178ccb240Af2BA9d761BBc45C2FC7",
         "0x360dFd2b10C8c189CBE669f33E48e32377E18397",
         "0xE334A51bA6cb11E8B394dDc2198F5c9a3E8e4CBf",
+        "0x30d5f4A4999aA82F031b7bD8C14798150E58eed4",
         "0xF40Ba6A2FfFe61718D4f6225dD62a45f6bA57c72",
         "0x145Fb1EE6f802B439A9a14963Ed4fC0652179785",
         "0x90bDa4c53220942Db57FaF06177A1AE3c9fd65f7",
@@ -111,7 +112,7 @@
         "0x6E03004F0F795697c572E537b168614e824E389F": {
             "balance": 1721703765648953,
             "0xBTCStaked": 5096157026,
-            "B0xStaked": 581666506962936659968,
+            "B0xStaked": 581666506962936725504,
             "owner": null,
             "unlock_time": null,
             "unlock_time_iso": null
@@ -133,9 +134,9 @@
             "unlock_time_iso": "2026-07-13T23:05:00+00:00"
         },
         "0x23400DC0cC44fb8F295fD4C73bB19528066b59f3": {
-            "balance": 100667719726736,
-            "0xBTCStaked": 297971414,
-            "B0xStaked": 34009939494616596480,
+            "balance": 0,
+            "0xBTCStaked": 0,
+            "B0xStaked": 0,
             "owner": null,
             "unlock_time": null,
             "unlock_time_iso": null
@@ -151,7 +152,7 @@
         "0x4BC87a64cC8C76B9550471560869bB2E85fFC9C2": {
             "balance": 43089259821692,
             "0xBTCStaked": 127542053,
-            "B0xStaked": 14557428373083047936,
+            "B0xStaked": 14557428373083049984,
             "owner": "0xC47A0A1B2aC098b6453869389E7c8471D9D88B37",
             "unlock_time": 1908930660,
             "unlock_time_iso": "2030-06-29T02:31:00+00:00"
@@ -167,7 +168,7 @@
         "0xeaD8251eC15Ec8ff623C0af31431Aa2c1c9d1fbb": {
             "balance": 5923801639935845,
             "0xBTCStaked": 17534156545,
-            "B0xStaked": 2001318157391632793600,
+            "B0xStaked": 2001318157391633317888,
             "owner": null,
             "unlock_time": null,
             "unlock_time_iso": null
@@ -191,7 +192,7 @@
         "0x601176756cdDe43c79f96f1054a4773339A48c35": {
             "balance": 84158710589244,
             "0xBTCStaked": 249105573,
-            "B0xStaked": 28432477291178438656,
+            "B0xStaked": 28432477291178446848,
             "owner": "0xC47A0A1B2aC098b6453869389E7c8471D9D88B37",
             "unlock_time": 1908929100,
             "unlock_time_iso": "2030-06-29T02:05:00+00:00"
@@ -319,7 +320,7 @@
         "0x812568d06C766fE483eb8C08D9A75E19bc80bEca": {
             "balance": 164015099591518850,
             "0xBTCStaked": 485476490754,
-            "B0xStaked": 55411442997348337188864,
+            "B0xStaked": 55411442997348345577472,
             "owner": null,
             "unlock_time": null,
             "unlock_time_iso": null
@@ -343,7 +344,7 @@
         "0xE334A51bA6cb11E8B394dDc2198F5c9a3E8e4CBf": {
             "balance": 8243443216933023,
             "0xBTCStaked": 24400179585,
-            "B0xStaked": 2784994095388653780992,
+            "B0xStaked": 2784994095388654305280,
             "owner": null,
             "unlock_time": null,
             "unlock_time_iso": null
@@ -359,7 +360,7 @@
         "0xb94f5d34cd89C226f64aa23c41f331239bd04B03": {
             "balance": 19553346843555181,
             "0xBTCStaked": 57876928598,
-            "B0xStaked": 6605972052130895233024,
+            "B0xStaked": 6605972052130896281600,
             "owner": null,
             "unlock_time": null,
             "unlock_time_iso": null
@@ -855,7 +856,7 @@
         "0xFce0399707B99FedB4a62A520172DE187C2c3D88": {
             "balance": 6205978549948,
             "0xBTCStaked": 18369386,
-            "B0xStaked": 2096649805534075904,
+            "B0xStaked": 2096649805534076160,
             "owner": "0xdFD18d5374dF275A8EDE107f981f78b1E60f63E4",
             "unlock_time": 1786705140,
             "unlock_time_iso": "2026-08-14T10:59:00+00:00"
@@ -875,6 +876,14 @@
             "owner": null,
             "unlock_time": null,
             "unlock_time_iso": null
+        },
+        "0x30d5f4A4999aA82F031b7bD8C14798150E58eed4": {
+            "balance": 1479775069786149,
+            "0xBTCStaked": 4380060188,
+            "B0xStaked": 499932458246620839936,
+            "owner": "0x23400DC0cC44fb8F295fD4C73bB19528066b59f3",
+            "unlock_time": 1916931600,
+            "unlock_time_iso": "2030-09-29T17:00:00+00:00"
         }
     }
 }
