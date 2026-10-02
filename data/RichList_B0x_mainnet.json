@@ -6,16 +6,16 @@
   },
   "totalHolders": 378,
   "totalMiners": 40,
-  "lastUpdated": "2026-10-02T13:00:22.306045",
-  "scanCompletedBlock": 52087335,
-  "totalTransfers": 22129,
-  "totalMints": 17862,
-  "minters": 974432950000000000000000,
+  "lastUpdated": "2026-10-02T17:07:12.025358",
+  "scanCompletedBlock": 52094740,
+  "totalTransfers": 22131,
+  "totalMints": 17864,
+  "minters": 974732950000000000000000,
   "holders": [
     {
       "address": "0xd44Ee7dAdbF50214cA7009a29D9F88BCcD0E9Ff4",
-      "balance": "18067334100000000000000000",
-      "balanceFormatted": "18067334.1",
+      "balance": "18067034100000000000000000",
+      "balanceFormatted": "18067034.1",
       "owner": null,
       "unlock_time": null,
       "unlock_time_iso": null
@@ -325,6 +325,14 @@
       "unlock_time_iso": null
     },
     {
+      "address": "0x9F4Af4dfcA552Ed10E861b5040a38DaE8341F020",
+      "balance": "1500000000000000000000",
+      "balanceFormatted": "1500.0",
+      "owner": null,
+      "unlock_time": null,
+      "unlock_time_iso": null
+    },
+    {
       "address": "0x763d8725A6C6F453a4adBA4b01f256DCc01e758D",
       "balance": "1443750000000000000000",
       "balanceFormatted": "1443.75",
@@ -392,14 +400,6 @@
       "address": "0xbaaD767f31C318896ff33cEa20130695300FEa47",
       "balance": "1237500000000000000000",
       "balanceFormatted": "1237.5",
-      "owner": null,
-      "unlock_time": null,
-      "unlock_time_iso": null
-    },
-    {
-      "address": "0x9F4Af4dfcA552Ed10E861b5040a38DaE8341F020",
-      "balance": "1200000000000000000000",
-      "balanceFormatted": "1200.0",
       "owner": null,
       "unlock_time": null,
       "unlock_time_iso": null
