@@ -4,18 +4,18 @@
     "symbol": "B0x",
     "decimals": 18
   },
-  "totalHolders": 378,
+  "totalHolders": 377,
   "totalMiners": 40,
-  "lastUpdated": "2026-10-06T19:20:09.740496",
-  "scanCompletedBlock": 52271528,
-  "totalTransfers": 22205,
-  "totalMints": 17928,
-  "minters": 984332950000000000000000,
+  "lastUpdated": "2026-10-07T01:11:20.735573",
+  "scanCompletedBlock": 52282064,
+  "totalTransfers": 22211,
+  "totalMints": 17931,
+  "minters": 984782950000000000000000,
   "holders": [
     {
       "address": "0xd44Ee7dAdbF50214cA7009a29D9F88BCcD0E9Ff4",
-      "balance": "18044934100000000000000000",
-      "balanceFormatted": "18044934.1",
+      "balance": "18044484100000000000000000",
+      "balanceFormatted": "18044484.1",
       "owner": null,
       "unlock_time": null,
       "unlock_time_iso": null
@@ -93,6 +93,14 @@
       "unlock_time_iso": null
     },
     {
+      "address": "0xdFD18d5374dF275A8EDE107f981f78b1E60f63E4",
+      "balance": "12423722534672066775795",
+      "balanceFormatted": "12423.722534672066",
+      "owner": null,
+      "unlock_time": null,
+      "unlock_time_iso": null
+    },
+    {
       "address": "0x488BB36A9B04944474F7875a85E2209307947e17",
       "balance": "10933039783540000000000",
       "balanceFormatted": "10933.03978354",
@@ -112,14 +120,6 @@
       "address": "0x9878E1Dd2Cf28382F06D002c31c70030E19bf38B",
       "balance": "9156250000000000000000",
       "balanceFormatted": "9156.25",
-      "owner": null,
-      "unlock_time": null,
-      "unlock_time_iso": null
-    },
-    {
-      "address": "0x9F4Af4dfcA552Ed10E861b5040a38DaE8341F020",
-      "balance": "8850000000000000000000",
-      "balanceFormatted": "8850.0",
       "owner": null,
       "unlock_time": null,
       "unlock_time_iso": null
@@ -181,17 +181,17 @@
       "unlock_time_iso": null
     },
     {
-      "address": "0xdFD18d5374dF275A8EDE107f981f78b1E60f63E4",
-      "balance": "3673549190512066769651",
-      "balanceFormatted": "3673.5491905120666",
+      "address": "0x2f14942DA120690Dc06867B98ba39E43b3879182",
+      "balance": "3621976666935170000000",
+      "balanceFormatted": "3621.97666693517",
       "owner": null,
       "unlock_time": null,
       "unlock_time_iso": null
     },
     {
-      "address": "0x2f14942DA120690Dc06867B98ba39E43b3879182",
-      "balance": "3621976666935170000000",
-      "balanceFormatted": "3621.97666693517",
+      "address": "0x23400DC0cC44fb8F295fD4C73bB19528066b59f3",
+      "balance": "3402489499782857137152",
+      "balanceFormatted": "3402.489499782857",
       "owner": null,
       "unlock_time": null,
       "unlock_time_iso": null
@@ -216,14 +216,6 @@
       "address": "0xbC8D22246bcE0d6D50f0d187622E074DeeE4b869",
       "balance": "3093750000000000000000",
       "balanceFormatted": "3093.75",
-      "owner": null,
-      "unlock_time": null,
-      "unlock_time_iso": null
-    },
-    {
-      "address": "0x23400DC0cC44fb8F295fD4C73bB19528066b59f3",
-      "balance": "2852662843942857143296",
-      "balanceFormatted": "2852.6628439428573",
       "owner": null,
       "unlock_time": null,
       "unlock_time_iso": null
